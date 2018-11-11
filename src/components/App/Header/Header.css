@@ -1,0 +1,46 @@
+.Header {
+  height: 75px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.137255);
+}
+
+.Header > div {
+  display: flex;
+}
+
+.Header > .logo {
+  padding-left: 20px;
+}
+
+.Header > .logo > div {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.Header > .right > * {
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+.Header .btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.137255);
+  letter-spacing: 0.5px;
+  color: var(--dark-light);
+  text-transform: uppercase;
+}
+
+.Header .btn:hover {
+  background: var(--very-light);
+  color: var(--blue-1);
+}
+
+.Header .btn i {
+  font-size: 1.1rem;
+  margin-right: 10px;
+}

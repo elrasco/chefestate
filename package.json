@@ -1,0 +1,43 @@
+{
+  "name": "my-desk",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.10.0",
+    "aws-amplify": "^1.0.6",
+    "aws-amplify-react": "^1.0.6",
+    "date-fns": "^1.29.0",
+    "dotenv": "^6.0.0",
+    "lodash": "^4.17.10",
+    "lunr": "^2.3.2",
+    "lunr-languages": "^1.0.0",
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.5",
+    "moment": "^2.22.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-sticky": "^6.0.3",
+    "scriptjs": "^2.5.9"
+  },
+  "scripts": {
+    "start": "REACT_APP_ENV=local sh -ac '. ./envs/.env.local; react-app-rewired start'",
+    "test": "react-app-rewired test --env=jsdom",
+    "build": "sh -ac '. ./envs/.env.${REACT_APP_ENV}; react-app-rewired build'",
+    "build:development": "REACT_APP_ENV=development npm run build",
+    "build:staging": "REACT_APP_ENV=staging npm run build",
+    "build:production": "REACT_APP_ENV=production npm run build"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.8.0",
+    "enzyme": "^3.4.4",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "react-app-env": "^1.2.2",
+    "react-app-rewire-less": "^2.1.2",
+    "react-app-rewire-mobx": "^1.0.8",
+    "react-app-rewired": "^1.5.2",
+    "react-test-renderer": "^16.4.2"
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "code": "WATER_IN_FUEL_INDICATOR",
+    "present": false,
+    "description": "Potenziale acqua nel carburante"
+  },
+  {
+    "code": "OIL_PRESSURE_WARNING",
+    "present": true,
+    "description": "Controlla la pressione dell'olio",
+    "createdAt": "2018-09-04 12:18:02.487000 +00:00",
+    "initialKm": 100,
+    "distance": 40
+  },
+  {
+    "code": "EXT_BATT_VOLTAGE",
+    "present": true,
+    "description": "Voltaggio batteria basso",
+    "createdAt": "2018-09-04 12:18:02.487000 +00:00",
+    "initialKm": 100,
+    "distance": 100
+  },
+  {
+    "code": "OIL_LEVEL_WARNING",
+    "present": true,
+    "description": "Controlla il livello dell'olio",
+    "createdAt": "2018-09-04 12:18:02.487000 +00:00",
+    "initialKm": 100,
+    "distance": 100
+  }
+]

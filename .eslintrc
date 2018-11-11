@@ -1,0 +1,27 @@
+{
+  "extends": "react-app",
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "no-console": "off",
+    "strict": ["error", "global"],
+    "eqeqeq": "off",
+    "radix": "off",
+    "curly": "warn",
+    "no-throw-literal": "off",
+    "no-unused-vars": [1, { "varsIgnorePattern": "[iI]gnored" }],
+    "no-fallthrough": [
+      "error",
+      {
+        "commentPattern": "break[\\s\\w]*omitted"
+      }
+    ]
+  }
+}

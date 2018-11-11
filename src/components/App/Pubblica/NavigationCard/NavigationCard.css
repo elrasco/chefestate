@@ -1,0 +1,25 @@
+.NavigationCard {
+  margin-bottom: 30px;
+}
+
+.NavigationCard .items .item {
+  height: 80px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--dark);
+}
+
+.NavigationCard .items .item div {
+  margin-top: 10px;
+}
+
+.NavigationCard .items .item i {
+  font-size: 2.8rem;
+  color: var(--grey);
+}
+
+.NavigationCard .items .item:hover i,
+.NavigationCard .items .item.active i {
+  font-size: 2.8rem;
+  color: var(--orange-1);
+}

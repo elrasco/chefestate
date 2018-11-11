@@ -1,0 +1,30 @@
+{
+  "id": 123,
+  "plate": "FR715XH",
+  "make": { "code": "657", "description": "MAHINDRA" },
+  "model": { "code": "4561", "description": "KUV100" },
+  "type": {
+    "code": "201804124672",
+    "description": "KUV100 1.2 VVT K8"
+  },
+  "alimentation": "diesel",
+  "registrationYear": "2018",
+  "imei": "356232050909182",
+  "casenumber": "MA1VE2RJCJ6D61300",
+  "lastNoteDate": "2018-09-04 09:16:27 +00:00",
+  "client": {
+    "id": 123,
+    "fullName": "Paolo Rossi",
+    "name": "Paolo",
+    "surname": "Rossi",
+    "mobile": "+393398463117",
+    "email": "paolo.rossi@gmail.com",
+    "address": "via vigevano 35, 20153 - Milano",
+    "fidelity": {
+      "total": 70,
+      "booked": 56,
+      "suspended": 7,
+      "discarded": 7
+    }
+  }
+}

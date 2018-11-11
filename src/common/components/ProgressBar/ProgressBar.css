@@ -1,0 +1,26 @@
+.ProgressBar {
+  border-radius: 100px;
+}
+
+.ProgressBar .stepsContainerBg {
+  position: absolute;
+  height: 8px;
+  right: 0;
+}
+
+.ProgressBar .stepsContainer {
+  position: relative;
+  height: 8px;
+  width: 100%;
+}
+
+.ProgressBar .stepsContainer .step {
+  position: absolute;
+  height: 8px;
+  border-radius: 100px;
+}
+
+.ProgressBar .step_last {
+  width: 100%;
+  z-index: 1;
+}

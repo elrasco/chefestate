@@ -1,0 +1,21 @@
+.Immobile .vetrine,
+.Immobile .bancone,
+.Immobile .bagni {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.Immobile .nascondi-indirizzo {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.Immobile .nascondi-indirizzo .ant-form-item-label {
+  margin-left: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}

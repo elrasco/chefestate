@@ -1,0 +1,233 @@
+{
+  "logout": "Logout",
+  "changepassword": {
+    "success": "Cambio password eseguito con successo",
+    "message": {
+      "oldpassword": "Vecchia password",
+      "newpassword": "Nuova password"
+    },
+    "placeholder": {
+      "oldpassword": "Vecchia password",
+      "newpassword": "Nuova password"
+    },
+    "link": "Cambia password",
+    "submit": "Cambia password"
+  },
+  "search": {
+    "placeholder": "Nome, cognome, marca, modello e targa auto"
+  },
+  "common": {
+    "insertTextHere": "Scrivi qui",
+    "send": "Salva",
+    "dtcCode": "Codice",
+    "description": "Descrizione",
+    "km": "Km",
+    "date": "Data",
+    "modal": { "warning": "Attenzione" },
+    "updatedAt": "Aggiornato",
+    "createdAt": "Creato"
+  },
+  "components": {
+    "datePicker": { "errors": { "noDateTime": "Data o Ora non valide" } }
+  },
+  "home": {
+    "welcome": "Benvenuto in"
+  },
+  "header": {
+    "totalVehicle": "Totale Veicoli",
+    "disconnectedVehicle": "Veicoli disconnessi",
+    "vehicleWithShutdown": "Veicoli con shutdown",
+    "support": {
+      "tooltip": "Assistenza",
+      "modalTitle": "Per ricevere assistenza tecnica contattare",
+      "telephoneLabel": "N. Telefono",
+      "emailLabel": "Indirizzo Email"
+    }
+  },
+  "lead": {
+    "suspend": {
+      "button": "Sospendi lead",
+      "confirm": {
+        "title": "Confermi di voler sospendere i lead selezionati?"
+      }
+    },
+    "reset": "Resetta filtri",
+    "update": "Aggiorna lead",
+    "malfunctions": {
+      "title": "Lead Anomalie",
+      "total": "Veicoli con anomalie",
+      "alarms": "Allarmi",
+      "dtcsRed": "Power Train",
+      "dtcsOrange": "Altri",
+      "lowBattery": "Batteria"
+    },
+    "maintenances": {
+      "title": "Lead Manutenzioni Programmate",
+      "expiring": "Veicoli con manutenzione in scadenza",
+      "total": "Manuten."
+    },
+    "status": {
+      "label": "Stato del Lead",
+      "notified": "Anomalia notificata",
+      "sent": "Prima comunicazione",
+      "action": "Richiesta intervento",
+      "booked": "Prenotato",
+      "discarded": "Rifiutato",
+      "suspended": "Sospeso"
+    },
+    "table": {
+      "title": "Leads",
+      "dtcMore": "dtc",
+      "alarmMore": "allarmi",
+      "column": {
+        "status": "Status",
+        "fidelity": "F.I.",
+        "client": "Cliente",
+        "car": "Auto",
+        "plate": "Targa",
+        "carStatus": "Stato veicolo",
+        "battery": "Batteria (V)",
+        "alarms": "Allarmi",
+        "dtcs": "DTC",
+        "date": { "date": "Data", "lead": "Lead" },
+        "km": { "km": "Km", "lead": "Lead" },
+        "mainDay": "GG Man.",
+        "mainKmDay": { "km": "Km", "day": "GG" },
+        "lastComm": { "last": "Mess", "comm": "Utente" },
+        "sentBy": "Mezzo"
+      }
+    }
+  },
+  "spin": {
+    "loadingUserInfo": "sto recuperando le informazione dell'utente"
+  },
+  "carView": {
+    "back": "Torna alla ricerca",
+    "scroller": {
+      "client": "Comunicazione",
+      "car": "Diagnostica"
+    },
+    "client": {
+      "total": "Totale"
+    },
+    "car": {
+      "type": "All.",
+      "imei": "IMEI",
+      "casenumber": "VIN",
+      "registrationYear": "Immatricolazione",
+      "alimentation": "Alimentazione",
+      "vehicleCard": "Scheda veicolo"
+    },
+    "note": {
+      "title": "Note",
+      "lastNoteDate": "Ultima nota",
+      "insertTextHere": "Scrivi qui la nota"
+    },
+    "reservations": {
+      "title": "Prenotazioni",
+      "noreservations": "Attualmente non ci sono prenotazioni",
+      "actions": {
+        "book": "Nuova prenotazione",
+        "update": "Modifica",
+        "cancel": "Annulla",
+        "reservationDate": "Data e ora appuntamento"
+      },
+      "add": {
+        "title": "Nuova prenotazione",
+        "success": "Prenotazione registrata correttamente"
+      },
+      "update": {
+        "title": "Cambio prenotazione",
+        "success": "Prenotazione modificata correttamente"
+      },
+      "delete": {
+        "confirmation": {
+          "title": "Sicuro di voler cancellare la prenotazione",
+          "content": "Dopo la cancellazione non sarà possibile recuperare la prenotazione."
+        }
+      },
+      "currentReservation": "Prenotazione corrente",
+      "at": "alle"
+    },
+    "healtStatus": {
+      "title": "Cruscotto",
+      "fuelLevel": "Carburante",
+      "coolerTemp": "Temp. liquido refr.",
+      "odometer": "Km da cruscotto",
+      "gpsOdometer": "Km da GPS",
+      "oilLevel": "Livello dell'olio",
+      "battery": "Livello della batteria",
+      "unknown": "-"
+    },
+    "alarms": {
+      "title": "Allarmi",
+      "descriptions": {
+        "water_in_fuel_indicator": "Potenziale acqua nel carburante",
+        "alternator_warning": "Controlla l'alternatore",
+        "oil_pressure_warning": "Controlla la pressione dell'olio",
+        "oil_level_warning": "Controlla il livello dell'olio"
+      },
+      "lastReceived": "Ultima ricezione",
+      "kmTraveled": "Km percorsi"
+    },
+    "CommunicationCard": {
+      "title": "Comunicazioni",
+      "sms": "sms",
+      "email": "email",
+      "action": "Richiesta intervento",
+      "discard": "Rifiuto",
+      "lastComm": "Ultima comunicazione",
+      "modal": {
+        "success": "L'operazione si è conclusa correttamente",
+        "title": {
+          "sms": "Invia sms al cliente",
+          "email": "Invia email al cliente",
+          "discard": "Rifiuto da parte del cliente",
+          "action": "Richiesta di contatto da parte del cliente"
+        },
+        "content": {
+          "sms": " ",
+          "email": " ",
+          "discard": "Inserire la motivazione del rifiuto",
+          "action": "Confermi che il cliente chiede di essere contattato?"
+        }
+      },
+      "direction": {
+        "out": "in uscita",
+        "in": "in entrata"
+      }
+    },
+    "IssuesCard": {
+      "title": "Anomalie",
+      "lastConnection": "Ultima connessione",
+      "kmPerDay": "Km al giorno",
+      "totals": "Totale anomalie",
+      "vehicleStatus": "Stato veicolo"
+    },
+    "DTCsCard": {
+      "title": "DTC",
+      "table": {
+        "columns": {
+          "code": "Codice",
+          "initialRecordedAt": "Data evento",
+          "description": "Descrizione",
+          "initialOdometer": "Km evento",
+          "km": "Km percorsi"
+        }
+      }
+    },
+    "MaintenanceCard": {
+      "column": {
+        "maintenance": "Mautenzione",
+        "daysLeft": "Giorni mancanti",
+        "kmLeft": "Km mancanti",
+        "mileage": "Km da cruscotto",
+        "scheduledDate": "Data programmata",
+        "scheduledKm": "Km programmati"
+      },
+      "type": {
+        "tire": "Cambio gomme"
+      }
+    }
+  }
+}

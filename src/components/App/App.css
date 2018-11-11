@@ -1,0 +1,11 @@
+.App .contentPage {
+  display: flex;
+}
+
+.App .contentPage > * {
+  flex: auto;
+}
+
+.App .ant-layout {
+  /* background: white; */
+}

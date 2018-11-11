@@ -1,0 +1,43 @@
+.DateTimePickerModal .ant-spin-nested-loading,
+.DateTimePickerModal .ant-spin-container {
+  height: 100%;
+}
+
+/*DatePickerContainer*/
+#DatePickerContainer .ant-calendar {
+  border-radius: 0;
+}
+
+#DatePickerContainer .ant-calendar {
+  box-shadow: none;
+}
+/*end DatePickerContainer*/
+
+/*TimePickerContainer*/
+#TimePickerContainer .ant-time-picker {
+  visibility: hidden;
+}
+
+#TimePickerContainer .ant-time-picker-panel-input-wrap {
+  padding-bottom: 5px;
+}
+
+#TimePickerContainer .ant-time-picker-panel-inner {
+  box-shadow: none;
+  left: 0px;
+  border-radius: 0;
+}
+
+#TimePickerContainer .ant-time-picker-panel-select {
+  max-height: 255px;
+}
+
+#TimePickerContainer .ant-time-picker-panel-select:last-child {
+  overflow: unset;
+}
+
+#TimePickerContainer .ant-time-picker-panel-clear-btn {
+  display: none;
+}
+
+/*end TimePickerContainer*/

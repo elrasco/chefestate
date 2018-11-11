@@ -1,0 +1,7163 @@
+[
+  {
+    "id": 0,
+    "status": "suspended",
+    "fidelity": 49,
+    "km": 134,
+    "kmPerDay": 46,
+    "daysToM": -32,
+    "client": {
+      "fullName": "Mildred Molina"
+    },
+    "car": {
+      "id": 0,
+
+      "status": "disconnected",
+      "battery": 12,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Officia magna nulla cupidatat proident id veniam duis ex ea et."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Incididunt ipsum voluptate nisi sunt Lorem sint cupidatat."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Amet ipsum elit reprehenderit excepteur dolor enim voluptate non ipsum cupidatat."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Est Lorem non ullamco id quis labore nostrud pariatur aliquip anim adipisicing."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M3195O",
+        "description": "Aute consequat tempor deserunt nostrud magna officia.",
+        "severity": "red",
+        "createdAt": "2018-08-20T12:24:33-02:00",
+        "km": 586
+      },
+      {
+        "code": "P3841J",
+        "description": "Dolor eiusmod est adipisicing minim laborum mollit dolore.",
+        "severity": "orange",
+        "createdAt": "2018-08-24T12:09:43-02:00",
+        "km": 246
+      },
+      {
+        "code": "M2088T",
+        "description": "Proident ea minim nulla laboris sint aute occaecat anim culpa laboris consequat dolor aliqua enim.",
+        "severity": "orange",
+        "createdAt": "2018-08-30T02:42:32-02:00",
+        "km": 687
+      },
+      {
+        "code": "L3655O",
+        "description": "Culpa sunt incididunt tempor non id tempor.",
+        "severity": "red",
+        "createdAt": "2018-08-26T04:42:12-02:00",
+        "km": 260
+      },
+      {
+        "code": "L1838T",
+        "description": "Sunt occaecat amet fugiat sint voluptate.",
+        "severity": "red",
+        "createdAt": "2018-08-12T07:24:15-02:00",
+        "km": 281
+      }
+    ],
+    "createdAt": "2018-08-24T04:02:33-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-22T11:38:40-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 1,
+    "status": "action",
+    "fidelity": 94,
+    "km": 3431,
+    "kmPerDay": 86,
+    "daysToM": -60,
+    "client": {
+      "fullName": "Pitts Harper"
+    },
+    "car": {
+      "id": 1,
+
+      "status": "disconnected",
+      "battery": 9,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Cillum in est aliquip incididunt nisi dolor sunt dolor."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Laborum id id ea et reprehenderit elit quis anim reprehenderit do labore."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Eu occaecat aliquip nulla laboris reprehenderit excepteur irure elit cupidatat veniam consectetur consequat nulla ullamco."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Est consequat do reprehenderit non officia labore dolore ullamco enim esse proident consectetur consectetur tempor."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P1517T",
+        "description": "Non deserunt non dolore id enim labore cillum.",
+        "severity": "red",
+        "createdAt": "2018-08-20T04:35:51-02:00",
+        "km": 775
+      },
+      {
+        "code": "M3782O",
+        "description": "Commodo deserunt magna laboris quis enim laboris dolor.",
+        "severity": "red",
+        "createdAt": "2018-08-12T01:59:19-02:00",
+        "km": 735
+      },
+      {
+        "code": "M3194J",
+        "description": "Labore exercitation elit excepteur ex exercitation consequat consectetur ipsum do in excepteur officia.",
+        "severity": "orange",
+        "createdAt": "2018-08-31T08:39:20-02:00",
+        "km": 342
+      },
+      {
+        "code": "L3647H",
+        "description": "Deserunt quis ex amet enim nulla occaecat dolore veniam consectetur consectetur eiusmod Lorem exercitation.",
+        "severity": "orange",
+        "createdAt": "2018-08-02T07:05:59-02:00",
+        "km": 322
+      },
+      {
+        "code": "L3703J",
+        "description": "Cupidatat eu adipisicing ex quis esse cupidatat.",
+        "severity": "orange",
+        "createdAt": "2018-08-11T10:30:35-02:00",
+        "km": 236
+      }
+    ],
+    "createdAt": "2018-08-25T08:22:09-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-25T12:24:27-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 2,
+    "status": "suspended",
+    "fidelity": 53,
+    "km": 4738,
+    "kmPerDay": 46,
+    "daysToM": -37,
+    "client": {
+      "fullName": "Vera Gillespie"
+    },
+    "car": {
+      "id": 2,
+
+      "status": "shutdown",
+      "battery": 13,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Non cupidatat enim enim enim elit irure dolor adipisicing irure excepteur in nisi aliquip."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Consequat dolore id fugiat mollit minim eiusmod amet reprehenderit mollit."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Sit amet et ut nisi."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Eiusmod aliquip aliquip esse laboris ullamco ullamco non proident mollit nostrud sit ad."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P1598H",
+        "description": "Et aliqua irure reprehenderit dolore nostrud irure id voluptate.",
+        "severity": "red",
+        "createdAt": "2018-08-23T06:03:28-02:00",
+        "km": 243
+      },
+      {
+        "code": "P1874J",
+        "description": "Fugiat consequat nulla Lorem cillum aliquip non tempor velit adipisicing non fugiat.",
+        "severity": "red",
+        "createdAt": "2018-08-15T03:14:32-02:00",
+        "km": 847
+      },
+      {
+        "code": "N1797T",
+        "description": "Non proident anim adipisicing mollit id pariatur nulla et.",
+        "severity": "red",
+        "createdAt": "2018-08-01T09:48:24-02:00",
+        "km": 353
+      },
+      {
+        "code": "L1066T",
+        "description": "Sint laborum dolor adipisicing labore cillum ea esse aute.",
+        "severity": "red",
+        "createdAt": "2018-08-22T11:36:19-02:00",
+        "km": 403
+      },
+      {
+        "code": "P1405O",
+        "description": "Nulla commodo adipisicing laboris nostrud ad fugiat amet sit ipsum non et.",
+        "severity": "orange",
+        "createdAt": "2018-08-18T01:12:07-02:00",
+        "km": 186
+      }
+    ],
+    "createdAt": "2018-08-18T08:26:07-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-12T04:03:09-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 3,
+    "status": "suspended",
+    "fidelity": 30,
+    "km": 2034,
+    "kmPerDay": 49,
+    "daysToM": -99,
+    "client": {
+      "fullName": "Shana Becker"
+    },
+    "car": {
+      "id": 3,
+
+      "status": "shutdown",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Lorem enim incididunt dolore adipisicing dolor."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Quis voluptate consequat esse adipisicing magna."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Ad ipsum aute eu culpa officia culpa exercitation sit tempor."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Officia quis proident commodo sit consequat sunt adipisicing esse consequat duis ullamco id culpa."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M1467O",
+        "description": "Mollit cupidatat est ipsum fugiat culpa amet exercitation irure excepteur laborum voluptate.",
+        "severity": "red",
+        "createdAt": "2018-08-26T05:28:46-02:00",
+        "km": 137
+      },
+      {
+        "code": "N2296T",
+        "description": "Esse proident tempor in aliqua anim non.",
+        "severity": "orange",
+        "createdAt": "2018-08-10T10:09:24-02:00",
+        "km": 94
+      },
+      {
+        "code": "M1759J",
+        "description": "Consectetur fugiat in officia officia qui et nulla esse consequat id exercitation non.",
+        "severity": "orange",
+        "createdAt": "2018-08-16T05:06:24-02:00",
+        "km": 522
+      },
+      {
+        "code": "M1929J",
+        "description": "Esse laborum dolor voluptate commodo incididunt deserunt nisi esse nostrud officia.",
+        "severity": "orange",
+        "createdAt": "2018-08-02T08:22:44-02:00",
+        "km": 421
+      },
+      {
+        "code": "M3313J",
+        "description": "Nostrud anim excepteur consectetur incididunt ex ea anim in commodo eiusmod consectetur.",
+        "severity": "orange",
+        "createdAt": "2018-08-08T03:19:42-02:00",
+        "km": 919
+      }
+    ],
+    "createdAt": "2018-08-14T11:01:13-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-03T06:40:03-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 4,
+    "status": "suspended",
+    "fidelity": 32,
+    "km": 3968,
+    "kmPerDay": 47,
+    "daysToM": -38,
+    "client": {
+      "fullName": "House Gonzalez"
+    },
+    "car": {
+      "id": 4,
+
+      "status": "shutdown",
+      "battery": 12,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Fugiat officia elit non officia proident."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Voluptate elit pariatur minim in proident irure."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Do et tempor minim aute cupidatat tempor."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Eu sint ea exercitation nisi."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P3238O",
+        "description": "Elit nostrud nulla ipsum quis eiusmod esse cillum sit magna officia culpa mollit adipisicing.",
+        "severity": "orange",
+        "createdAt": "2018-08-07T09:44:54-02:00",
+        "km": 669
+      },
+      {
+        "code": "M1193J",
+        "description": "Nostrud ut cillum elit anim nulla do.",
+        "severity": "red",
+        "createdAt": "2018-08-22T07:32:59-02:00",
+        "km": 477
+      },
+      {
+        "code": "P3932J",
+        "description": "Fugiat proident aute aliquip id adipisicing aute amet pariatur.",
+        "severity": "red",
+        "createdAt": "2018-08-26T05:36:56-02:00",
+        "km": 831
+      }
+    ],
+    "createdAt": "2018-08-13T04:23:58-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-16T03:00:32-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 5,
+    "status": "sent",
+    "fidelity": 91,
+    "km": 2310,
+    "kmPerDay": 98,
+    "daysToM": -20,
+    "client": {
+      "fullName": "Nieves Sykes"
+    },
+    "car": {
+      "id": 5,
+
+      "status": "disconnected",
+      "battery": 9,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Cupidatat esse ad aute ad."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Velit nisi proident aliqua minim irure mollit reprehenderit deserunt laborum commodo duis."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Do deserunt culpa nulla ea Lorem anim eiusmod consectetur culpa."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Quis commodo proident exercitation sunt ullamco nulla adipisicing excepteur officia reprehenderit anim Lorem."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N2244T",
+        "description": "Ea veniam enim proident irure amet incididunt.",
+        "severity": "red",
+        "createdAt": "2018-08-31T12:20:22-02:00",
+        "km": 432
+      },
+      {
+        "code": "P3177T",
+        "description": "Elit et sunt cupidatat laborum ut amet irure.",
+        "severity": "orange",
+        "createdAt": "2018-08-06T03:17:50-02:00",
+        "km": 397
+      }
+    ],
+    "createdAt": "2018-08-25T09:23:49-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-30T01:08:25-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 6,
+    "status": "action",
+    "fidelity": 70,
+    "km": 3580,
+    "kmPerDay": 84,
+    "daysToM": -81,
+    "client": {
+      "fullName": "Loretta Stephenson"
+    },
+    "car": {
+      "id": 6,
+
+      "status": "connected",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Proident in aliqua ut quis."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Ex magna sunt nisi cupidatat nulla id ex."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "In dolore anim laboris cillum magna ea ut nisi dolor cillum do nisi."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Aliquip duis ipsum nulla exercitation ad exercitation nostrud velit veniam amet cupidatat sunt eu tempor."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P1916O",
+        "description": "Est duis mollit aute magna id est nisi qui aliqua reprehenderit nisi officia veniam voluptate.",
+        "severity": "orange",
+        "createdAt": "2018-08-23T03:52:28-02:00",
+        "km": 355
+      }
+    ],
+    "createdAt": "2018-08-26T12:12:42-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-20T04:20:31-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 7,
+    "status": "discarded",
+    "fidelity": 60,
+    "km": 4092,
+    "kmPerDay": 75,
+    "daysToM": -92,
+    "client": {
+      "fullName": "Allison Summers"
+    },
+    "car": {
+      "id": 7,
+
+      "status": "connected",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Nisi excepteur et culpa deserunt velit incididunt exercitation."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Quis amet enim ut quis deserunt consequat cillum laborum laboris id est nostrud."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Sunt aliquip aliqua laboris eu sunt."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Enim culpa magna sint excepteur id."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L2982H",
+        "description": "Irure mollit voluptate eu et consectetur quis veniam culpa.",
+        "severity": "red",
+        "createdAt": "2018-08-24T07:51:42-02:00",
+        "km": 877
+      },
+      {
+        "code": "L2853J",
+        "description": "Occaecat officia voluptate proident irure.",
+        "severity": "red",
+        "createdAt": "2018-08-15T09:38:56-02:00",
+        "km": 887
+      },
+      {
+        "code": "M1503J",
+        "description": "Ea sunt commodo veniam consectetur sint anim consectetur eu.",
+        "severity": "red",
+        "createdAt": "2018-08-25T06:18:23-02:00",
+        "km": 740
+      },
+      {
+        "code": "P1722H",
+        "description": "Reprehenderit labore non in pariatur dolor consectetur cupidatat velit.",
+        "severity": "orange",
+        "createdAt": "2018-08-21T03:07:24-02:00",
+        "km": 575
+      }
+    ],
+    "createdAt": "2018-08-24T10:13:07-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-20T12:00:36-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 8,
+    "status": "action",
+    "fidelity": 43,
+    "km": 1966,
+    "kmPerDay": 89,
+    "daysToM": -80,
+    "client": {
+      "fullName": "May Allison"
+    },
+    "car": {
+      "id": 8,
+
+      "status": "shutdown",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Laborum Lorem cupidatat aute ea et magna adipisicing magna aliquip qui eiusmod fugiat ut."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Sit aute cupidatat qui dolore cupidatat fugiat dolor sunt do nostrud excepteur."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Aliqua mollit amet magna enim excepteur aliquip ad mollit reprehenderit esse reprehenderit officia duis amet."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Reprehenderit officia excepteur quis aliquip amet ad laboris."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M3372T",
+        "description": "Consectetur dolore non nostrud in eu officia.",
+        "severity": "red",
+        "createdAt": "2018-08-08T07:42:40-02:00",
+        "km": 446
+      }
+    ],
+    "createdAt": "2018-08-20T03:11:00-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-01T08:12:41-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 9,
+    "status": "booked",
+    "fidelity": 45,
+    "km": 3666,
+    "kmPerDay": 34,
+    "daysToM": -42,
+    "client": {
+      "fullName": "Ballard Ferguson"
+    },
+    "car": {
+      "id": 9,
+
+      "status": "shutdown",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Aliquip in culpa deserunt mollit labore cupidatat fugiat."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Nisi deserunt ex exercitation eiusmod et exercitation aute excepteur et aute culpa in sit adipisicing."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Est ea excepteur exercitation ad."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Aute ullamco est ullamco elit labore excepteur do officia."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M3046T",
+        "description": "Duis Lorem est cupidatat nulla ad sunt id enim cupidatat.",
+        "severity": "red",
+        "createdAt": "2018-08-03T11:40:03-02:00",
+        "km": 905
+      },
+      {
+        "code": "M3076T",
+        "description": "Tempor anim ex laboris sint Lorem nostrud.",
+        "severity": "red",
+        "createdAt": "2018-08-11T10:10:35-02:00",
+        "km": 615
+      },
+      {
+        "code": "N3346T",
+        "description": "Voluptate aliqua fugiat pariatur ut exercitation ad proident Lorem ipsum dolore.",
+        "severity": "red",
+        "createdAt": "2018-08-09T11:34:03-02:00",
+        "km": 553
+      },
+      {
+        "code": "M1198T",
+        "description": "Incididunt eiusmod esse ea elit minim et nostrud.",
+        "severity": "red",
+        "createdAt": "2018-08-03T06:00:40-02:00",
+        "km": 859
+      }
+    ],
+    "createdAt": "2018-08-03T02:17:08-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-04T10:27:04-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 10,
+    "status": "suspended",
+    "fidelity": 10,
+    "km": 1321,
+    "kmPerDay": 95,
+    "daysToM": -71,
+    "client": {
+      "fullName": "Queen Potts"
+    },
+    "car": {
+      "id": 10,
+
+      "status": "disconnected",
+      "battery": 9,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Qui ea ullamco enim et sit consectetur mollit minim sit eu labore laborum veniam."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Anim deserunt amet nostrud est aute est."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Ut labore in esse nulla nisi velit culpa excepteur ex ad eu in excepteur excepteur."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Est labore occaecat id esse."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L1129O",
+        "description": "Ipsum qui ex irure voluptate ullamco enim deserunt do proident voluptate.",
+        "severity": "orange",
+        "createdAt": "2018-08-11T11:11:40-02:00",
+        "km": 630
+      }
+    ],
+    "createdAt": "2018-08-28T11:19:05-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-15T02:41:23-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 11,
+    "status": "action",
+    "fidelity": 18,
+    "km": 127,
+    "kmPerDay": 60,
+    "daysToM": -87,
+    "client": {
+      "fullName": "Katharine Clemons"
+    },
+    "car": {
+      "id": 11,
+
+      "status": "disconnected",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Eiusmod eu elit excepteur fugiat enim ea tempor consectetur."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Deserunt aute do id velit cillum deserunt pariatur."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Dolor sint Lorem cupidatat nostrud est labore commodo reprehenderit in."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Qui fugiat anim aliquip do veniam culpa mollit mollit est."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L3491H",
+        "description": "Enim incididunt est consectetur aute Lorem aute ipsum incididunt id do veniam officia.",
+        "severity": "orange",
+        "createdAt": "2018-08-08T05:53:49-02:00",
+        "km": 168
+      },
+      {
+        "code": "L3224O",
+        "description": "Laborum sunt sit eu id id.",
+        "severity": "red",
+        "createdAt": "2018-08-06T09:39:51-02:00",
+        "km": 923
+      },
+      {
+        "code": "M1975J",
+        "description": "Occaecat minim nisi dolor qui ut deserunt commodo.",
+        "severity": "red",
+        "createdAt": "2018-08-22T05:04:47-02:00",
+        "km": 886
+      },
+      {
+        "code": "P3415J",
+        "description": "Elit nulla laboris magna cillum esse cupidatat ut.",
+        "severity": "orange",
+        "createdAt": "2018-08-29T10:37:36-02:00",
+        "km": 523
+      },
+      {
+        "code": "M1384J",
+        "description": "Tempor nulla in mollit veniam eu in ullamco ea sit incididunt anim aliquip aliqua adipisicing.",
+        "severity": "orange",
+        "createdAt": "2018-08-08T09:17:05-02:00",
+        "km": 256
+      }
+    ],
+    "createdAt": "2018-08-21T06:29:27-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-20T09:01:23-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 12,
+    "status": "discarded",
+    "fidelity": 30,
+    "km": 4423,
+    "kmPerDay": 29,
+    "daysToM": -28,
+    "client": {
+      "fullName": "Langley Michael"
+    },
+    "car": {
+      "id": 12,
+
+      "status": "connected",
+      "battery": 12,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Eu reprehenderit ex do commodo cillum anim minim eu elit deserunt sunt veniam."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Consectetur consequat labore deserunt fugiat nisi mollit dolor quis elit in fugiat elit anim."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Reprehenderit anim laboris dolor nulla nulla nisi laborum sint nostrud ex aute."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Incididunt mollit reprehenderit Lorem commodo in quis veniam reprehenderit voluptate reprehenderit nulla excepteur sunt veniam."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L1254T",
+        "description": "Proident reprehenderit excepteur sit et nostrud reprehenderit.",
+        "severity": "orange",
+        "createdAt": "2018-08-29T07:34:22-02:00",
+        "km": 920
+      },
+      {
+        "code": "L2654H",
+        "description": "Esse do non sit nisi fugiat in duis incididunt do duis incididunt proident laborum in.",
+        "severity": "orange",
+        "createdAt": "2018-08-11T02:59:52-02:00",
+        "km": 832
+      },
+      {
+        "code": "M3923T",
+        "description": "Eiusmod ex cupidatat cillum non ad dolor cupidatat cillum.",
+        "severity": "red",
+        "createdAt": "2018-08-07T06:30:07-02:00",
+        "km": 488
+      }
+    ],
+    "createdAt": "2018-08-19T06:00:15-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-26T06:26:32-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 13,
+    "status": "notified",
+    "fidelity": 74,
+    "km": 1331,
+    "kmPerDay": 45,
+    "daysToM": -82,
+    "client": {
+      "fullName": "Flora Odom"
+    },
+    "car": {
+      "id": 13,
+
+      "status": "disconnected",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Lorem culpa ullamco in fugiat excepteur ea officia."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Exercitation quis culpa pariatur ut cillum velit aliqua Lorem deserunt ea sit cupidatat occaecat."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Fugiat consequat mollit proident nostrud dolor in ad elit esse deserunt anim amet."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Exercitation mollit eu do velit ex."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N1774O",
+        "description": "Adipisicing adipisicing consequat consequat cupidatat aliquip irure sint anim tempor enim sint non occaecat aliquip.",
+        "severity": "orange",
+        "createdAt": "2018-08-12T08:08:51-02:00",
+        "km": 796
+      },
+      {
+        "code": "M2624H",
+        "description": "Ullamco cillum ullamco tempor fugiat quis exercitation.",
+        "severity": "orange",
+        "createdAt": "2018-08-29T05:07:44-02:00",
+        "km": 532
+      }
+    ],
+    "createdAt": "2018-08-18T07:48:13-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-08T08:26:33-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 14,
+    "status": "notified",
+    "fidelity": 41,
+    "km": 2915,
+    "kmPerDay": 52,
+    "daysToM": -80,
+    "client": {
+      "fullName": "Beach Huber"
+    },
+    "car": {
+      "id": 14,
+
+      "status": "shutdown",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Nisi ad ipsum magna aliqua magna sunt ipsum nulla laboris anim commodo excepteur."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Exercitation reprehenderit dolor est veniam irure non et."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Fugiat duis quis reprehenderit est voluptate velit."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Eu adipisicing deserunt ea aute."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-31T08:12:56-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-04T12:44:54-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 15,
+    "status": "notified",
+    "fidelity": 97,
+    "km": 1609,
+    "kmPerDay": 72,
+    "daysToM": -61,
+    "client": {
+      "fullName": "Beatriz Delaney"
+    },
+    "car": {
+      "id": 15,
+
+      "status": "disconnected",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Irure laborum elit aliqua aliqua duis ea officia ullamco magna sint exercitation."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Non magna sit ipsum veniam sint sit consequat ullamco occaecat."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Magna pariatur nulla veniam incididunt consequat enim incididunt nostrud dolore culpa magna voluptate consequat."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Lorem laborum tempor qui excepteur dolor."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N1381T",
+        "description": "Nulla est dolore ea elit ut dolore excepteur ut.",
+        "severity": "orange",
+        "createdAt": "2018-08-11T07:39:59-02:00",
+        "km": 874
+      },
+      {
+        "code": "P3754O",
+        "description": "Adipisicing nostrud nisi velit eu culpa.",
+        "severity": "red",
+        "createdAt": "2018-08-21T04:47:08-02:00",
+        "km": 691
+      }
+    ],
+    "createdAt": "2018-08-31T07:26:48-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-11T08:19:34-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 16,
+    "status": "discarded",
+    "fidelity": 37,
+    "km": 4471,
+    "kmPerDay": 57,
+    "daysToM": -38,
+    "client": {
+      "fullName": "Moses Gilmore"
+    },
+    "car": {
+      "id": 16,
+
+      "status": "shutdown",
+      "battery": 13,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Deserunt ut commodo ex fugiat aliquip occaecat."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Esse irure non fugiat ullamco non id qui commodo quis duis sunt mollit nisi voluptate."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Labore laborum ullamco aliqua enim aliquip ipsum labore aliquip ullamco laborum amet elit nulla."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Nostrud cillum dolore adipisicing labore laborum commodo et."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N2770J",
+        "description": "Est amet excepteur voluptate pariatur ipsum ipsum ut laboris ex.",
+        "severity": "orange",
+        "createdAt": "2018-08-13T04:58:58-02:00",
+        "km": 921
+      },
+      {
+        "code": "P2111H",
+        "description": "Eu irure nisi do amet quis nulla laboris minim irure labore ullamco deserunt.",
+        "severity": "red",
+        "createdAt": "2018-08-17T09:03:18-02:00",
+        "km": 462
+      },
+      {
+        "code": "P1757O",
+        "description": "Laboris enim irure est non eu exercitation dolore reprehenderit duis.",
+        "severity": "red",
+        "createdAt": "2018-08-03T06:14:18-02:00",
+        "km": 23
+      }
+    ],
+    "createdAt": "2018-08-06T10:52:28-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-20T08:21:07-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 17,
+    "status": "action",
+    "fidelity": 28,
+    "km": 4922,
+    "kmPerDay": 86,
+    "daysToM": -51,
+    "client": {
+      "fullName": "Lakeisha Benton"
+    },
+    "car": {
+      "id": 17,
+
+      "status": "shutdown",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Voluptate eu cupidatat qui nulla est deserunt ipsum ex."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Id qui labore do ex pariatur elit qui."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Adipisicing proident consectetur magna dolor eiusmod nostrud sunt."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Laboris aliquip voluptate reprehenderit magna consequat."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-21T06:06:11-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-01T07:08:16-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 18,
+    "status": "notified",
+    "fidelity": 68,
+    "km": 3195,
+    "kmPerDay": 32,
+    "daysToM": -57,
+    "client": {
+      "fullName": "Joan Miller"
+    },
+    "car": {
+      "id": 18,
+
+      "status": "disconnected",
+      "battery": 13,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Eu consectetur ex qui deserunt commodo laboris consequat pariatur labore adipisicing eiusmod sit pariatur ex."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Sint et ex nisi excepteur enim labore exercitation enim velit non."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Enim do culpa ea esse nostrud sunt elit voluptate nisi nulla eiusmod est."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Nulla reprehenderit nulla in non."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L3417H",
+        "description": "Magna nulla laborum eiusmod qui ad culpa.",
+        "severity": "red",
+        "createdAt": "2018-08-26T06:37:42-02:00",
+        "km": 636
+      },
+      {
+        "code": "L2650H",
+        "description": "Magna dolor ut est proident excepteur tempor.",
+        "severity": "red",
+        "createdAt": "2018-08-19T07:44:07-02:00",
+        "km": 759
+      },
+      {
+        "code": "N1900J",
+        "description": "Irure do exercitation enim ullamco enim sit aliquip magna in proident fugiat cillum.",
+        "severity": "orange",
+        "createdAt": "2018-08-05T06:37:18-02:00",
+        "km": 875
+      },
+      {
+        "code": "L1066H",
+        "description": "Qui commodo minim officia anim in amet nostrud officia consectetur occaecat quis elit.",
+        "severity": "orange",
+        "createdAt": "2018-08-24T12:13:55-02:00",
+        "km": 606
+      },
+      {
+        "code": "N1734O",
+        "description": "Aliqua velit ad consequat est irure ipsum esse labore ut incididunt ut fugiat consectetur deserunt.",
+        "severity": "red",
+        "createdAt": "2018-08-16T01:11:20-02:00",
+        "km": 413
+      }
+    ],
+    "createdAt": "2018-08-05T08:57:16-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-20T11:29:45-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 19,
+    "status": "action",
+    "fidelity": 83,
+    "km": 2190,
+    "kmPerDay": 97,
+    "daysToM": -31,
+    "client": {
+      "fullName": "Christensen Booth"
+    },
+    "car": {
+      "id": 19,
+
+      "status": "connected",
+      "battery": 10,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Do labore qui non commodo enim et aliquip velit ex id culpa dolor cupidatat voluptate."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Mollit ex incididunt sit laboris aliqua ad proident."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Culpa deserunt magna duis laboris enim exercitation laboris labore cupidatat est."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Dolor minim et culpa Lorem voluptate exercitation consectetur sint pariatur."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L1483H",
+        "description": "Velit veniam magna occaecat culpa id eiusmod et cupidatat quis ex ipsum.",
+        "severity": "orange",
+        "createdAt": "2018-08-25T01:59:37-02:00",
+        "km": 635
+      },
+      {
+        "code": "N3988J",
+        "description": "Esse culpa pariatur proident ut dolor tempor.",
+        "severity": "red",
+        "createdAt": "2018-08-24T05:05:21-02:00",
+        "km": 456
+      },
+      {
+        "code": "L1809H",
+        "description": "Sit ad incididunt eiusmod laborum amet cupidatat sunt non adipisicing sit sit do aliquip.",
+        "severity": "orange",
+        "createdAt": "2018-08-02T08:43:35-02:00",
+        "km": 905
+      },
+      {
+        "code": "P3782O",
+        "description": "Adipisicing exercitation duis qui laborum ad aute.",
+        "severity": "red",
+        "createdAt": "2018-08-22T04:21:56-02:00",
+        "km": 109
+      },
+      {
+        "code": "L3483J",
+        "description": "Magna in aliqua commodo irure laborum adipisicing cupidatat fugiat.",
+        "severity": "orange",
+        "createdAt": "2018-08-14T03:49:14-02:00",
+        "km": 565
+      }
+    ],
+    "createdAt": "2018-08-01T03:21:53-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-25T08:47:48-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 20,
+    "status": "discarded",
+    "fidelity": 93,
+    "km": 4730,
+    "kmPerDay": 54,
+    "daysToM": -67,
+    "client": {
+      "fullName": "Maggie Zimmerman"
+    },
+    "car": {
+      "id": 20,
+
+      "status": "shutdown",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Ullamco dolore quis excepteur et excepteur laborum ut cillum exercitation aliquip culpa."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Duis eiusmod exercitation magna occaecat voluptate consequat est."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Ex incididunt exercitation pariatur id dolore pariatur cillum dolor sunt culpa aliquip incididunt elit."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Occaecat ullamco amet duis elit eiusmod do sunt sunt."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N2813H",
+        "description": "Velit esse tempor laboris laborum laboris consequat ullamco non reprehenderit aute.",
+        "severity": "red",
+        "createdAt": "2018-08-12T04:42:33-02:00",
+        "km": 349
+      },
+      {
+        "code": "L2343H",
+        "description": "Eu voluptate ex voluptate laboris eu anim duis eu incididunt exercitation ipsum.",
+        "severity": "red",
+        "createdAt": "2018-08-29T09:02:25-02:00",
+        "km": 740
+      }
+    ],
+    "createdAt": "2018-08-08T06:58:38-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-14T06:30:49-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 21,
+    "status": "booked",
+    "fidelity": 64,
+    "km": 1366,
+    "kmPerDay": 95,
+    "daysToM": -65,
+    "client": {
+      "fullName": "Cathryn Barrera"
+    },
+    "car": {
+      "id": 21,
+
+      "status": "shutdown",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Commodo labore irure qui adipisicing tempor velit fugiat magna officia ad labore esse."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "In voluptate non aliquip duis qui aute ut aliqua."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Anim duis eiusmod magna culpa pariatur ad dolor elit irure."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Est nisi irure excepteur incididunt enim velit pariatur."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P1446O",
+        "description": "Veniam labore in est sit nulla elit labore.",
+        "severity": "orange",
+        "createdAt": "2018-08-31T02:23:48-02:00",
+        "km": 459
+      },
+      {
+        "code": "M2056T",
+        "description": "Est deserunt quis occaecat cupidatat exercitation adipisicing dolore labore duis.",
+        "severity": "orange",
+        "createdAt": "2018-08-02T04:08:23-02:00",
+        "km": 398
+      },
+      {
+        "code": "P3203H",
+        "description": "Cupidatat irure ipsum reprehenderit excepteur exercitation aliqua voluptate do officia nisi labore enim nisi ut.",
+        "severity": "orange",
+        "createdAt": "2018-08-08T03:43:12-02:00",
+        "km": 177
+      },
+      {
+        "code": "P1950J",
+        "description": "Minim nostrud sit non laboris eu culpa.",
+        "severity": "red",
+        "createdAt": "2018-08-13T10:01:01-02:00",
+        "km": 376
+      },
+      {
+        "code": "P2234O",
+        "description": "In officia deserunt labore amet commodo eu consequat.",
+        "severity": "orange",
+        "createdAt": "2018-08-22T05:27:18-02:00",
+        "km": 921
+      }
+    ],
+    "createdAt": "2018-08-16T02:59:44-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-25T07:57:03-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 22,
+    "status": "booked",
+    "fidelity": 13,
+    "km": 3347,
+    "kmPerDay": 50,
+    "daysToM": -45,
+    "client": {
+      "fullName": "Torres Rivas"
+    },
+    "car": {
+      "id": 22,
+
+      "status": "connected",
+      "battery": 12,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Dolor officia elit elit eu."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Velit irure aliqua ullamco velit aliquip ut magna enim aliquip proident dolore."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Sint pariatur non irure in sint ullamco irure enim dolor excepteur eu fugiat magna."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Magna exercitation eu consectetur sunt qui officia quis esse incididunt magna magna nostrud excepteur."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P1022T",
+        "description": "Officia est nulla duis et aliqua consectetur non amet eu.",
+        "severity": "red",
+        "createdAt": "2018-08-21T07:53:33-02:00",
+        "km": 237
+      },
+      {
+        "code": "N3353J",
+        "description": "Nisi nulla deserunt dolore Lorem cillum aute veniam esse irure dolor adipisicing.",
+        "severity": "orange",
+        "createdAt": "2018-08-11T05:51:48-02:00",
+        "km": 946
+      }
+    ],
+    "createdAt": "2018-08-04T07:05:03-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-12T12:00:48-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 23,
+    "status": "action",
+    "fidelity": 33,
+    "km": 1606,
+    "kmPerDay": 34,
+    "daysToM": -17,
+    "client": {
+      "fullName": "Knowles Reeves"
+    },
+    "car": {
+      "id": 23,
+
+      "status": "connected",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Ut sint officia nulla elit ipsum eiusmod."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Eiusmod veniam eiusmod id consequat excepteur in non esse ut."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "In ipsum sint dolor officia quis."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Ex consectetur Lorem sunt enim aliquip do amet mollit mollit."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L3146J",
+        "description": "Cupidatat irure magna amet ut nisi irure.",
+        "severity": "orange",
+        "createdAt": "2018-08-28T03:43:58-02:00",
+        "km": 320
+      },
+      {
+        "code": "N1898H",
+        "description": "Labore commodo aliqua commodo ea ullamco adipisicing velit commodo Lorem sunt irure.",
+        "severity": "orange",
+        "createdAt": "2018-08-21T11:56:32-02:00",
+        "km": 796
+      },
+      {
+        "code": "L3754O",
+        "description": "In dolor esse pariatur sit aliquip mollit.",
+        "severity": "orange",
+        "createdAt": "2018-08-10T08:56:55-02:00",
+        "km": 568
+      }
+    ],
+    "createdAt": "2018-08-18T08:34:41-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-11T03:50:28-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 24,
+    "status": "action",
+    "fidelity": 63,
+    "km": 3102,
+    "kmPerDay": 36,
+    "daysToM": -34,
+    "client": {
+      "fullName": "Rena Castaneda"
+    },
+    "car": {
+      "id": 24,
+
+      "status": "shutdown",
+      "battery": 10,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Incididunt fugiat tempor eu officia occaecat eiusmod esse elit sunt ipsum elit."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Cupidatat elit nostrud anim mollit sunt nulla id ut pariatur consequat."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Ad esse proident laboris et est Lorem sit laboris do esse ex adipisicing."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Voluptate ex velit laboris reprehenderit qui voluptate exercitation qui veniam voluptate ullamco ullamco."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-18T08:12:57-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-04T05:12:23-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 25,
+    "status": "discarded",
+    "fidelity": 57,
+    "km": 4346,
+    "kmPerDay": 46,
+    "daysToM": -19,
+    "client": {
+      "fullName": "Michael Marks"
+    },
+    "car": {
+      "id": 25,
+
+      "status": "connected",
+      "battery": 9,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Nisi mollit proident reprehenderit voluptate laboris minim officia eiusmod officia excepteur est elit nisi."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Commodo in mollit et do enim."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Ea sint ullamco officia ad esse adipisicing laboris occaecat incididunt proident."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Consequat ad adipisicing reprehenderit pariatur."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L2786O",
+        "description": "Irure dolore amet ea enim laboris enim non quis est cillum.",
+        "severity": "red",
+        "createdAt": "2018-08-02T11:09:36-02:00",
+        "km": 891
+      },
+      {
+        "code": "P3381H",
+        "description": "Consectetur nisi aliqua enim enim ex esse labore cupidatat reprehenderit cupidatat.",
+        "severity": "orange",
+        "createdAt": "2018-08-22T01:15:37-02:00",
+        "km": 69
+      },
+      {
+        "code": "P1038J",
+        "description": "Exercitation fugiat voluptate aliquip sint culpa occaecat.",
+        "severity": "red",
+        "createdAt": "2018-08-07T06:32:16-02:00",
+        "km": 111
+      },
+      {
+        "code": "L3325T",
+        "description": "Cupidatat et irure reprehenderit est labore deserunt duis culpa quis in.",
+        "severity": "orange",
+        "createdAt": "2018-08-03T08:58:22-02:00",
+        "km": 156
+      }
+    ],
+    "createdAt": "2018-08-17T07:49:35-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-13T02:33:01-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 26,
+    "status": "sent",
+    "fidelity": 52,
+    "km": 496,
+    "kmPerDay": 23,
+    "daysToM": -52,
+    "client": {
+      "fullName": "Pickett Head"
+    },
+    "car": {
+      "id": 26,
+
+      "status": "shutdown",
+      "battery": 9,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Ut qui aute ea aute fugiat in consectetur ullamco velit amet enim laboris."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Incididunt reprehenderit anim aliqua officia ullamco ut."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Eiusmod eu esse id in irure voluptate enim in."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Mollit reprehenderit dolor qui exercitation ad dolore non et do."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N1888O",
+        "description": "Sit excepteur esse cillum do qui sit commodo duis officia pariatur Lorem consequat.",
+        "severity": "orange",
+        "createdAt": "2018-08-24T01:15:23-02:00",
+        "km": 609
+      },
+      {
+        "code": "N2908H",
+        "description": "Proident est ex ipsum sit veniam.",
+        "severity": "red",
+        "createdAt": "2018-08-27T09:58:30-02:00",
+        "km": 457
+      }
+    ],
+    "createdAt": "2018-08-18T09:47:44-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-26T01:46:08-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 27,
+    "status": "action",
+    "fidelity": 63,
+    "km": 4534,
+    "kmPerDay": 30,
+    "daysToM": -32,
+    "client": {
+      "fullName": "King Lester"
+    },
+    "car": {
+      "id": 27,
+
+      "status": "shutdown",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Incididunt officia et est officia excepteur laborum labore elit veniam Lorem ut nulla laborum."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Ex laborum elit laborum culpa fugiat irure velit esse deserunt deserunt ex."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Consequat esse esse minim anim aute culpa."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Ullamco consectetur Lorem do sit non consectetur."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L2144H",
+        "description": "Culpa cillum incididunt est exercitation irure.",
+        "severity": "orange",
+        "createdAt": "2018-08-24T09:03:59-02:00",
+        "km": 765
+      }
+    ],
+    "createdAt": "2018-08-07T03:58:56-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-15T11:19:26-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 28,
+    "status": "action",
+    "fidelity": 32,
+    "km": 3495,
+    "kmPerDay": 71,
+    "daysToM": -93,
+    "client": {
+      "fullName": "Norris Pace"
+    },
+    "car": {
+      "id": 28,
+
+      "status": "shutdown",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Pariatur excepteur do mollit incididunt officia duis cupidatat aute."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Non velit velit cupidatat sunt amet amet ad."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Consequat veniam sit commodo do pariatur elit dolor amet."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Proident cillum ex Lorem cillum do."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-31T04:38:25-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-11T03:25:31-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 29,
+    "status": "sent",
+    "fidelity": 76,
+    "km": 2253,
+    "kmPerDay": 80,
+    "daysToM": 1,
+    "client": {
+      "fullName": "Wall Church"
+    },
+    "car": {
+      "id": 29,
+
+      "status": "shutdown",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Aute consequat deserunt amet mollit aute ea."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Qui aute veniam nulla nulla officia aliquip sit."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Esse occaecat quis id ipsum."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Ea tempor nostrud exercitation eiusmod sunt excepteur cillum qui tempor."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P2556H",
+        "description": "Excepteur eu dolor mollit labore nostrud pariatur sunt est exercitation eu anim irure commodo commodo.",
+        "severity": "orange",
+        "createdAt": "2018-08-05T12:25:59-02:00",
+        "km": 241
+      },
+      {
+        "code": "L1865J",
+        "description": "Ea ad nulla consequat sit.",
+        "severity": "orange",
+        "createdAt": "2018-08-04T01:39:44-02:00",
+        "km": 750
+      },
+      {
+        "code": "P1036H",
+        "description": "Enim aute aliquip consequat anim fugiat ipsum ut ex excepteur.",
+        "severity": "orange",
+        "createdAt": "2018-08-01T07:21:07-02:00",
+        "km": 925
+      },
+      {
+        "code": "N3763H",
+        "description": "Sint est culpa Lorem nisi ad.",
+        "severity": "orange",
+        "createdAt": "2018-08-25T11:09:43-02:00",
+        "km": 403
+      }
+    ],
+    "createdAt": "2018-08-01T07:41:29-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-13T09:59:48-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 30,
+    "status": "action",
+    "fidelity": 64,
+    "km": 989,
+    "kmPerDay": 89,
+    "daysToM": -40,
+    "client": {
+      "fullName": "Kristy Meyers"
+    },
+    "car": {
+      "id": 30,
+
+      "status": "disconnected",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Cupidatat non laborum ea magna duis fugiat laborum magna minim."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Do laborum voluptate eu dolore laboris laboris et excepteur do."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Occaecat commodo ullamco in enim amet excepteur laboris officia."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Dolore ipsum ad excepteur pariatur."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M3303O",
+        "description": "Labore nisi do sit ullamco tempor sint ipsum ipsum id excepteur et elit amet.",
+        "severity": "orange",
+        "createdAt": "2018-08-27T05:35:58-02:00",
+        "km": 922
+      },
+      {
+        "code": "P3729H",
+        "description": "Duis enim ut velit non magna reprehenderit proident reprehenderit esse nostrud aliqua magna.",
+        "severity": "red",
+        "createdAt": "2018-08-01T11:38:00-02:00",
+        "km": 805
+      },
+      {
+        "code": "M2714O",
+        "description": "Proident mollit cillum consequat elit id aute deserunt elit irure tempor adipisicing pariatur culpa cupidatat.",
+        "severity": "red",
+        "createdAt": "2018-08-16T08:05:05-02:00",
+        "km": 82
+      },
+      {
+        "code": "M1116J",
+        "description": "Laboris est deserunt voluptate id magna elit cupidatat mollit sit.",
+        "severity": "red",
+        "createdAt": "2018-08-22T01:46:06-02:00",
+        "km": 773
+      }
+    ],
+    "createdAt": "2018-08-15T03:43:51-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-01T01:45:39-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 31,
+    "status": "action",
+    "fidelity": 40,
+    "km": 4574,
+    "kmPerDay": 85,
+    "daysToM": -43,
+    "client": {
+      "fullName": "Valerie Gentry"
+    },
+    "car": {
+      "id": 31,
+
+      "status": "disconnected",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Aute velit sit ut voluptate occaecat laboris voluptate."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Id ea in culpa proident aliqua occaecat consectetur mollit ad eiusmod tempor."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Velit culpa sit ut ut nulla qui sint aliquip consectetur."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Officia elit minim commodo in nisi ut esse magna."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-12T09:19:48-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-31T10:10:42-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 32,
+    "status": "discarded",
+    "fidelity": 47,
+    "km": 114,
+    "kmPerDay": 73,
+    "daysToM": -98,
+    "client": {
+      "fullName": "Pamela Salas"
+    },
+    "car": {
+      "id": 32,
+
+      "status": "connected",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Irure amet eu ipsum nostrud aliqua dolore excepteur excepteur consequat."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Velit officia et fugiat esse ipsum reprehenderit commodo veniam pariatur."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Voluptate ea amet dolor labore."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Cupidatat nulla nulla voluptate in culpa ad consectetur."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N2815J",
+        "description": "Irure ipsum ea laborum irure.",
+        "severity": "red",
+        "createdAt": "2018-08-05T04:27:45-02:00",
+        "km": 174
+      },
+      {
+        "code": "N1243H",
+        "description": "Ullamco culpa culpa labore aliquip dolore.",
+        "severity": "red",
+        "createdAt": "2018-08-24T09:29:44-02:00",
+        "km": 90
+      }
+    ],
+    "createdAt": "2018-08-31T10:13:34-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-30T08:14:38-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 33,
+    "status": "sent",
+    "fidelity": 81,
+    "km": 1604,
+    "kmPerDay": 87,
+    "daysToM": -69,
+    "client": {
+      "fullName": "Billie Keller"
+    },
+    "car": {
+      "id": 33,
+
+      "status": "shutdown",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Eu irure duis est anim enim culpa commodo in est nisi sunt et ipsum enim."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Id labore nulla sit laborum cillum eiusmod fugiat anim id id do aute tempor."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Incididunt est duis do exercitation elit."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Commodo aliqua esse cillum occaecat."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N2564T",
+        "description": "Nostrud cillum reprehenderit ex dolor mollit labore tempor.",
+        "severity": "orange",
+        "createdAt": "2018-08-30T10:51:44-02:00",
+        "km": 186
+      },
+      {
+        "code": "M2143O",
+        "description": "Officia voluptate ullamco cillum qui elit elit reprehenderit anim cupidatat mollit esse esse.",
+        "severity": "red",
+        "createdAt": "2018-08-30T12:24:58-02:00",
+        "km": 629
+      },
+      {
+        "code": "P1389T",
+        "description": "Consectetur tempor nisi laborum velit anim elit cillum nostrud sit quis.",
+        "severity": "red",
+        "createdAt": "2018-08-23T01:23:36-02:00",
+        "km": 104
+      }
+    ],
+    "createdAt": "2018-08-08T07:45:03-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-03T12:28:38-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 34,
+    "status": "booked",
+    "fidelity": 65,
+    "km": 3988,
+    "kmPerDay": 68,
+    "daysToM": -96,
+    "client": {
+      "fullName": "Becky Garrett"
+    },
+    "car": {
+      "id": 34,
+
+      "status": "disconnected",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Officia est do qui nostrud ipsum pariatur aliqua mollit culpa voluptate amet culpa mollit."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Aute cillum et amet proident."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Amet deserunt occaecat anim fugiat tempor veniam amet id in deserunt."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Aute et non minim aliquip voluptate qui officia id consectetur nisi consequat veniam aliqua sint."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P2361O",
+        "description": "Occaecat enim minim fugiat elit deserunt commodo tempor.",
+        "severity": "orange",
+        "createdAt": "2018-08-31T05:42:02-02:00",
+        "km": 743
+      },
+      {
+        "code": "L2633J",
+        "description": "Dolor pariatur amet dolor irure consequat.",
+        "severity": "red",
+        "createdAt": "2018-08-22T03:03:55-02:00",
+        "km": 743
+      }
+    ],
+    "createdAt": "2018-08-21T11:36:20-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-03T12:18:05-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 35,
+    "status": "action",
+    "fidelity": 20,
+    "km": 3878,
+    "kmPerDay": 56,
+    "daysToM": -88,
+    "client": {
+      "fullName": "Tamra Glass"
+    },
+    "car": {
+      "id": 35,
+
+      "status": "disconnected",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Dolor mollit aliquip commodo anim qui dolor culpa cillum labore consequat do adipisicing."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Velit nisi irure sit tempor eu labore do in cupidatat enim non Lorem elit."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Et aute ullamco incididunt aliqua labore Lorem quis irure eu nostrud."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Proident sunt minim Lorem dolor tempor excepteur aliqua."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P3112T",
+        "description": "Exercitation ullamco minim culpa cupidatat culpa.",
+        "severity": "orange",
+        "createdAt": "2018-08-01T11:47:41-02:00",
+        "km": 266
+      },
+      {
+        "code": "N1938O",
+        "description": "Dolor nisi qui labore in consequat id sint pariatur nulla nulla reprehenderit.",
+        "severity": "red",
+        "createdAt": "2018-08-01T04:03:38-02:00",
+        "km": 350
+      },
+      {
+        "code": "M3689J",
+        "description": "Eiusmod eiusmod labore magna do.",
+        "severity": "red",
+        "createdAt": "2018-08-16T12:29:07-02:00",
+        "km": 766
+      }
+    ],
+    "createdAt": "2018-08-15T02:53:38-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-13T11:38:32-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 36,
+    "status": "discarded",
+    "fidelity": 37,
+    "km": 230,
+    "kmPerDay": 67,
+    "daysToM": -60,
+    "client": {
+      "fullName": "Earline Waters"
+    },
+    "car": {
+      "id": 36,
+
+      "status": "disconnected",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Duis laborum aliquip mollit laboris enim qui labore mollit excepteur velit commodo."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Eu officia sunt commodo consequat irure dolore quis non duis."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Dolor id mollit in Lorem Lorem quis ea Lorem cupidatat laborum veniam deserunt."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Adipisicing aliqua esse labore laboris do occaecat officia."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L3759T",
+        "description": "Excepteur occaecat cillum exercitation exercitation irure tempor do incididunt consequat ad qui ullamco voluptate.",
+        "severity": "orange",
+        "createdAt": "2018-08-20T08:57:31-02:00",
+        "km": 971
+      },
+      {
+        "code": "L3139H",
+        "description": "Excepteur aliqua nostrud laboris ad elit nulla excepteur.",
+        "severity": "red",
+        "createdAt": "2018-08-12T10:18:05-02:00",
+        "km": 6
+      },
+      {
+        "code": "M3121J",
+        "description": "Cupidatat nisi culpa incididunt laboris consequat non.",
+        "severity": "orange",
+        "createdAt": "2018-08-04T05:53:04-02:00",
+        "km": 769
+      },
+      {
+        "code": "N1477O",
+        "description": "Quis ipsum fugiat nostrud incididunt.",
+        "severity": "red",
+        "createdAt": "2018-08-03T10:29:22-02:00",
+        "km": 977
+      },
+      {
+        "code": "N1770H",
+        "description": "Anim Lorem amet aliquip deserunt sint eu.",
+        "severity": "red",
+        "createdAt": "2018-08-31T08:10:31-02:00",
+        "km": 993
+      }
+    ],
+    "createdAt": "2018-08-04T05:55:42-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-19T12:12:33-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 37,
+    "status": "booked",
+    "fidelity": 76,
+    "km": 2769,
+    "kmPerDay": 81,
+    "daysToM": -39,
+    "client": {
+      "fullName": "Mcfadden Underwood"
+    },
+    "car": {
+      "id": 37,
+
+      "status": "shutdown",
+      "battery": 12,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Dolore veniam exercitation incididunt nisi Lorem ut adipisicing."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Cupidatat ipsum ut culpa excepteur deserunt enim anim aliquip cillum sit pariatur culpa ex est."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Incididunt fugiat do dolor est voluptate."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Enim aute consectetur ipsum elit id."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P3650O",
+        "description": "Proident laborum sint ex voluptate proident enim.",
+        "severity": "orange",
+        "createdAt": "2018-08-02T07:22:36-02:00",
+        "km": 116
+      }
+    ],
+    "createdAt": "2018-08-13T05:33:20-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-23T02:19:16-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 38,
+    "status": "action",
+    "fidelity": 99,
+    "km": 1890,
+    "kmPerDay": 24,
+    "daysToM": -21,
+    "client": {
+      "fullName": "Brandi Myers"
+    },
+    "car": {
+      "id": 38,
+
+      "status": "shutdown",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Eu deserunt consectetur ex ad laborum aliquip laboris dolor et proident veniam ullamco qui deserunt."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Magna occaecat laborum duis reprehenderit amet fugiat eiusmod quis anim incididunt adipisicing proident."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "In sit nisi veniam fugiat mollit ea dolor nisi occaecat id laborum cillum voluptate."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Aliqua amet ea cillum Lorem consequat reprehenderit esse elit ad ad in incididunt."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P3948T",
+        "description": "Consectetur culpa duis ipsum tempor deserunt sint reprehenderit culpa velit veniam ea.",
+        "severity": "orange",
+        "createdAt": "2018-08-08T08:24:23-02:00",
+        "km": 297
+      },
+      {
+        "code": "N1655H",
+        "description": "Aliquip consequat officia laboris consectetur aliqua sint.",
+        "severity": "red",
+        "createdAt": "2018-08-19T11:36:57-02:00",
+        "km": 367
+      }
+    ],
+    "createdAt": "2018-08-13T05:35:55-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-11T06:53:34-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 39,
+    "status": "suspended",
+    "fidelity": 28,
+    "km": 105,
+    "kmPerDay": 23,
+    "daysToM": -8,
+    "client": {
+      "fullName": "Tamara King"
+    },
+    "car": {
+      "id": 39,
+
+      "status": "connected",
+      "battery": 13,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Labore amet excepteur eu anim ad culpa cupidatat commodo elit."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Sunt nisi duis quis excepteur voluptate culpa deserunt voluptate aliqua commodo excepteur."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Incididunt sit cillum mollit irure eu labore adipisicing Lorem duis culpa exercitation."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Fugiat tempor consequat dolor elit duis consectetur."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P3240O",
+        "description": "Incididunt magna exercitation qui in.",
+        "severity": "orange",
+        "createdAt": "2018-08-12T02:28:08-02:00",
+        "km": 751
+      },
+      {
+        "code": "N1470T",
+        "description": "Sunt nostrud reprehenderit minim in consectetur proident aute qui adipisicing incididunt occaecat nostrud dolore.",
+        "severity": "orange",
+        "createdAt": "2018-08-15T07:36:35-02:00",
+        "km": 125
+      },
+      {
+        "code": "P2866T",
+        "description": "Sunt sunt ad amet incididunt consequat anim dolor labore irure anim in est.",
+        "severity": "red",
+        "createdAt": "2018-08-13T11:21:41-02:00",
+        "km": 647
+      },
+      {
+        "code": "P1200J",
+        "description": "Aute veniam non et exercitation sunt.",
+        "severity": "red",
+        "createdAt": "2018-08-26T01:28:28-02:00",
+        "km": 997
+      }
+    ],
+    "createdAt": "2018-08-21T10:14:52-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-29T12:54:41-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 40,
+    "status": "sent",
+    "fidelity": 13,
+    "km": 1910,
+    "kmPerDay": 27,
+    "daysToM": -82,
+    "client": {
+      "fullName": "Eula Mccarty"
+    },
+    "car": {
+      "id": 40,
+
+      "status": "connected",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Ipsum ea ex laboris in aliquip commodo esse laborum non ullamco."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Ipsum exercitation Lorem quis occaecat ad reprehenderit officia tempor incididunt nisi est eiusmod voluptate culpa."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Eiusmod reprehenderit enim mollit deserunt nulla cupidatat commodo."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Laboris pariatur id duis deserunt Lorem."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L1079J",
+        "description": "Sint magna esse enim nostrud eu nostrud adipisicing ex veniam consequat excepteur qui minim ullamco.",
+        "severity": "orange",
+        "createdAt": "2018-08-01T09:52:56-02:00",
+        "km": 784
+      },
+      {
+        "code": "L3844T",
+        "description": "Minim laboris occaecat cillum ullamco.",
+        "severity": "orange",
+        "createdAt": "2018-08-21T01:00:44-02:00",
+        "km": 222
+      },
+      {
+        "code": "M2663H",
+        "description": "Ipsum proident reprehenderit ex Lorem sit eiusmod consequat proident tempor.",
+        "severity": "red",
+        "createdAt": "2018-08-30T08:50:21-02:00",
+        "km": 764
+      }
+    ],
+    "createdAt": "2018-08-15T12:54:00-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-23T04:26:25-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 41,
+    "status": "booked",
+    "fidelity": 94,
+    "km": 1627,
+    "kmPerDay": 64,
+    "daysToM": -96,
+    "client": {
+      "fullName": "Christine Mendoza"
+    },
+    "car": {
+      "id": 41,
+
+      "status": "shutdown",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Quis non cillum pariatur commodo laborum mollit occaecat adipisicing."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Deserunt Lorem adipisicing duis voluptate duis consequat mollit reprehenderit consectetur minim do quis."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Eiusmod pariatur laborum aute aliqua enim."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Nulla est sint ullamco laboris aliqua dolore excepteur amet esse."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-18T06:24:18-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-31T12:16:05-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 42,
+    "status": "action",
+    "fidelity": 48,
+    "km": 2622,
+    "kmPerDay": 70,
+    "daysToM": -67,
+    "client": {
+      "fullName": "Haynes Fowler"
+    },
+    "car": {
+      "id": 42,
+
+      "status": "disconnected",
+      "battery": 13,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Nisi enim sint aliqua ad quis ex tempor cillum laborum pariatur."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Aliqua culpa officia sunt reprehenderit pariatur tempor excepteur est elit ut nisi quis."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Ullamco ex consequat fugiat excepteur aliqua proident cillum eiusmod."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Commodo pariatur aliqua incididunt magna culpa irure et."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N3906J",
+        "description": "Laboris adipisicing est velit laboris mollit laborum velit laborum quis esse ut anim.",
+        "severity": "red",
+        "createdAt": "2018-08-02T10:19:47-02:00",
+        "km": 537
+      },
+      {
+        "code": "P2930T",
+        "description": "Dolore cillum non ad ex nulla.",
+        "severity": "red",
+        "createdAt": "2018-08-24T06:28:19-02:00",
+        "km": 916
+      },
+      {
+        "code": "N3093H",
+        "description": "Anim occaecat et mollit ipsum ex et aliqua adipisicing exercitation eiusmod non duis.",
+        "severity": "red",
+        "createdAt": "2018-08-04T10:57:43-02:00",
+        "km": 855
+      },
+      {
+        "code": "P2974O",
+        "description": "Aliquip consectetur irure proident in eu.",
+        "severity": "orange",
+        "createdAt": "2018-08-23T11:04:49-02:00",
+        "km": 154
+      }
+    ],
+    "createdAt": "2018-08-21T04:32:51-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-31T05:53:27-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 43,
+    "status": "booked",
+    "fidelity": 96,
+    "km": 3781,
+    "kmPerDay": 90,
+    "daysToM": -72,
+    "client": {
+      "fullName": "Guerrero Atkinson"
+    },
+    "car": {
+      "id": 43,
+
+      "status": "connected",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Proident cupidatat id eiusmod incididunt sint ipsum fugiat mollit."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Consectetur in id irure aliqua veniam velit ex deserunt ea sint."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Quis elit velit duis magna officia."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Nulla culpa irure enim ea duis laboris proident elit cillum nulla in sint."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M2696T",
+        "description": "Cupidatat tempor id tempor adipisicing velit pariatur quis ex.",
+        "severity": "orange",
+        "createdAt": "2018-08-19T12:26:48-02:00",
+        "km": 844
+      },
+      {
+        "code": "M2146H",
+        "description": "Nostrud culpa et minim aute magna commodo adipisicing nisi sunt laborum excepteur.",
+        "severity": "orange",
+        "createdAt": "2018-08-06T08:34:11-02:00",
+        "km": 474
+      },
+      {
+        "code": "M3411T",
+        "description": "Minim enim elit cupidatat proident.",
+        "severity": "red",
+        "createdAt": "2018-08-25T08:28:31-02:00",
+        "km": 300
+      },
+      {
+        "code": "N3294H",
+        "description": "Laborum laboris excepteur nisi officia aute.",
+        "severity": "orange",
+        "createdAt": "2018-08-24T07:24:39-02:00",
+        "km": 366
+      }
+    ],
+    "createdAt": "2018-08-27T02:36:48-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-03T08:23:48-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 44,
+    "status": "booked",
+    "fidelity": 49,
+    "km": 1090,
+    "kmPerDay": 24,
+    "daysToM": -2,
+    "client": {
+      "fullName": "Coleman Peterson"
+    },
+    "car": {
+      "id": 44,
+
+      "status": "disconnected",
+      "battery": 10,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Duis consectetur commodo dolore quis aliqua."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Ullamco est aliquip nisi duis consectetur ullamco id quis anim reprehenderit."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Consequat est fugiat ipsum sint sit."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Non dolore laborum id ut est nostrud velit do laborum adipisicing consectetur."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L1828T",
+        "description": "Excepteur dolor veniam commodo anim duis ut excepteur laboris.",
+        "severity": "orange",
+        "createdAt": "2018-08-10T07:43:20-02:00",
+        "km": 140
+      }
+    ],
+    "createdAt": "2018-08-28T01:52:15-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-09T09:47:05-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 45,
+    "status": "booked",
+    "fidelity": 53,
+    "km": 1514,
+    "kmPerDay": 40,
+    "daysToM": -68,
+    "client": {
+      "fullName": "Hattie Dean"
+    },
+    "car": {
+      "id": 45,
+
+      "status": "disconnected",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Culpa incididunt mollit id in aliqua."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Adipisicing non esse adipisicing aute adipisicing minim aliqua enim reprehenderit occaecat officia nulla sint sunt."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Cupidatat exercitation cupidatat sit nostrud."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Eiusmod magna cillum esse laboris sunt nisi enim proident."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-14T09:55:41-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-28T04:02:14-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 46,
+    "status": "action",
+    "fidelity": 74,
+    "km": 821,
+    "kmPerDay": 69,
+    "daysToM": -30,
+    "client": {
+      "fullName": "Page Fuller"
+    },
+    "car": {
+      "id": 46,
+
+      "status": "connected",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Id commodo minim non ad enim qui."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Veniam dolore sunt nisi esse id sint nostrud culpa ipsum qui ex duis."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Est consequat velit adipisicing ad proident veniam laborum aliquip duis qui."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Nisi qui esse ad incididunt veniam proident duis sint commodo commodo minim voluptate et."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L2181H",
+        "description": "Commodo est cillum proident fugiat commodo sunt eiusmod dolore fugiat.",
+        "severity": "orange",
+        "createdAt": "2018-08-01T04:54:27-02:00",
+        "km": 348
+      }
+    ],
+    "createdAt": "2018-08-08T06:42:37-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-08T11:34:00-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 47,
+    "status": "action",
+    "fidelity": 77,
+    "km": 1162,
+    "kmPerDay": 62,
+    "daysToM": -67,
+    "client": {
+      "fullName": "Nancy Whitney"
+    },
+    "car": {
+      "id": 47,
+
+      "status": "connected",
+      "battery": 9,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Irure adipisicing reprehenderit ipsum et duis adipisicing reprehenderit anim."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Cillum cupidatat laboris irure exercitation consequat eiusmod non eiusmod voluptate cupidatat minim nostrud."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Officia dolore fugiat aliquip excepteur proident laboris mollit quis excepteur id enim sint."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Et veniam minim dolor minim ullamco occaecat culpa."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-25T02:02:52-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-28T02:04:09-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 48,
+    "status": "suspended",
+    "fidelity": 21,
+    "km": 1180,
+    "kmPerDay": 69,
+    "daysToM": -88,
+    "client": {
+      "fullName": "Sheryl Franco"
+    },
+    "car": {
+      "id": 48,
+
+      "status": "connected",
+      "battery": 13,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Tempor laboris nostrud consectetur deserunt exercitation pariatur nisi."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Exercitation amet eu sit pariatur ipsum cupidatat elit officia mollit dolor qui ad reprehenderit ipsum."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Dolor commodo exercitation ex aute minim cillum deserunt do aliqua do do."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Consequat et velit ut nisi occaecat."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M3182O",
+        "description": "Lorem magna duis adipisicing ex.",
+        "severity": "red",
+        "createdAt": "2018-08-10T11:03:18-02:00",
+        "km": 127
+      },
+      {
+        "code": "P2906J",
+        "description": "Dolor eiusmod aute ipsum mollit excepteur dolor esse exercitation mollit do in ut id.",
+        "severity": "red",
+        "createdAt": "2018-08-25T07:40:11-02:00",
+        "km": 813
+      }
+    ],
+    "createdAt": "2018-08-16T06:52:04-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-04T09:13:55-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 49,
+    "status": "discarded",
+    "fidelity": 42,
+    "km": 3692,
+    "kmPerDay": 33,
+    "daysToM": -53,
+    "client": {
+      "fullName": "Mcpherson Orr"
+    },
+    "car": {
+      "id": 49,
+
+      "status": "shutdown",
+      "battery": 12,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Non sunt commodo amet eu magna et aliquip magna."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Cillum ex culpa deserunt culpa do."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Id sunt aliqua cupidatat id reprehenderit culpa duis non sunt velit cupidatat consequat incididunt."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Non tempor labore laborum quis excepteur nulla."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L2811O",
+        "description": "Laborum in do ipsum sit reprehenderit do fugiat adipisicing eiusmod amet aliquip amet excepteur.",
+        "severity": "orange",
+        "createdAt": "2018-08-31T08:53:46-02:00",
+        "km": 595
+      },
+      {
+        "code": "M1826J",
+        "description": "Aute qui fugiat tempor deserunt do ipsum.",
+        "severity": "red",
+        "createdAt": "2018-08-30T04:53:44-02:00",
+        "km": 722
+      },
+      {
+        "code": "N1446H",
+        "description": "Anim qui consectetur ad sunt anim cillum nulla.",
+        "severity": "orange",
+        "createdAt": "2018-08-27T07:36:23-02:00",
+        "km": 568
+      },
+      {
+        "code": "N1958O",
+        "description": "Magna commodo eiusmod sunt eiusmod aliqua tempor ad elit quis culpa qui amet.",
+        "severity": "orange",
+        "createdAt": "2018-08-01T09:40:13-02:00",
+        "km": 784
+      }
+    ],
+    "createdAt": "2018-08-15T01:03:18-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-27T09:16:56-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 50,
+    "status": "suspended",
+    "fidelity": 23,
+    "km": 58,
+    "kmPerDay": 69,
+    "daysToM": -75,
+    "client": {
+      "fullName": "Mcintyre Curry"
+    },
+    "car": {
+      "id": 50,
+
+      "status": "connected",
+      "battery": 10,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Nisi ex officia Lorem laborum consectetur cillum consequat tempor fugiat cillum quis exercitation."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Tempor aliqua voluptate sunt consectetur cillum amet magna reprehenderit commodo."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Nisi id pariatur elit deserunt minim sunt eu irure aliqua excepteur veniam in sint aliquip."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Deserunt labore adipisicing aliqua veniam eu fugiat sit."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L1396O",
+        "description": "Excepteur deserunt eu tempor excepteur reprehenderit voluptate velit amet pariatur.",
+        "severity": "red",
+        "createdAt": "2018-08-26T04:27:10-02:00",
+        "km": 508
+      }
+    ],
+    "createdAt": "2018-08-10T07:22:44-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-30T07:49:24-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 51,
+    "status": "booked",
+    "fidelity": 52,
+    "km": 2328,
+    "kmPerDay": 63,
+    "daysToM": -47,
+    "client": {
+      "fullName": "Ashley Bryan"
+    },
+    "car": {
+      "id": 51,
+
+      "status": "shutdown",
+      "battery": 9,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Adipisicing magna nulla exercitation consequat labore elit consectetur incididunt ipsum labore deserunt veniam."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Esse id voluptate incididunt et sunt laborum laboris ex enim."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Ut nulla elit duis aute esse cillum irure enim excepteur laborum mollit reprehenderit voluptate cupidatat."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Nostrud sint laborum ad irure est voluptate elit qui nulla irure ea dolore consectetur."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L3321O",
+        "description": "Quis eu ea ipsum in dolor duis non qui.",
+        "severity": "orange",
+        "createdAt": "2018-08-30T11:35:30-02:00",
+        "km": 996
+      },
+      {
+        "code": "N2701T",
+        "description": "Dolor cillum veniam laborum duis labore deserunt sint proident laborum quis proident laboris.",
+        "severity": "red",
+        "createdAt": "2018-08-27T03:18:00-02:00",
+        "km": 43
+      },
+      {
+        "code": "L2189T",
+        "description": "Anim enim sit pariatur Lorem enim amet ut laboris.",
+        "severity": "red",
+        "createdAt": "2018-08-11T03:18:39-02:00",
+        "km": 861
+      },
+      {
+        "code": "N3764T",
+        "description": "Aliquip nulla cupidatat dolor veniam ut Lorem sint laboris est.",
+        "severity": "red",
+        "createdAt": "2018-08-03T04:24:45-02:00",
+        "km": 441
+      },
+      {
+        "code": "M2228H",
+        "description": "Proident laboris aliquip non labore sint irure officia magna irure eiusmod.",
+        "severity": "red",
+        "createdAt": "2018-08-21T08:43:16-02:00",
+        "km": 309
+      }
+    ],
+    "createdAt": "2018-08-13T11:13:01-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-26T01:12:56-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 52,
+    "status": "discarded",
+    "fidelity": 78,
+    "km": 2693,
+    "kmPerDay": 94,
+    "daysToM": -42,
+    "client": {
+      "fullName": "Drake Erickson"
+    },
+    "car": {
+      "id": 52,
+
+      "status": "connected",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Ea Lorem culpa sit reprehenderit commodo."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Esse Lorem deserunt anim duis qui est occaecat."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Duis cupidatat laboris minim aliquip."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Ullamco est quis ut aliqua culpa voluptate consectetur ut nisi nulla laboris."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P3192O",
+        "description": "Tempor sit ea consectetur duis.",
+        "severity": "red",
+        "createdAt": "2018-08-26T10:18:56-02:00",
+        "km": 95
+      },
+      {
+        "code": "N2849H",
+        "description": "Ex reprehenderit id culpa incididunt sunt fugiat officia.",
+        "severity": "orange",
+        "createdAt": "2018-08-11T11:55:45-02:00",
+        "km": 30
+      },
+      {
+        "code": "N3235J",
+        "description": "Laboris cupidatat tempor ad aute excepteur.",
+        "severity": "red",
+        "createdAt": "2018-08-31T02:02:20-02:00",
+        "km": 780
+      }
+    ],
+    "createdAt": "2018-08-13T02:26:26-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-21T12:56:21-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 53,
+    "status": "action",
+    "fidelity": 61,
+    "km": 1136,
+    "kmPerDay": 92,
+    "daysToM": -81,
+    "client": {
+      "fullName": "Floyd Mullins"
+    },
+    "car": {
+      "id": 53,
+
+      "status": "disconnected",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Sint dolore culpa officia enim."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Amet irure reprehenderit ea ad ex commodo consectetur velit nostrud anim dolor."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Adipisicing eu voluptate ex aute reprehenderit pariatur esse in culpa sunt commodo ex est."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Reprehenderit consequat tempor excepteur officia qui sit eu culpa quis tempor ipsum commodo pariatur aliqua."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-18T11:44:36-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-21T09:29:45-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 54,
+    "status": "sent",
+    "fidelity": 68,
+    "km": 148,
+    "kmPerDay": 98,
+    "daysToM": -69,
+    "client": {
+      "fullName": "Mcbride Richmond"
+    },
+    "car": {
+      "id": 54,
+
+      "status": "connected",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Reprehenderit magna culpa pariatur laborum do non."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Pariatur ad aliquip qui pariatur non ullamco deserunt non."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Consectetur id minim quis magna nisi."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Cillum nisi tempor pariatur ad exercitation adipisicing minim laboris sint ullamco exercitation nisi sunt."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N1786T",
+        "description": "Amet consequat ex commodo officia aliquip velit minim ipsum voluptate cupidatat Lorem deserunt eiusmod.",
+        "severity": "orange",
+        "createdAt": "2018-08-30T03:34:00-02:00",
+        "km": 231
+      },
+      {
+        "code": "L1900J",
+        "description": "Velit in irure consectetur do aliquip nostrud et.",
+        "severity": "red",
+        "createdAt": "2018-08-22T03:06:50-02:00",
+        "km": 104
+      }
+    ],
+    "createdAt": "2018-08-01T05:00:02-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-16T05:26:53-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 55,
+    "status": "action",
+    "fidelity": 29,
+    "km": 4299,
+    "kmPerDay": 85,
+    "daysToM": -80,
+    "client": {
+      "fullName": "Mccullough Jackson"
+    },
+    "car": {
+      "id": 55,
+
+      "status": "connected",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Commodo cupidatat Lorem ad ut elit sunt aliquip amet occaecat in."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Sint mollit qui voluptate qui deserunt ipsum commodo incididunt sunt consequat."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Adipisicing ex ullamco velit dolore ex adipisicing dolore aliqua magna in et laboris."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Esse irure deserunt velit eu sint adipisicing eu ipsum qui officia exercitation."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L2641T",
+        "description": "Velit nisi id incididunt ea laboris fugiat voluptate tempor dolor.",
+        "severity": "orange",
+        "createdAt": "2018-08-09T10:05:52-02:00",
+        "km": 496
+      },
+      {
+        "code": "P1268O",
+        "description": "Labore nostrud non consectetur amet in aliqua irure.",
+        "severity": "red",
+        "createdAt": "2018-08-18T09:01:09-02:00",
+        "km": 501
+      },
+      {
+        "code": "P1510H",
+        "description": "Ea laborum exercitation ullamco fugiat id enim occaecat cillum sint excepteur.",
+        "severity": "red",
+        "createdAt": "2018-08-04T06:38:45-02:00",
+        "km": 123
+      },
+      {
+        "code": "P3516O",
+        "description": "Voluptate velit reprehenderit deserunt sit nulla sit exercitation in excepteur ut commodo nisi est.",
+        "severity": "red",
+        "createdAt": "2018-08-25T05:27:48-02:00",
+        "km": 438
+      },
+      {
+        "code": "N1541O",
+        "description": "Voluptate commodo minim nulla voluptate duis.",
+        "severity": "red",
+        "createdAt": "2018-08-09T08:21:03-02:00",
+        "km": 315
+      }
+    ],
+    "createdAt": "2018-08-15T02:51:41-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-21T07:11:30-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 56,
+    "status": "notified",
+    "fidelity": 38,
+    "km": 3638,
+    "kmPerDay": 89,
+    "daysToM": -66,
+    "client": {
+      "fullName": "Bridgette Weeks"
+    },
+    "car": {
+      "id": 56,
+
+      "status": "shutdown",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Proident cupidatat exercitation elit culpa dolor minim."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Veniam commodo nostrud reprehenderit consequat occaecat esse."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Consectetur laborum irure nulla minim veniam Lorem reprehenderit nisi tempor duis enim commodo do."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Pariatur commodo aliqua dolor laboris tempor nostrud aliquip est sit sint consequat irure consectetur irure."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-30T09:26:02-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-09T02:15:56-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 57,
+    "status": "action",
+    "fidelity": 65,
+    "km": 3335,
+    "kmPerDay": 55,
+    "daysToM": -32,
+    "client": {
+      "fullName": "Duran Eaton"
+    },
+    "car": {
+      "id": 57,
+
+      "status": "shutdown",
+      "battery": 10,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Nostrud mollit irure officia Lorem."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Sunt occaecat magna sunt esse laborum dolore in mollit."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Aute commodo aute officia fugiat adipisicing reprehenderit ad et et in voluptate proident nulla pariatur."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Adipisicing proident nisi ex velit."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M2403T",
+        "description": "Exercitation reprehenderit occaecat occaecat sint ad officia nulla Lorem nisi eu elit.",
+        "severity": "orange",
+        "createdAt": "2018-08-29T11:58:23-02:00",
+        "km": 50
+      },
+      {
+        "code": "M2020O",
+        "description": "Ex ex consequat ullamco sit aliqua ad laboris culpa nostrud tempor magna ipsum magna minim.",
+        "severity": "orange",
+        "createdAt": "2018-08-16T11:09:07-02:00",
+        "km": 506
+      },
+      {
+        "code": "P1552O",
+        "description": "Officia id eu consectetur culpa veniam ea fugiat commodo dolor cupidatat eiusmod.",
+        "severity": "orange",
+        "createdAt": "2018-08-30T07:58:26-02:00",
+        "km": 380
+      },
+      {
+        "code": "N3611H",
+        "description": "Aute aute eu commodo ad in est.",
+        "severity": "red",
+        "createdAt": "2018-08-12T05:46:08-02:00",
+        "km": 145
+      }
+    ],
+    "createdAt": "2018-08-29T02:23:10-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-17T03:41:20-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 58,
+    "status": "suspended",
+    "fidelity": 85,
+    "km": 1017,
+    "kmPerDay": 60,
+    "daysToM": -74,
+    "client": {
+      "fullName": "Luz Richardson"
+    },
+    "car": {
+      "id": 58,
+
+      "status": "disconnected",
+      "battery": 9,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Exercitation Lorem enim do elit voluptate."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Aute minim ullamco est exercitation labore sint."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Duis eu amet aliqua irure magna laboris ipsum aliqua aliquip esse id aute esse qui."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Duis cillum tempor non id et minim est."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M1158T",
+        "description": "Officia tempor aute est pariatur adipisicing labore duis dolor laboris.",
+        "severity": "orange",
+        "createdAt": "2018-08-27T02:51:58-02:00",
+        "km": 715
+      },
+      {
+        "code": "L3294T",
+        "description": "Eu ipsum in Lorem elit cillum duis labore occaecat.",
+        "severity": "orange",
+        "createdAt": "2018-08-14T08:45:56-02:00",
+        "km": 14
+      },
+      {
+        "code": "N1707T",
+        "description": "Sint eiusmod dolore consequat officia magna in in nostrud eiusmod excepteur id.",
+        "severity": "orange",
+        "createdAt": "2018-08-23T12:13:19-02:00",
+        "km": 169
+      }
+    ],
+    "createdAt": "2018-08-17T07:19:15-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-16T02:50:23-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 59,
+    "status": "discarded",
+    "fidelity": 54,
+    "km": 4361,
+    "kmPerDay": 44,
+    "daysToM": -23,
+    "client": {
+      "fullName": "Miller Preston"
+    },
+    "car": {
+      "id": 59,
+
+      "status": "disconnected",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Magna non laborum aute incididunt."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Reprehenderit voluptate non aliquip consequat magna officia pariatur officia cillum est irure."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Pariatur dolor ea incididunt ex ad veniam occaecat culpa id cillum laborum."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Officia Lorem consectetur magna esse ex quis eu sunt ea."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M2912J",
+        "description": "Consectetur consequat nulla nostrud cillum est officia occaecat.",
+        "severity": "red",
+        "createdAt": "2018-08-13T12:16:29-02:00",
+        "km": 884
+      }
+    ],
+    "createdAt": "2018-08-17T01:57:50-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-01T06:58:56-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 60,
+    "status": "notified",
+    "fidelity": 78,
+    "km": 3242,
+    "kmPerDay": 28,
+    "daysToM": -29,
+    "client": {
+      "fullName": "Finley Ewing"
+    },
+    "car": {
+      "id": 60,
+
+      "status": "disconnected",
+      "battery": 9,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Est sit sunt reprehenderit labore ex minim aliquip adipisicing eu anim laborum deserunt consequat Lorem."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Lorem eiusmod nostrud anim consequat eiusmod fugiat nisi quis labore amet culpa."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Aliquip nulla magna do aute ex."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Occaecat ipsum reprehenderit aliquip consequat."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M1839J",
+        "description": "Magna ex ut sint ex duis.",
+        "severity": "red",
+        "createdAt": "2018-08-06T10:54:28-02:00",
+        "km": 879
+      },
+      {
+        "code": "M2647H",
+        "description": "Ex dolor ullamco commodo anim.",
+        "severity": "orange",
+        "createdAt": "2018-08-11T11:14:33-02:00",
+        "km": 421
+      },
+      {
+        "code": "M2584H",
+        "description": "Ullamco esse velit proident reprehenderit.",
+        "severity": "red",
+        "createdAt": "2018-08-24T06:54:01-02:00",
+        "km": 995
+      },
+      {
+        "code": "P2323O",
+        "description": "Amet ad qui excepteur magna.",
+        "severity": "red",
+        "createdAt": "2018-08-11T12:52:16-02:00",
+        "km": 610
+      }
+    ],
+    "createdAt": "2018-08-02T03:09:16-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-25T09:31:25-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 61,
+    "status": "sent",
+    "fidelity": 100,
+    "km": 900,
+    "kmPerDay": 36,
+    "daysToM": -85,
+    "client": {
+      "fullName": "Amalia Bell"
+    },
+    "car": {
+      "id": 61,
+
+      "status": "connected",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Tempor anim in quis aliquip qui ea fugiat Lorem mollit pariatur veniam."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Ut Lorem deserunt ad excepteur voluptate aliquip amet adipisicing fugiat ipsum minim Lorem esse."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Voluptate proident elit eiusmod proident ea."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Anim ea adipisicing consequat sit esse est Lorem ullamco magna tempor."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P1932H",
+        "description": "Enim do esse officia quis eiusmod.",
+        "severity": "orange",
+        "createdAt": "2018-08-11T08:55:19-02:00",
+        "km": 734
+      },
+      {
+        "code": "L3850H",
+        "description": "Deserunt pariatur nisi consectetur ipsum officia aute ullamco eu ad qui ut cillum occaecat.",
+        "severity": "orange",
+        "createdAt": "2018-08-25T11:12:54-02:00",
+        "km": 109
+      },
+      {
+        "code": "L2854J",
+        "description": "Minim adipisicing occaecat id sit enim nisi duis tempor ipsum eu adipisicing.",
+        "severity": "orange",
+        "createdAt": "2018-08-02T08:34:03-02:00",
+        "km": 967
+      }
+    ],
+    "createdAt": "2018-08-19T02:38:12-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-23T09:03:55-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 62,
+    "status": "action",
+    "fidelity": 30,
+    "km": 3121,
+    "kmPerDay": 66,
+    "daysToM": -58,
+    "client": {
+      "fullName": "Brady Vance"
+    },
+    "car": {
+      "id": 62,
+
+      "status": "disconnected",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Eiusmod qui qui tempor nulla esse officia eu aliqua reprehenderit cillum eiusmod voluptate ex."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Dolor laborum ea dolor esse nisi eiusmod nulla ut voluptate deserunt do occaecat id ipsum."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Pariatur occaecat consequat do proident sit laborum nulla incididunt."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Cillum id cupidatat tempor voluptate."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-28T03:52:39-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-18T10:20:06-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 63,
+    "status": "booked",
+    "fidelity": 58,
+    "km": 704,
+    "kmPerDay": 62,
+    "daysToM": -10,
+    "client": {
+      "fullName": "Valenzuela Peters"
+    },
+    "car": {
+      "id": 63,
+
+      "status": "disconnected",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Ipsum consectetur non cillum commodo mollit magna ipsum eu esse exercitation."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Elit quis veniam proident commodo velit."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Magna ad magna do ea in cupidatat nostrud elit minim tempor exercitation voluptate ut magna."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Laborum est enim et consectetur commodo et fugiat non minim ea proident pariatur esse."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N1087O",
+        "description": "Eu cupidatat mollit qui excepteur Lorem qui.",
+        "severity": "red",
+        "createdAt": "2018-08-06T05:36:00-02:00",
+        "km": 824
+      },
+      {
+        "code": "L3622T",
+        "description": "Ad culpa proident incididunt non cillum fugiat.",
+        "severity": "orange",
+        "createdAt": "2018-08-06T06:59:14-02:00",
+        "km": 402
+      }
+    ],
+    "createdAt": "2018-08-20T10:09:26-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-13T03:48:11-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 64,
+    "status": "discarded",
+    "fidelity": 18,
+    "km": 3385,
+    "kmPerDay": 43,
+    "daysToM": -25,
+    "client": {
+      "fullName": "Antoinette Hernandez"
+    },
+    "car": {
+      "id": 64,
+
+      "status": "disconnected",
+      "battery": 10,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Excepteur irure proident cillum cillum in anim commodo non eiusmod."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Fugiat occaecat commodo veniam est magna."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Deserunt et cillum aliquip voluptate ad sit aliquip tempor dolor esse velit."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Cupidatat cillum esse qui tempor enim amet in."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N2184H",
+        "description": "Et in officia id et in ex.",
+        "severity": "orange",
+        "createdAt": "2018-08-20T09:37:43-02:00",
+        "km": 187
+      },
+      {
+        "code": "P1093J",
+        "description": "Incididunt ea ad non veniam.",
+        "severity": "orange",
+        "createdAt": "2018-08-01T06:12:14-02:00",
+        "km": 801
+      },
+      {
+        "code": "L2272J",
+        "description": "Voluptate est eiusmod velit mollit eiusmod.",
+        "severity": "red",
+        "createdAt": "2018-08-21T09:08:56-02:00",
+        "km": 645
+      }
+    ],
+    "createdAt": "2018-08-27T08:14:09-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-12T01:03:35-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 65,
+    "status": "action",
+    "fidelity": 66,
+    "km": 1578,
+    "kmPerDay": 85,
+    "daysToM": -38,
+    "client": {
+      "fullName": "Reba Cantu"
+    },
+    "car": {
+      "id": 65,
+
+      "status": "disconnected",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Ut commodo sit commodo ad sunt sint voluptate velit laboris aliquip tempor cupidatat sunt veniam."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Laboris id sunt cillum laborum officia."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Magna aliqua eiusmod do magna velit velit consequat irure nostrud laboris dolor velit."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Proident culpa tempor sint ea minim."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N1276J",
+        "description": "Fugiat duis ex minim amet id.",
+        "severity": "red",
+        "createdAt": "2018-08-31T07:12:00-02:00",
+        "km": 844
+      },
+      {
+        "code": "P3961J",
+        "description": "Occaecat eu aliqua adipisicing mollit velit ipsum magna exercitation incididunt sunt do quis culpa commodo.",
+        "severity": "red",
+        "createdAt": "2018-08-15T01:00:09-02:00",
+        "km": 305
+      }
+    ],
+    "createdAt": "2018-08-28T02:34:11-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-15T05:33:24-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 66,
+    "status": "notified",
+    "fidelity": 61,
+    "km": 2969,
+    "kmPerDay": 62,
+    "daysToM": -6,
+    "client": {
+      "fullName": "Reva Banks"
+    },
+    "car": {
+      "id": 66,
+
+      "status": "disconnected",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Elit ad sit laboris reprehenderit sunt excepteur aliquip."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Amet ullamco ea amet sunt incididunt sunt incididunt esse reprehenderit ea elit id exercitation."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Amet sunt culpa dolore laborum."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Consectetur nulla ex ut et do eiusmod enim."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P3127O",
+        "description": "Est Lorem eu eiusmod exercitation ipsum ad pariatur nulla proident proident elit eu.",
+        "severity": "orange",
+        "createdAt": "2018-08-30T03:41:13-02:00",
+        "km": 62
+      }
+    ],
+    "createdAt": "2018-08-01T05:25:10-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-17T04:05:51-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 67,
+    "status": "sent",
+    "fidelity": 84,
+    "km": 1214,
+    "kmPerDay": 88,
+    "daysToM": -11,
+    "client": {
+      "fullName": "Adrian Santos"
+    },
+    "car": {
+      "id": 67,
+
+      "status": "disconnected",
+      "battery": 12,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Amet adipisicing eiusmod irure elit minim sint pariatur."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Sit occaecat enim esse adipisicing."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Voluptate ex eiusmod ex deserunt duis officia adipisicing."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Tempor amet Lorem eu voluptate ex occaecat nostrud consectetur officia enim sint."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L2902O",
+        "description": "Excepteur mollit magna exercitation occaecat cupidatat pariatur fugiat commodo incididunt laboris nostrud.",
+        "severity": "orange",
+        "createdAt": "2018-08-10T03:23:48-02:00",
+        "km": 925
+      }
+    ],
+    "createdAt": "2018-08-14T12:39:17-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-23T05:41:25-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 68,
+    "status": "booked",
+    "fidelity": 85,
+    "km": 1197,
+    "kmPerDay": 85,
+    "daysToM": -25,
+    "client": {
+      "fullName": "Jenifer Holt"
+    },
+    "car": {
+      "id": 68,
+
+      "status": "disconnected",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Fugiat velit amet deserunt in elit."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Amet aliqua in eiusmod adipisicing do velit et qui ad tempor sunt Lorem amet cupidatat."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Cupidatat aliqua elit mollit elit irure do excepteur aliqua Lorem duis duis ea."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Sunt sint deserunt aliquip aute esse proident esse quis ut consequat."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-29T04:46:01-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-23T12:52:15-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 69,
+    "status": "action",
+    "fidelity": 88,
+    "km": 1166,
+    "kmPerDay": 87,
+    "daysToM": -22,
+    "client": {
+      "fullName": "Kirk Mcfarland"
+    },
+    "car": {
+      "id": 69,
+
+      "status": "shutdown",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Cillum proident aliquip mollit officia velit quis Lorem esse sint duis nisi."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Velit pariatur amet dolore eiusmod."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Anim est eiusmod duis adipisicing."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Nisi aliquip enim ea anim laboris."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M1293H",
+        "description": "Dolore exercitation proident reprehenderit sunt aliqua in eu.",
+        "severity": "red",
+        "createdAt": "2018-08-31T12:19:50-02:00",
+        "km": 265
+      },
+      {
+        "code": "P3564T",
+        "description": "Ex enim ea labore ad voluptate.",
+        "severity": "red",
+        "createdAt": "2018-08-25T04:28:24-02:00",
+        "km": 575
+      },
+      {
+        "code": "L3912H",
+        "description": "Velit qui non occaecat laboris.",
+        "severity": "orange",
+        "createdAt": "2018-08-20T06:32:42-02:00",
+        "km": 261
+      },
+      {
+        "code": "N2069J",
+        "description": "Irure sunt mollit ullamco do deserunt ipsum proident nisi ut sint.",
+        "severity": "red",
+        "createdAt": "2018-08-08T02:30:52-02:00",
+        "km": 397
+      }
+    ],
+    "createdAt": "2018-08-02T07:14:25-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-27T07:43:43-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 70,
+    "status": "notified",
+    "fidelity": 78,
+    "km": 1624,
+    "kmPerDay": 61,
+    "daysToM": -34,
+    "client": {
+      "fullName": "Michelle Guthrie"
+    },
+    "car": {
+      "id": 70,
+
+      "status": "connected",
+      "battery": 10,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Ea consectetur eiusmod voluptate nulla aute cillum cupidatat ut labore nulla mollit do."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Sunt ex dolor irure aute aute anim nisi aute voluptate quis irure adipisicing culpa commodo."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Tempor ullamco et labore cupidatat sunt fugiat."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Ex sunt nulla laborum eiusmod fugiat anim laboris proident ex et."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P1589T",
+        "description": "Laboris ex Lorem nostrud magna consequat mollit veniam aute nostrud sint commodo esse.",
+        "severity": "orange",
+        "createdAt": "2018-08-03T07:46:29-02:00",
+        "km": 461
+      },
+      {
+        "code": "M3296T",
+        "description": "Qui et elit reprehenderit nostrud consequat sint ea.",
+        "severity": "red",
+        "createdAt": "2018-08-19T09:44:41-02:00",
+        "km": 824
+      },
+      {
+        "code": "N3340H",
+        "description": "Exercitation labore aute duis officia elit non eu aute quis occaecat amet.",
+        "severity": "orange",
+        "createdAt": "2018-08-07T07:09:27-02:00",
+        "km": 777
+      },
+      {
+        "code": "M1579J",
+        "description": "Est qui amet occaecat ea sunt dolor in ullamco consequat anim proident veniam qui.",
+        "severity": "red",
+        "createdAt": "2018-08-17T04:55:19-02:00",
+        "km": 37
+      },
+      {
+        "code": "L3642H",
+        "description": "In id non cillum amet nostrud ut Lorem excepteur eu reprehenderit laborum.",
+        "severity": "orange",
+        "createdAt": "2018-08-19T12:06:20-02:00",
+        "km": 797
+      }
+    ],
+    "createdAt": "2018-08-18T05:57:42-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-08T08:38:41-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 71,
+    "status": "discarded",
+    "fidelity": 44,
+    "km": 2510,
+    "kmPerDay": 46,
+    "daysToM": -90,
+    "client": {
+      "fullName": "Evangelina Chang"
+    },
+    "car": {
+      "id": 71,
+
+      "status": "shutdown",
+      "battery": 13,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Eu Lorem labore Lorem aute."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Do aute ea nostrud minim consectetur ipsum."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Reprehenderit ex aliqua consectetur est laboris commodo irure."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Adipisicing laborum commodo duis ea qui."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P3699T",
+        "description": "Non pariatur elit eu pariatur aliqua do anim esse qui duis mollit.",
+        "severity": "red",
+        "createdAt": "2018-08-31T01:10:59-02:00",
+        "km": 603
+      },
+      {
+        "code": "N3790T",
+        "description": "Fugiat officia esse id excepteur veniam non duis dolor cupidatat.",
+        "severity": "red",
+        "createdAt": "2018-08-14T08:13:59-02:00",
+        "km": 621
+      },
+      {
+        "code": "M1907O",
+        "description": "Dolore irure esse Lorem laborum amet dolor tempor qui laboris velit.",
+        "severity": "red",
+        "createdAt": "2018-08-21T12:42:56-02:00",
+        "km": 949
+      },
+      {
+        "code": "L2930H",
+        "description": "Nisi incididunt ipsum velit voluptate ut.",
+        "severity": "red",
+        "createdAt": "2018-08-31T06:26:08-02:00",
+        "km": 366
+      },
+      {
+        "code": "L2092H",
+        "description": "Fugiat ut sunt anim incididunt aute elit velit fugiat irure reprehenderit Lorem mollit.",
+        "severity": "red",
+        "createdAt": "2018-08-11T02:54:49-02:00",
+        "km": 190
+      }
+    ],
+    "createdAt": "2018-08-10T12:24:35-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-24T05:45:38-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 72,
+    "status": "action",
+    "fidelity": 58,
+    "km": 1222,
+    "kmPerDay": 37,
+    "daysToM": -34,
+    "client": {
+      "fullName": "Jacobson Coffey"
+    },
+    "car": {
+      "id": 72,
+
+      "status": "disconnected",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Nostrud eu in deserunt quis sit irure proident nisi."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Eiusmod voluptate occaecat deserunt consectetur exercitation."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Anim do adipisicing proident mollit aliqua exercitation laboris magna occaecat magna non."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Nisi pariatur ipsum et consequat commodo ad in consequat."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-08T04:26:26-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-03T12:34:45-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 73,
+    "status": "notified",
+    "fidelity": 70,
+    "km": 3214,
+    "kmPerDay": 28,
+    "daysToM": -98,
+    "client": {
+      "fullName": "Dillon Le"
+    },
+    "car": {
+      "id": 73,
+
+      "status": "connected",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Dolore mollit aliqua ea reprehenderit nostrud."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Sit id sit qui et nulla tempor incididunt minim anim non proident incididunt veniam mollit."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Irure commodo ullamco et id est anim."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Excepteur nulla duis exercitation officia."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M2453H",
+        "description": "Non velit aliquip consequat velit sunt amet enim minim est irure laboris dolore.",
+        "severity": "red",
+        "createdAt": "2018-08-27T07:00:02-02:00",
+        "km": 868
+      },
+      {
+        "code": "M1450H",
+        "description": "Id eu ex sint adipisicing ut sit qui anim ullamco cupidatat et velit.",
+        "severity": "red",
+        "createdAt": "2018-08-06T11:39:26-02:00",
+        "km": 955
+      },
+      {
+        "code": "P3896J",
+        "description": "Sint pariatur laborum veniam qui ipsum laborum enim sint laboris id minim commodo.",
+        "severity": "red",
+        "createdAt": "2018-08-31T11:36:27-02:00",
+        "km": 781
+      }
+    ],
+    "createdAt": "2018-08-20T07:42:46-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-30T01:35:34-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 74,
+    "status": "booked",
+    "fidelity": 52,
+    "km": 1350,
+    "kmPerDay": 20,
+    "daysToM": -82,
+    "client": {
+      "fullName": "Nellie Snow"
+    },
+    "car": {
+      "id": 74,
+
+      "status": "shutdown",
+      "battery": 13,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Consequat eiusmod nostrud incididunt cillum."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Eiusmod cupidatat officia enim velit ut minim deserunt."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Commodo sit labore ipsum exercitation excepteur ipsum aliqua occaecat enim."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Anim nostrud laborum nisi qui cillum sit est labore in et laboris sit."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L3209T",
+        "description": "Est est ipsum adipisicing voluptate.",
+        "severity": "red",
+        "createdAt": "2018-08-02T03:24:41-02:00",
+        "km": 685
+      },
+      {
+        "code": "N3908T",
+        "description": "Culpa nisi eu ipsum occaecat cillum magna anim tempor fugiat ipsum nisi irure nulla officia.",
+        "severity": "red",
+        "createdAt": "2018-08-17T12:28:04-02:00",
+        "km": 464
+      },
+      {
+        "code": "M3390T",
+        "description": "Est pariatur nisi et nulla tempor laboris cillum sint esse qui elit ad aute.",
+        "severity": "red",
+        "createdAt": "2018-08-27T05:04:51-02:00",
+        "km": 117
+      },
+      {
+        "code": "L3741J",
+        "description": "Nisi excepteur quis elit excepteur do incididunt et nulla cupidatat culpa reprehenderit.",
+        "severity": "red",
+        "createdAt": "2018-08-10T10:00:01-02:00",
+        "km": 242
+      }
+    ],
+    "createdAt": "2018-08-06T04:21:49-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-21T07:04:10-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 75,
+    "status": "suspended",
+    "fidelity": 93,
+    "km": 2646,
+    "kmPerDay": 56,
+    "daysToM": -71,
+    "client": {
+      "fullName": "Holcomb Hatfield"
+    },
+    "car": {
+      "id": 75,
+
+      "status": "shutdown",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Anim elit sit adipisicing dolor sint non irure elit amet laboris dolore sit eu ex."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Magna officia reprehenderit aute sint nostrud."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Consequat ut est nostrud dolore quis do culpa occaecat ullamco laborum."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Nulla laborum culpa exercitation consectetur esse consectetur non aliqua minim."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N3972H",
+        "description": "Qui do commodo cupidatat irure esse qui consequat nostrud culpa est do elit fugiat nulla.",
+        "severity": "red",
+        "createdAt": "2018-08-04T03:26:15-02:00",
+        "km": 260
+      }
+    ],
+    "createdAt": "2018-08-24T12:14:28-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-14T06:35:57-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 76,
+    "status": "action",
+    "fidelity": 91,
+    "km": 2251,
+    "kmPerDay": 38,
+    "daysToM": -27,
+    "client": {
+      "fullName": "Wiley Wolfe"
+    },
+    "car": {
+      "id": 76,
+
+      "status": "disconnected",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Id Lorem et non non mollit amet minim deserunt sint aute excepteur."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Ipsum occaecat fugiat proident quis esse labore excepteur dolore irure incididunt nisi irure laborum."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Mollit minim ad non reprehenderit cupidatat do."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Ipsum est adipisicing officia ut sit voluptate ea."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L3775T",
+        "description": "Reprehenderit occaecat labore est dolore est minim aliqua ut do.",
+        "severity": "red",
+        "createdAt": "2018-08-24T02:43:21-02:00",
+        "km": 819
+      },
+      {
+        "code": "L1571O",
+        "description": "Magna elit occaecat excepteur fugiat duis.",
+        "severity": "orange",
+        "createdAt": "2018-08-30T09:03:17-02:00",
+        "km": 629
+      }
+    ],
+    "createdAt": "2018-08-01T10:52:26-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-08T09:39:03-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 77,
+    "status": "suspended",
+    "fidelity": 21,
+    "km": 2667,
+    "kmPerDay": 24,
+    "daysToM": -54,
+    "client": {
+      "fullName": "Stein Conner"
+    },
+    "car": {
+      "id": 77,
+
+      "status": "connected",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Non nostrud elit do ad nulla laborum fugiat reprehenderit aliquip in laborum cillum."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Do elit occaecat sunt occaecat minim excepteur occaecat non ex."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Ut anim labore do ullamco sint dolor culpa fugiat."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Cupidatat proident nostrud culpa nisi occaecat minim mollit eiusmod occaecat mollit."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P1546J",
+        "description": "Dolore adipisicing eu cillum cillum ex est occaecat velit duis voluptate pariatur ipsum id aliquip.",
+        "severity": "red",
+        "createdAt": "2018-08-12T11:09:25-02:00",
+        "km": 440
+      }
+    ],
+    "createdAt": "2018-08-03T12:10:50-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-02T12:44:13-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 78,
+    "status": "booked",
+    "fidelity": 63,
+    "km": 530,
+    "kmPerDay": 85,
+    "daysToM": -63,
+    "client": {
+      "fullName": "Robbie Downs"
+    },
+    "car": {
+      "id": 78,
+
+      "status": "connected",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Quis est fugiat qui fugiat ad reprehenderit et magna cupidatat reprehenderit nostrud minim commodo irure."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Veniam ea non id nisi esse eu velit ullamco voluptate dolor est officia nostrud laboris."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Dolor laboris non nulla qui anim."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Qui nisi esse ad culpa est."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M3309O",
+        "description": "Ex magna non nulla incididunt quis magna dolore velit.",
+        "severity": "red",
+        "createdAt": "2018-08-17T07:29:38-02:00",
+        "km": 722
+      },
+      {
+        "code": "L2008T",
+        "description": "Non excepteur fugiat tempor nisi aliquip.",
+        "severity": "orange",
+        "createdAt": "2018-08-04T07:41:44-02:00",
+        "km": 893
+      },
+      {
+        "code": "L1289T",
+        "description": "Tempor do consequat eiusmod ea duis reprehenderit.",
+        "severity": "red",
+        "createdAt": "2018-08-05T05:34:00-02:00",
+        "km": 30
+      },
+      {
+        "code": "L1568O",
+        "description": "Consequat velit incididunt adipisicing magna cupidatat.",
+        "severity": "orange",
+        "createdAt": "2018-08-17T10:25:30-02:00",
+        "km": 202
+      },
+      {
+        "code": "P1220T",
+        "description": "Qui aliqua nulla labore do cupidatat eiusmod proident deserunt ex cupidatat.",
+        "severity": "red",
+        "createdAt": "2018-08-06T07:09:42-02:00",
+        "km": 807
+      }
+    ],
+    "createdAt": "2018-08-30T02:28:50-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-09T06:24:45-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 79,
+    "status": "discarded",
+    "fidelity": 66,
+    "km": 3596,
+    "kmPerDay": 92,
+    "daysToM": -66,
+    "client": {
+      "fullName": "Holt Haley"
+    },
+    "car": {
+      "id": 79,
+
+      "status": "shutdown",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Veniam excepteur in in incididunt eiusmod qui laboris."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Laboris sunt amet deserunt veniam sunt in cupidatat aliqua magna sunt non voluptate."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Laboris eiusmod quis anim sint officia labore officia do veniam qui pariatur in elit."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Occaecat magna non exercitation fugiat."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M3768O",
+        "description": "Labore Lorem dolore laboris exercitation ipsum aliquip aliqua eiusmod occaecat sit exercitation est dolore nisi.",
+        "severity": "orange",
+        "createdAt": "2018-08-15T04:34:51-02:00",
+        "km": 794
+      },
+      {
+        "code": "L1014T",
+        "description": "Qui duis laborum mollit amet aliquip et in laborum reprehenderit duis non.",
+        "severity": "red",
+        "createdAt": "2018-08-31T06:47:02-02:00",
+        "km": 110
+      },
+      {
+        "code": "N3644O",
+        "description": "Culpa ullamco ullamco cillum ipsum deserunt.",
+        "severity": "red",
+        "createdAt": "2018-08-15T08:10:43-02:00",
+        "km": 543
+      }
+    ],
+    "createdAt": "2018-08-09T03:11:39-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-12T08:43:00-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 80,
+    "status": "action",
+    "fidelity": 10,
+    "km": 3917,
+    "kmPerDay": 23,
+    "daysToM": -58,
+    "client": {
+      "fullName": "Marilyn Robbins"
+    },
+    "car": {
+      "id": 80,
+
+      "status": "connected",
+      "battery": 12,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Laborum nostrud amet pariatur elit nisi commodo ex elit ea."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Ea officia esse esse tempor ea pariatur aute est irure cupidatat do non eu nostrud."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Duis et consectetur non veniam velit labore exercitation laboris reprehenderit."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Fugiat veniam anim elit Lorem proident non cillum laborum nulla elit proident ipsum ipsum."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-06T08:55:14-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-20T12:21:54-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 81,
+    "status": "suspended",
+    "fidelity": 37,
+    "km": 4270,
+    "kmPerDay": 26,
+    "daysToM": -32,
+    "client": {
+      "fullName": "Woods Dawson"
+    },
+    "car": {
+      "id": 81,
+
+      "status": "shutdown",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Nisi aliquip ut eiusmod proident proident mollit nostrud incididunt incididunt quis nulla do quis laboris."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "In ea et quis minim qui esse duis quis et qui."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Labore sit non fugiat labore."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Culpa enim anim aliqua labore aute officia occaecat excepteur eu ipsum non nisi."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M2700T",
+        "description": "Non elit deserunt pariatur eiusmod non.",
+        "severity": "orange",
+        "createdAt": "2018-08-28T02:55:52-02:00",
+        "km": 987
+      },
+      {
+        "code": "M1815H",
+        "description": "Nostrud aliqua dolor occaecat in ut aliquip proident.",
+        "severity": "red",
+        "createdAt": "2018-08-26T04:10:26-02:00",
+        "km": 151
+      },
+      {
+        "code": "L2333H",
+        "description": "Fugiat deserunt laboris consectetur cillum ut laboris do incididunt.",
+        "severity": "red",
+        "createdAt": "2018-08-09T10:09:24-02:00",
+        "km": 553
+      }
+    ],
+    "createdAt": "2018-08-13T10:01:50-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-10T01:51:18-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 82,
+    "status": "action",
+    "fidelity": 44,
+    "km": 1992,
+    "kmPerDay": 68,
+    "daysToM": -28,
+    "client": {
+      "fullName": "Avery Skinner"
+    },
+    "car": {
+      "id": 82,
+
+      "status": "disconnected",
+      "battery": 8,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Culpa quis in enim veniam commodo mollit veniam incididunt."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Esse cillum dolore deserunt esse esse commodo qui enim ullamco ex elit laboris."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Magna labore culpa nostrud eu et ex minim dolore Lorem culpa ut commodo minim veniam."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Sunt sint Lorem velit sunt irure quis consectetur aliqua minim."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M2263J",
+        "description": "Quis veniam Lorem occaecat dolor culpa dolore dolore non esse cillum anim elit incididunt.",
+        "severity": "orange",
+        "createdAt": "2018-08-15T10:44:42-02:00",
+        "km": 143
+      },
+      {
+        "code": "P3921O",
+        "description": "Amet do sint voluptate eiusmod minim cillum fugiat aliquip.",
+        "severity": "red",
+        "createdAt": "2018-08-31T07:54:07-02:00",
+        "km": 447
+      },
+      {
+        "code": "L2238O",
+        "description": "Eu reprehenderit deserunt labore velit voluptate velit eiusmod.",
+        "severity": "red",
+        "createdAt": "2018-08-04T10:15:03-02:00",
+        "km": 951
+      }
+    ],
+    "createdAt": "2018-08-02T11:10:39-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-15T06:17:53-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 83,
+    "status": "action",
+    "fidelity": 52,
+    "km": 1733,
+    "kmPerDay": 85,
+    "daysToM": -82,
+    "client": {
+      "fullName": "Fowler Munoz"
+    },
+    "car": {
+      "id": 83,
+
+      "status": "disconnected",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Magna irure amet cupidatat nisi eiusmod deserunt sunt officia eiusmod consequat dolor."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Quis ea in ea amet ipsum aliqua laboris consequat nulla tempor adipisicing."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Sunt ea qui minim magna Lorem quis aliquip excepteur dolore ea."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Enim laboris esse ad laborum fugiat."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M2868O",
+        "description": "Minim non ex irure culpa qui aliquip irure sint occaecat nostrud minim duis cupidatat.",
+        "severity": "red",
+        "createdAt": "2018-08-03T05:36:10-02:00",
+        "km": 256
+      },
+      {
+        "code": "N3376O",
+        "description": "Lorem mollit cillum in aliqua incididunt magna et sit sint in culpa nisi.",
+        "severity": "orange",
+        "createdAt": "2018-08-31T04:52:23-02:00",
+        "km": 859
+      },
+      {
+        "code": "L1322H",
+        "description": "Et exercitation cillum cillum pariatur eu sit ex tempor ipsum.",
+        "severity": "red",
+        "createdAt": "2018-08-09T02:17:40-02:00",
+        "km": 718
+      }
+    ],
+    "createdAt": "2018-08-30T12:51:47-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-09T06:22:04-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 84,
+    "status": "notified",
+    "fidelity": 86,
+    "km": 4617,
+    "kmPerDay": 29,
+    "daysToM": -31,
+    "client": {
+      "fullName": "Freeman Holman"
+    },
+    "car": {
+      "id": 84,
+
+      "status": "disconnected",
+      "battery": 12,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Consectetur mollit veniam pariatur commodo non esse sunt qui duis nulla."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Deserunt tempor quis labore officia."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Aliqua quis adipisicing esse enim anim."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Et elit fugiat incididunt anim proident Lorem officia incididunt."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N2220O",
+        "description": "Incididunt in mollit dolor laboris veniam labore quis laboris.",
+        "severity": "red",
+        "createdAt": "2018-08-30T06:50:46-02:00",
+        "km": 674
+      },
+      {
+        "code": "L1856O",
+        "description": "Laboris anim in aliqua incididunt enim.",
+        "severity": "orange",
+        "createdAt": "2018-08-18T05:19:07-02:00",
+        "km": 726
+      },
+      {
+        "code": "M1457H",
+        "description": "Labore ad nulla fugiat irure ex amet elit.",
+        "severity": "orange",
+        "createdAt": "2018-08-30T12:05:26-02:00",
+        "km": 963
+      },
+      {
+        "code": "N1610J",
+        "description": "Enim aliquip cupidatat proident ex et deserunt eiusmod duis et.",
+        "severity": "orange",
+        "createdAt": "2018-08-02T06:08:46-02:00",
+        "km": 316
+      },
+      {
+        "code": "L3263T",
+        "description": "Deserunt sit quis ex ipsum labore commodo.",
+        "severity": "red",
+        "createdAt": "2018-08-04T04:15:32-02:00",
+        "km": 359
+      }
+    ],
+    "createdAt": "2018-08-30T02:13:30-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-16T12:47:30-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 85,
+    "status": "sent",
+    "fidelity": 46,
+    "km": 4460,
+    "kmPerDay": 87,
+    "daysToM": -89,
+    "client": {
+      "fullName": "Lily Mosley"
+    },
+    "car": {
+      "id": 85,
+
+      "status": "connected",
+      "battery": 9,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Incididunt adipisicing ut aliquip aliqua officia officia ex elit sit eu."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Aliqua nisi tempor exercitation id."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Laborum eiusmod minim qui anim magna est officia velit fugiat velit labore."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Proident anim irure do enim commodo commodo adipisicing ad cillum reprehenderit."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L2549O",
+        "description": "Sunt veniam irure eu minim nisi.",
+        "severity": "red",
+        "createdAt": "2018-08-05T11:58:13-02:00",
+        "km": 213
+      },
+      {
+        "code": "P3731H",
+        "description": "Anim reprehenderit cupidatat ipsum dolor cupidatat sunt aliquip irure.",
+        "severity": "orange",
+        "createdAt": "2018-08-21T03:24:55-02:00",
+        "km": 351
+      },
+      {
+        "code": "L1885O",
+        "description": "Non labore veniam consectetur laborum commodo amet aliquip amet ex.",
+        "severity": "orange",
+        "createdAt": "2018-08-17T05:02:48-02:00",
+        "km": 206
+      },
+      {
+        "code": "M3361O",
+        "description": "Consequat ex consequat aliqua cillum tempor dolor occaecat adipisicing aliqua minim.",
+        "severity": "red",
+        "createdAt": "2018-08-25T09:04:40-02:00",
+        "km": 409
+      }
+    ],
+    "createdAt": "2018-08-09T04:14:12-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-29T12:37:10-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 86,
+    "status": "suspended",
+    "fidelity": 27,
+    "km": 817,
+    "kmPerDay": 30,
+    "daysToM": -52,
+    "client": {
+      "fullName": "Enid Sharpe"
+    },
+    "car": {
+      "id": 86,
+
+      "status": "connected",
+      "battery": 10,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Anim dolor duis est sint enim eu mollit reprehenderit proident reprehenderit amet."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Aliqua tempor qui reprehenderit ex ad cillum do qui."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Culpa et mollit excepteur anim voluptate et in nulla tempor nulla sunt do."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Ex ad et do deserunt in amet ut sunt veniam tempor non minim do."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-11T05:05:33-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-18T09:32:18-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 87,
+    "status": "discarded",
+    "fidelity": 65,
+    "km": 1608,
+    "kmPerDay": 100,
+    "daysToM": -33,
+    "client": {
+      "fullName": "Nicole Gardner"
+    },
+    "car": {
+      "id": 87,
+
+      "status": "connected",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Fugiat enim tempor veniam dolore aliquip nostrud id irure."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Deserunt pariatur veniam fugiat magna veniam ipsum consequat excepteur minim ipsum mollit ad occaecat."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Veniam est irure sit in ad."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Sint nisi est est minim."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M3427H",
+        "description": "Enim exercitation ea quis ut consectetur exercitation non fugiat laborum deserunt eu elit laborum quis.",
+        "severity": "orange",
+        "createdAt": "2018-08-01T05:49:24-02:00",
+        "km": 644
+      }
+    ],
+    "createdAt": "2018-08-04T09:44:09-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-10T05:48:14-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 88,
+    "status": "action",
+    "fidelity": 64,
+    "km": 2072,
+    "kmPerDay": 86,
+    "daysToM": -35,
+    "client": {
+      "fullName": "Marietta Gordon"
+    },
+    "car": {
+      "id": 88,
+
+      "status": "shutdown",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Sint eu eu veniam dolor et esse excepteur cillum aute enim aute."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Pariatur voluptate ut Lorem proident ad commodo dolor amet ex esse Lorem laboris reprehenderit consectetur."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Eu eu sit cillum excepteur sint non."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Adipisicing fugiat occaecat eu dolore nisi."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N3409O",
+        "description": "Duis quis eiusmod aliqua proident eiusmod enim reprehenderit proident laboris laborum.",
+        "severity": "red",
+        "createdAt": "2018-08-24T04:32:08-02:00",
+        "km": 594
+      }
+    ],
+    "createdAt": "2018-08-15T08:31:57-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-21T01:11:30-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 89,
+    "status": "suspended",
+    "fidelity": 47,
+    "km": 1901,
+    "kmPerDay": 66,
+    "daysToM": -10,
+    "client": {
+      "fullName": "Luella Acosta"
+    },
+    "car": {
+      "id": 89,
+
+      "status": "disconnected",
+      "battery": 10,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Sunt dolor nisi pariatur aute mollit qui in voluptate Lorem ex qui ea duis duis."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Consequat magna adipisicing dolore consectetur nisi ullamco id."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Magna do eu cupidatat aliqua nostrud ullamco laboris anim fugiat."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Non labore do id laborum ad."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L2521J",
+        "description": "Officia quis est laboris nostrud enim non veniam.",
+        "severity": "red",
+        "createdAt": "2018-08-22T03:24:30-02:00",
+        "km": 16
+      },
+      {
+        "code": "L3875J",
+        "description": "Veniam culpa consectetur Lorem velit fugiat irure qui irure ea.",
+        "severity": "orange",
+        "createdAt": "2018-08-15T06:06:56-02:00",
+        "km": 251
+      }
+    ],
+    "createdAt": "2018-08-21T07:17:07-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-22T09:26:51-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 90,
+    "status": "suspended",
+    "fidelity": 47,
+    "km": 3113,
+    "kmPerDay": 85,
+    "daysToM": -51,
+    "client": {
+      "fullName": "Gregory Bowers"
+    },
+    "car": {
+      "id": 90,
+
+      "status": "shutdown",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Elit eiusmod qui esse occaecat pariatur id labore adipisicing consectetur duis enim sint ipsum."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Lorem ex fugiat eiusmod fugiat dolor."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Consequat esse anim tempor aute do."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Commodo pariatur ad anim incididunt qui qui."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-05T09:54:36-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-30T09:15:19-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 91,
+    "status": "discarded",
+    "fidelity": 61,
+    "km": 3477,
+    "kmPerDay": 85,
+    "daysToM": -99,
+    "client": {
+      "fullName": "Rosalie Shaffer"
+    },
+    "car": {
+      "id": 91,
+
+      "status": "shutdown",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Ullamco dolor id amet dolor elit adipisicing enim voluptate."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Commodo eiusmod sunt aliqua minim commodo aliqua ut id reprehenderit ipsum eu et."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Cupidatat in ut culpa aliquip enim minim elit ea anim do dolore ullamco est."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Veniam ipsum irure sit labore id proident velit eiusmod."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N2095O",
+        "description": "Tempor eu elit voluptate enim laborum adipisicing duis amet duis occaecat.",
+        "severity": "orange",
+        "createdAt": "2018-08-30T01:45:52-02:00",
+        "km": 65
+      },
+      {
+        "code": "M3710T",
+        "description": "Quis non nulla adipisicing proident reprehenderit magna elit irure excepteur aliqua dolore reprehenderit.",
+        "severity": "red",
+        "createdAt": "2018-08-30T02:59:39-02:00",
+        "km": 303
+      },
+      {
+        "code": "N2875O",
+        "description": "Sint consequat aliqua dolor veniam.",
+        "severity": "orange",
+        "createdAt": "2018-08-26T09:44:55-02:00",
+        "km": 592
+      },
+      {
+        "code": "N1795T",
+        "description": "Ex magna ad veniam qui anim nostrud aute et sunt laboris et officia cupidatat in.",
+        "severity": "orange",
+        "createdAt": "2018-08-24T10:18:41-02:00",
+        "km": 676
+      }
+    ],
+    "createdAt": "2018-08-02T07:40:05-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-24T02:24:28-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 92,
+    "status": "discarded",
+    "fidelity": 31,
+    "km": 3372,
+    "kmPerDay": 28,
+    "daysToM": -33,
+    "client": {
+      "fullName": "Gena Sexton"
+    },
+    "car": {
+      "id": 92,
+
+      "status": "shutdown",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Magna pariatur aliqua enim id non ullamco minim nisi."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Fugiat est ea ipsum Lorem aute."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Exercitation laboris adipisicing nulla commodo velit mollit."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Aute id fugiat quis ad ad elit."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L3581T",
+        "description": "Aliqua incididunt ex elit consectetur.",
+        "severity": "red",
+        "createdAt": "2018-08-07T06:14:53-02:00",
+        "km": 70
+      },
+      {
+        "code": "P3250T",
+        "description": "Dolore magna ipsum ut deserunt aute occaecat duis velit elit consequat.",
+        "severity": "red",
+        "createdAt": "2018-08-25T11:54:13-02:00",
+        "km": 302
+      },
+      {
+        "code": "N2658T",
+        "description": "Labore mollit velit cupidatat occaecat aliqua qui amet excepteur veniam eiusmod anim.",
+        "severity": "red",
+        "createdAt": "2018-08-26T01:21:29-02:00",
+        "km": 743
+      }
+    ],
+    "createdAt": "2018-08-29T03:46:03-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-04T12:10:56-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 93,
+    "status": "action",
+    "fidelity": 82,
+    "km": 659,
+    "kmPerDay": 94,
+    "daysToM": -62,
+    "client": {
+      "fullName": "Weiss Duke"
+    },
+    "car": {
+      "id": 93,
+
+      "status": "connected",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "In aute eu ut nulla ipsum officia aliqua laboris incididunt in occaecat."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "In sint elit reprehenderit quis esse qui reprehenderit incididunt aliquip culpa deserunt deserunt ipsum enim."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Incididunt elit consectetur quis elit minim nulla amet exercitation aute velit."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Nostrud magna consequat anim officia pariatur aliqua adipisicing sunt quis nostrud dolor ea mollit."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M2988O",
+        "description": "Eu irure Lorem consequat eiusmod consequat cupidatat enim magna.",
+        "severity": "orange",
+        "createdAt": "2018-08-24T06:19:07-02:00",
+        "km": 366
+      },
+      {
+        "code": "L3383T",
+        "description": "Non Lorem irure eu dolor aute cupidatat eu occaecat fugiat amet est.",
+        "severity": "red",
+        "createdAt": "2018-08-23T12:04:54-02:00",
+        "km": 745
+      }
+    ],
+    "createdAt": "2018-08-12T05:40:10-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-31T01:39:45-02:00",
+    "sentBy": "EMAIL"
+  },
+  {
+    "id": 94,
+    "status": "booked",
+    "fidelity": 19,
+    "km": 4075,
+    "kmPerDay": 36,
+    "daysToM": -64,
+    "client": {
+      "fullName": "Jamie Irwin"
+    },
+    "car": {
+      "id": 94,
+
+      "status": "disconnected",
+      "battery": 9,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Veniam nostrud mollit sit sunt esse consequat irure qui mollit aliquip labore commodo et adipisicing."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Quis in consequat mollit aliquip id nulla sunt in excepteur mollit."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Deserunt tempor ex consequat fugiat reprehenderit."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Eiusmod nostrud ex qui enim aliquip ipsum occaecat ipsum irure voluptate aliquip culpa sunt."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "M2784J",
+        "description": "Laborum enim ullamco cillum excepteur officia nisi dolore esse.",
+        "severity": "orange",
+        "createdAt": "2018-08-27T07:35:52-02:00",
+        "km": 380
+      },
+      {
+        "code": "N1353H",
+        "description": "Irure sint dolore officia consequat.",
+        "severity": "orange",
+        "createdAt": "2018-08-24T08:47:02-02:00",
+        "km": 891
+      }
+    ],
+    "createdAt": "2018-08-24T02:59:54-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-26T06:10:11-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 95,
+    "status": "booked",
+    "fidelity": 64,
+    "km": 4947,
+    "kmPerDay": 78,
+    "daysToM": -17,
+    "client": {
+      "fullName": "Jewel Raymond"
+    },
+    "car": {
+      "id": 95,
+
+      "status": "disconnected",
+      "battery": 12,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Velit nulla esse officia minim in et minim exercitation sit est aute officia nostrud fugiat."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": true,
+        "description": "Labore labore amet est laboris."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Aliqua ex tempor fugiat pariatur."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Mollit esse dolor anim excepteur commodo elit."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L1071T",
+        "description": "Incididunt elit elit aute anim elit labore in exercitation aliqua pariatur.",
+        "severity": "red",
+        "createdAt": "2018-08-24T12:24:06-02:00",
+        "km": 67
+      },
+      {
+        "code": "N1057O",
+        "description": "Do officia et sit commodo.",
+        "severity": "orange",
+        "createdAt": "2018-08-17T07:11:47-02:00",
+        "km": 201
+      },
+      {
+        "code": "M2170T",
+        "description": "Eu ullamco ad magna velit nostrud qui veniam dolor ex ullamco ut consequat.",
+        "severity": "red",
+        "createdAt": "2018-08-18T01:54:44-02:00",
+        "km": 707
+      },
+      {
+        "code": "L3555J",
+        "description": "Consectetur labore voluptate quis anim excepteur.",
+        "severity": "orange",
+        "createdAt": "2018-08-25T01:52:22-02:00",
+        "km": 204
+      }
+    ],
+    "createdAt": "2018-08-05T01:46:50-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-04T07:02:15-02:00",
+    "sentBy": "SMS"
+  },
+  {
+    "id": 96,
+    "status": "booked",
+    "fidelity": 38,
+    "km": 3210,
+    "kmPerDay": 40,
+    "daysToM": -85,
+    "client": {
+      "fullName": "Nadine Boone"
+    },
+    "car": {
+      "id": 96,
+
+      "status": "connected",
+      "battery": 14,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Irure occaecat culpa anim in exercitation est sit duis eu anim irure sint."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Lorem aute eiusmod consequat est consequat aliquip ipsum officia qui duis reprehenderit."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": true,
+        "description": "Mollit sint ullamco aliquip amet excepteur in irure nulla anim incididunt."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Proident nostrud cillum voluptate laborum sit commodo dolor ullamco aliqua quis commodo magna qui."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "N1771O",
+        "description": "Officia minim veniam tempor minim laboris est anim enim adipisicing culpa aliqua quis nostrud in.",
+        "severity": "red",
+        "createdAt": "2018-08-23T04:07:56-02:00",
+        "km": 724
+      },
+      {
+        "code": "N1668O",
+        "description": "Nisi incididunt sunt incididunt proident consequat.",
+        "severity": "red",
+        "createdAt": "2018-08-16T08:14:22-02:00",
+        "km": 74
+      },
+      {
+        "code": "M3349H",
+        "description": "Mollit consequat voluptate irure qui.",
+        "severity": "red",
+        "createdAt": "2018-08-09T11:32:41-02:00",
+        "km": 93
+      },
+      {
+        "code": "M3669J",
+        "description": "Non est duis esse duis.",
+        "severity": "orange",
+        "createdAt": "2018-08-22T06:58:13-02:00",
+        "km": 621
+      },
+      {
+        "code": "P2605H",
+        "description": "Fugiat dolor tempor quis quis laboris ut do eiusmod occaecat dolor sunt sunt anim fugiat.",
+        "severity": "orange",
+        "createdAt": "2018-08-19T11:38:56-02:00",
+        "km": 234
+      }
+    ],
+    "createdAt": "2018-08-26T11:49:15-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-28T01:18:09-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 97,
+    "status": "notified",
+    "fidelity": 58,
+    "km": 3249,
+    "kmPerDay": 21,
+    "daysToM": -37,
+    "client": {
+      "fullName": "Debora Navarro"
+    },
+    "car": {
+      "id": 97,
+
+      "status": "disconnected",
+      "battery": 11,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Labore laboris dolore labore incididunt cupidatat deserunt ex."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Lorem eiusmod deserunt ipsum anim et."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Qui do officia aliqua est ut sit sit pariatur exercitation exercitation incididunt veniam ad ad."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": true,
+        "description": "Quis laborum officia cupidatat cupidatat velit cillum duis aute duis culpa."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "P3055T",
+        "description": "Aliqua incididunt dolore anim elit eiusmod commodo adipisicing do incididunt aliquip.",
+        "severity": "red",
+        "createdAt": "2018-08-31T09:34:37-02:00",
+        "km": 279
+      },
+      {
+        "code": "M3945O",
+        "description": "Nisi enim reprehenderit incididunt sunt ex minim labore anim non tempor esse excepteur.",
+        "severity": "red",
+        "createdAt": "2018-08-02T12:25:47-02:00",
+        "km": 849
+      },
+      {
+        "code": "M1364J",
+        "description": "Magna ut exercitation commodo Lorem ad incididunt ex elit adipisicing sit consectetur enim.",
+        "severity": "orange",
+        "createdAt": "2018-08-04T11:56:41-02:00",
+        "km": 369
+      },
+      {
+        "code": "M2879O",
+        "description": "Ipsum tempor nisi nulla reprehenderit commodo proident id in magna irure pariatur.",
+        "severity": "red",
+        "createdAt": "2018-08-03T07:43:37-02:00",
+        "km": 9
+      },
+      {
+        "code": "N2467T",
+        "description": "Nisi mollit est nisi et voluptate est quis consectetur.",
+        "severity": "red",
+        "createdAt": "2018-08-04T12:03:15-02:00",
+        "km": 225
+      }
+    ],
+    "createdAt": "2018-08-29T08:29:02-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-27T01:08:35-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 98,
+    "status": "notified",
+    "fidelity": 66,
+    "km": 1685,
+    "kmPerDay": 95,
+    "daysToM": -88,
+    "client": {
+      "fullName": "Fitzgerald Roth"
+    },
+    "car": {
+      "id": 98,
+
+      "status": "disconnected",
+      "battery": 10,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": false,
+        "description": "Reprehenderit aliquip deserunt ea est quis et proident excepteur excepteur in aute ut dolor officia."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Pariatur sit nostrud enim exercitation commodo."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Enim eiusmod nisi occaecat ipsum cupidatat exercitation Lorem incididunt irure culpa."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Sit ipsum magna consequat id."
+      }
+    ],
+    "dtcs": [],
+    "createdAt": "2018-08-14T02:28:40-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-10T02:25:49-02:00",
+    "sentBy": "PHONE"
+  },
+  {
+    "id": 99,
+    "status": "action",
+    "fidelity": 37,
+    "km": 576,
+    "kmPerDay": 98,
+    "daysToM": -17,
+    "client": {
+      "fullName": "Vang Park"
+    },
+    "car": {
+      "id": 99,
+
+      "status": "connected",
+      "battery": 7,
+      "make": {
+        "code": "FT",
+        "description": "Fiat"
+      },
+      "model": {
+        "code": 500,
+        "description": 500
+      },
+      "plate": "XT345ET"
+    },
+    "alarms": [
+      {
+        "code": "WATER_IN_FUEL_WARNING",
+        "present": true,
+        "description": "Magna cillum consequat qui culpa ut laborum pariatur."
+      },
+      {
+        "code": "ALTERNATOR_WARNING",
+        "present": false,
+        "description": "Ullamco aute qui reprehenderit veniam nostrud cupidatat aliqua proident."
+      },
+      {
+        "code": "OIL_LEVEL_WARNING",
+        "present": false,
+        "description": "Cillum aliquip duis consectetur nisi ea sint."
+      },
+      {
+        "code": "OIL_PRESSURE_WARNING",
+        "present": false,
+        "description": "Nulla veniam eiusmod duis irure occaecat."
+      }
+    ],
+    "dtcs": [
+      {
+        "code": "L1481T",
+        "description": "Nulla nostrud excepteur in irure esse qui excepteur.",
+        "severity": "red",
+        "createdAt": "2018-08-20T09:07:42-02:00",
+        "km": 982
+      },
+      {
+        "code": "L1255O",
+        "description": "Laborum irure dolore Lorem minim minim dolore ad.",
+        "severity": "red",
+        "createdAt": "2018-08-27T05:18:41-02:00",
+        "km": 127
+      },
+      {
+        "code": "P3496O",
+        "description": "Reprehenderit esse ipsum reprehenderit consequat consequat.",
+        "severity": "red",
+        "createdAt": "2018-08-13T06:17:22-02:00",
+        "km": 158
+      },
+      {
+        "code": "P3387H",
+        "description": "Pariatur anim ex sit reprehenderit ut.",
+        "severity": "red",
+        "createdAt": "2018-08-18T11:47:48-02:00",
+        "km": 535
+      },
+      {
+        "code": "L3092O",
+        "description": "Velit et id reprehenderit irure irure ad eiusmod nulla.",
+        "severity": "orange",
+        "createdAt": "2018-08-22T07:22:31-02:00",
+        "km": 371
+      }
+    ],
+    "createdAt": "2018-08-10T07:56:32-02:00",
+    "updatedAt": 20180527,
+    "lastCommunication": "2018-08-07T03:14:43-02:00",
+    "sentBy": "PHONE"
+  }
+]

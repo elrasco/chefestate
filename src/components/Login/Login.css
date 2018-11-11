@@ -1,0 +1,9 @@
+.LoginLayout .LoginLayoutContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginLayout {
+  height: 100%;
+}

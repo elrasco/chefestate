@@ -1,0 +1,12 @@
+{
+  "malfunctions": {
+    "total": 58,
+    "alarms": 25,
+    "dtcsRed": 44,
+    "dtcsOrange": 56
+  },
+  "maintenances": {
+    "total": 12,
+    "expiring": 7
+  }
+}

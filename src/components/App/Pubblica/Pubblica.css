@@ -1,0 +1,37 @@
+.Pubblica {
+  background-color: var(--very-light);
+  padding: 30px 0;
+}
+
+.Pubblica .container {
+  margin: auto;
+}
+
+.Pubblica .container {
+  width: 100%;
+}
+
+.Pubblica .container .ant-row .ant-row {
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .Pubblica .container {
+    width: 750px;
+  }
+  .Pubblica .container .ant-row {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .Pubblica .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Pubblica .container {
+    width: 1190px;
+  }
+}

@@ -1,0 +1,181 @@
+/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 23/07/2018 08:21
+  	*/
+
+@font-face {
+  font-family: 'Contactus';
+  src: url('./Flaticon.eot');
+  src: url('./Flaticon.eot?#iefix') format('embedded-opentype'), url('./Flaticon.woff') format('woff'), url('./Flaticon.ttf') format('truetype'),
+    url('./Flaticon.svg#Flaticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'Contactus';
+    src: url('./Flaticon.svg#Flaticon') format('svg');
+  }
+}
+
+[class^='flaticon-contactus-']:before,
+[class*=' flaticon-contactus-']:before,
+[class^='flaticon-contactus-']:after,
+[class*=' flaticon-contactus-']:after {
+  font-family: 'Contactus';
+  /* font-size: 20px; */
+  font-style: normal;
+  /* margin-left: 20px; */
+}
+
+.flaticon-contactus-send-mail:before {
+  content: '\f100';
+}
+.flaticon-contactus-message:before {
+  content: '\f101';
+}
+.flaticon-contactus-mail-4:before {
+  content: '\f102';
+}
+.flaticon-contactus-mail-3:before {
+  content: '\f103';
+}
+.flaticon-contactus-telephone-2:before {
+  content: '\f104';
+}
+.flaticon-contactus-home-message:before {
+  content: '\f105';
+}
+.flaticon-contactus-mail-2:before {
+  content: '\f106';
+}
+.flaticon-contactus-mobile-phone:before {
+  content: '\f107';
+}
+.flaticon-contactus-phone-3:before {
+  content: '\f108';
+}
+.flaticon-contactus-mail-1:before {
+  content: '\f109';
+}
+.flaticon-contactus-web:before {
+  content: '\f10a';
+}
+.flaticon-contactus-mouse:before {
+  content: '\f10b';
+}
+.flaticon-contactus-sending-call:before {
+  content: '\f10c';
+}
+.flaticon-contactus-online-question:before {
+  content: '\f10d';
+}
+.flaticon-contactus-mail:before {
+  content: '\f10e';
+}
+.flaticon-contactus-send-1:before {
+  content: '\f10f';
+}
+.flaticon-contactus-telephone-1:before {
+  content: '\f110';
+}
+.flaticon-contactus-telephone:before {
+  content: '\f111';
+}
+.flaticon-contactus-video-chat:before {
+  content: '\f112';
+}
+.flaticon-contactus-template:before {
+  content: '\f113';
+}
+.flaticon-contactus-mailbox:before {
+  content: '\f114';
+}
+.flaticon-contactus-send:before {
+  content: '\f115';
+}
+.flaticon-contactus-contact:before {
+  content: '\f116';
+}
+.flaticon-contactus-globe:before {
+  content: '\f117';
+}
+.flaticon-contactus-world:before {
+  content: '\f118';
+}
+.flaticon-contactus-email-5:before {
+  content: '\f119';
+}
+.flaticon-contactus-email-4:before {
+  content: '\f11a';
+}
+.flaticon-contactus-phone-2:before {
+  content: '\f11b';
+}
+.flaticon-contactus-write-letter:before {
+  content: '\f11c';
+}
+.flaticon-contactus-email-3:before {
+  content: '\f11d';
+}
+.flaticon-contactus-time-call-1:before {
+  content: '\f11e';
+}
+.flaticon-contactus-time-call:before {
+  content: '\f11f';
+}
+.flaticon-contactus-telephone-book:before {
+  content: '\f120';
+}
+.flaticon-contactus-schedule:before {
+  content: '\f121';
+}
+.flaticon-contactus-website:before {
+  content: '\f122';
+}
+.flaticon-contactus-calendar:before {
+  content: '\f123';
+}
+.flaticon-contactus-address:before {
+  content: '\f124';
+}
+.flaticon-contactus-email-2:before {
+  content: '\f125';
+}
+.flaticon-contactus-home:before {
+  content: '\f126';
+}
+.flaticon-contactus-profile:before {
+  content: '\f127';
+}
+.flaticon-contactus-text:before {
+  content: '\f128';
+}
+.flaticon-contactus-phone-1:before {
+  content: '\f129';
+}
+.flaticon-contactus-email-1:before {
+  content: '\f12a';
+}
+.flaticon-contactus-call-1:before {
+  content: '\f12b';
+}
+.flaticon-contactus-call:before {
+  content: '\f12c';
+}
+.flaticon-contactus-chat-1:before {
+  content: '\f12d';
+}
+.flaticon-contactus-location:before {
+  content: '\f12e';
+}
+.flaticon-contactus-email:before {
+  content: '\f12f';
+}
+.flaticon-contactus-chat:before {
+  content: '\f130';
+}
+.flaticon-contactus-phone:before {
+  content: '\f131';
+}

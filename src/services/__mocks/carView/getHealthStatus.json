@@ -1,0 +1,10 @@
+{
+  "status": "connected",
+  "lastConnection": "2018-09-04 09:16:27 +00:00",
+  "odometer": 13569,
+  "battery": 8,
+  "fuelLevel": 10,
+  "coolerTemp": 90,
+  "oilLevel": 5,
+  "avgKm": 28
+}

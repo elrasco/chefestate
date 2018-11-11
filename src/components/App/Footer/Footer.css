@@ -1,0 +1,15 @@
+.Footer {
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  color: var(--gray-1);
+  margin-left: 8.33333%;
+  font-size: 0.8rem;
+}
+
+.Footer > * {
+  color: var(--gray-1);
+}
+.Footer a:hover {
+  color: var(--gray-2);
+}

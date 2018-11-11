@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+  --primary-color: #51c7bf; /*rgb 52, 186, 178*/
+  --secondary-color: #e0f2f1; /*rgb 86, 219, 209*/
+  --tertiary-color: #f7fcfc; /*rgb 232, 255, 255*/
+  --red-dtc-color: #cc0000;
+  --orange-dtc-color: #ffa200;
+  --alarm-color: #8727dc;
+  --dark-light: rgba(0, 0, 0, 0.65);
+  --dark: rgba(0, 0, 0, 0.95);
+  --grey: #e6e6e6;
+  --green-ok: #45ba12;
+  --header-height: 58px;
+
+  --grey-1: #5b5b5b;
+  --grey-2: #a2a2a2;
+
+  --blue-1: #039be5;
+  --very-light: #f7f7f7;
+
+  --orange-1: #f65628;
+  --orange-2: #f76940;
+}
+
+html {
+  height: 100%;
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 14.5px;
+  }
+}
+
+#root a,
+#root a:visited,
+#root a:active,
+#root a:focus {
+  text-decoration: none;
+}
+
+#root *::selection {
+  color: white;
+  background: blue;
+}
+
+#root {
+  height: 100vh;
+}
+
+#root .ant-form label {
+  font-size: 16px;
+}
+
+#root .ant-input-number {
+  width: 100%;
+}
+#root .ant-input-number-handler-wrap {
+  height: calc(100% - 1px);
+  top: 1px;
+  right: 1px;
+}
+
+button.ant-btn-primary {
+  background-color: var(--orange-1);
+  box-shadow: none;
+  border-color: var(--orange-1);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+button.ant-btn-primary:hover,
+button.ant-btn-primary:focus {
+  background-color: var(--orange-2);
+  border-color: var(--orange-2);
+}
+
+.row {
+  display: flex;
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.row-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-space-around-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.row-space-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.column-space-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.column-space-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.column-space-around-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.column-space-between-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column-center-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}

@@ -1,0 +1,7 @@
+.PianiDescrizione {
+}
+
+.PianiDescrizione .piano-descrizione-item {
+  display: flex;
+  align-items: center;
+}

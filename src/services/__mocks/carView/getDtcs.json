@@ -1,0 +1,10 @@
+[
+  {
+    "code": "U0100",
+    "description": "CAN: communication engine",
+    "createdAt": "2018-09-04 12:05:07.000000 +00:00",
+    "severity": "red",
+    "initialKm": "0",
+    "distance": "0"
+  }
+]

@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'carparts';
+  src: url('fonts/icomoon.eot?bsmwji');
+  src: url('fonts/icomoon.eot?bsmwji#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?bsmwji') format('truetype'), url('fonts/icomoon.woff?bsmwji') format('woff'),
+    url('fonts/icomoon.svg?bsmwji#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icon-carparts-'],
+[class*=' icon-carparts-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'carparts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-carparts-airbag:before {
+  content: '\e900';
+}
+.icon-carparts-air-conditioner:before {
+  content: '\e901';
+}
+.icon-carparts-air-conditioner-1:before {
+  content: '\e902';
+}
+.icon-carparts-air-conditioner-2:before {
+  content: '\e903';
+}
+.icon-carparts-air-conditioner-3:before {
+  content: '\e904';
+}
+.icon-carparts-air-conditioner-4:before {
+  content: '\e905';
+}
+.icon-carparts-air-pump:before {
+  content: '\e906';
+}
+.icon-carparts-alloy-wheel:before {
+  content: '\e907';
+}
+.icon-carparts-alloy-wheel-1:before {
+  content: '\e908';
+}
+.icon-carparts-alloy-wheel-2:before {
+  content: '\e909';
+}
+.icon-carparts-alloy-wheel-3:before {
+  content: '\e90a';
+}
+.icon-carparts-alloy-wheel-4:before {
+  content: '\e90b';
+}
+.icon-carparts-alloy-wheel-5:before {
+  content: '\e90c';
+}
+.icon-carparts-alloy-wheel-6:before {
+  content: '\e90d';
+}
+.icon-carparts-alloy-wheel-7:before {
+  content: '\e90e';
+}
+.icon-carparts-alloy-wheel-8:before {
+  content: '\e90f';
+}
+.icon-carparts-alloy-wheel-9:before {
+  content: '\e910';
+}
+.icon-carparts-battery:before {
+  content: '\e911';
+}
+.icon-carparts-break:before {
+  content: '\e912';
+}
+.icon-carparts-break-1:before {
+  content: '\e913';
+}
+.icon-carparts-break-2:before {
+  content: '\e914';
+}
+.icon-carparts-break-3:before {
+  content: '\e915';
+}
+.icon-carparts-car:before {
+  content: '\e916';
+}
+.icon-carparts-car-1:before {
+  content: '\e917';
+}
+.icon-carparts-car-2:before {
+  content: '\e918';
+}
+.icon-carparts-car-3:before {
+  content: '\e919';
+}
+.icon-carparts-car-4:before {
+  content: '\e91a';
+}
+.icon-carparts-car-5:before {
+  content: '\e91b';
+}
+.icon-carparts-car-6:before {
+  content: '\e91c';
+}
+.icon-carparts-car-key:before {
+  content: '\e91d';
+}
+.icon-carparts-car-key-1:before {
+  content: '\e91e';
+}
+.icon-carparts-car-lights:before {
+  content: '\e91f';
+}
+.icon-carparts-car-lights-1:before {
+  content: '\e920';
+}
+.icon-carparts-car-lights-2:before {
+  content: '\e921';
+}
+.icon-carparts-catalytic-converter:before {
+  content: '\e922';
+}
+.icon-carparts-chassis:before {
+  content: '\e923';
+}
+.icon-carparts-damper:before {
+  content: '\e924';
+}
+.icon-carparts-dashboard:before {
+  content: '\e925';
+}
+.icon-carparts-dashboard-1:before {
+  content: '\e926';
+}
+.icon-carparts-dashboard-2:before {
+  content: '\e927';
+}
+.icon-carparts-dashboard-3:before {
+  content: '\e928';
+}
+.icon-carparts-dashboard-4:before {
+  content: '\e929';
+}
+.icon-carparts-engine:before {
+  content: '\e92a';
+}
+.icon-carparts-engine-1:before {
+  content: '\e92b';
+}
+.icon-carparts-exhaust:before {
+  content: '\e92c';
+}
+.icon-carparts-exhaust-1:before {
+  content: '\e92d';
+}
+.icon-carparts-exhaust-2:before {
+  content: '\e92e';
+}
+.icon-carparts-fog-light:before {
+  content: '\e92f';
+}
+.icon-carparts-frost:before {
+  content: '\e930';
+}
+.icon-carparts-frost-1:before {
+  content: '\e931';
+}
+.icon-carparts-gas-station:before {
+  content: '\e932';
+}
+.icon-carparts-gearshift:before {
+  content: '\e933';
+}
+.icon-carparts-gearshift-1:before {
+  content: '\e934';
+}
+.icon-carparts-indicators:before {
+  content: '\e935';
+}
+.icon-carparts-info:before {
+  content: '\e936';
+}
+.icon-carparts-information:before {
+  content: '\e937';
+}
+.icon-carparts-light:before {
+  content: '\e938';
+}
+.icon-carparts-mechanic:before {
+  content: '\e939';
+}
+.icon-carparts-oil:before {
+  content: '\e93a';
+}
+.icon-carparts-oil-1:before {
+  content: '\e93b';
+}
+.icon-carparts-parking:before {
+  content: '\e93c';
+}
+.icon-carparts-parking-1:before {
+  content: '\e93d';
+}
+.icon-carparts-parking-2:before {
+  content: '\e93e';
+}
+.icon-carparts-piston:before {
+  content: '\e93f';
+}
+.icon-carparts-radiator:before {
+  content: '\e940';
+}
+.icon-carparts-seatbelt:before {
+  content: '\e941';
+}
+.icon-carparts-seat-belt:before {
+  content: '\e942';
+}
+.icon-carparts-spark-plug:before {
+  content: '\e943';
+}
+.icon-carparts-steering-wheel:before {
+  content: '\e944';
+}
+.icon-carparts-steering-wheel-1:before {
+  content: '\e945';
+}
+.icon-carparts-suspension:before {
+  content: '\e946';
+}
+.icon-carparts-temperature:before {
+  content: '\e947';
+}
+.icon-carparts-tire:before {
+  content: '\e948';
+}
+.icon-carparts-turbine:before {
+  content: '\e949';
+}
+.icon-carparts-warning:before {
+  content: '\e94a';
+}
+.icon-carparts-warning-1:before {
+  content: '\e94b';
+}
+.icon-carparts-window:before {
+  content: '\e94c';
+}
+.icon-carparts-window-1:before {
+  content: '\e94d';
+}
+.icon-carparts-windshield:before {
+  content: '\e94e';
+}
+.icon-carparts-windshield-1:before {
+  content: '\e94f';
+}

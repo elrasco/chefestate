@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - node --version
+      - npm i yarn
+      - ./node_modules/.bin/yarn --ignore-engines
+  build:
+    commands:
+      - npm run-script build
+artifacts:
+  files:
+    - '**/*'
+  base-directory: ./build

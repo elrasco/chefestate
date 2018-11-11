@@ -1,0 +1,38 @@
+.Search {
+  display: flex;
+  padding: 0 5%;
+  flex-direction: column;
+}
+.Search .anticon {
+  color: var(--orange-1);
+}
+.Search > * {
+  margin: 5px 0;
+}
+
+.Search input,
+.Search button {
+  height: 3rem;
+}
+
+@media (min-width: 768px) {
+  .Search {
+    flex-direction: row;
+  }
+  .Search > *:first-child {
+    margin-left: 0;
+  }
+  .Search > * {
+    margin: 0 5px;
+  }
+  .Search input,
+  .Search button {
+    height: 3rem;
+  }
+  .Search button {
+    width: 8.33333%;
+  }
+  .Search > *:last-child {
+    margin-right: 0;
+  }
+}

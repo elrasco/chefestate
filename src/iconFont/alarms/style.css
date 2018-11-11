@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?vbpgcq');
+  src: url('fonts/icomoon.eot?vbpgcq#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?vbpgcq') format('truetype'), url('fonts/icomoon.woff?vbpgcq') format('woff'),
+    url('fonts/icomoon.svg?vbpgcq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icon-alarms-'],
+[class*=' icon-alarms-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alarms-engine .path1:before {
+  content: '\e900';
+}
+.icon-alarms-engine .path2:before {
+  content: '\e901';
+  margin-left: -1.6669921875em;
+}
+.icon-alarms-oil:before {
+  content: '\e902';
+}
+.icon-alarms-oil-press .path1:before {
+  content: '\e903';
+}
+.icon-alarms-oil-press .path2:before {
+  content: '\e904';
+  margin-left: -1.7998046875em;
+}
+.icon-alarms-oil-press .path3:before {
+  content: '\e905';
+  margin-left: -1.7998046875em;
+}
+.icon-alarms-water .path1:before {
+  content: '\e906';
+}
+.icon-alarms-water .path2:before {
+  content: '\e907';
+  margin-left: -1.7998046875em;
+}

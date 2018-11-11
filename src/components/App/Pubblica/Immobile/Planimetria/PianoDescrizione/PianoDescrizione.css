@@ -1,0 +1,31 @@
+#piano-descrizione {
+  width: 100%;
+}
+
+.PianoDescrizione .field {
+  padding: 0 15px;
+}
+
+.Pubblica .container .PianoDescrizione .ant-row {
+  width: auto;
+}
+
+.PianoDescrizione .field:first-child {
+  padding-left: 0;
+}
+.PianoDescrizione .field:last-child {
+  padding-right: 0;
+}
+
+.PianoDescrizione button {
+  margin: 0 5px;
+  font-size: 0.7rem;
+}
+
+.PianoDescrizione button:first-child {
+  margin-left: 0;
+}
+
+.PianoDescrizione button:last-child {
+  margin-right: 0;
+}

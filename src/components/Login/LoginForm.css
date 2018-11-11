@@ -1,0 +1,9 @@
+.LoginForm {
+  width: 300px;
+}
+.LoginForm .LoginFormForgot {
+  float: right;
+}
+.LoginForm .LoginFormButton {
+  width: 100%;
+}
