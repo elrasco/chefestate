@@ -15,7 +15,9 @@ export default class Modals extends Component {
     const { showModal } = this.props;
     return (
       <div className="Modals" id="modals">
-        <Modal visible={showModal === 'sa'} onOk={this.onOk} onCancel={this.onCancel} />
+        <Modal visible={showModal === 'sa'} onOk={this.onOk} onCancel={this.onCancel} title="Titolo modale">
+          <div>qui ci va la modale</div>
+        </Modal>
       </div>
     );
   }

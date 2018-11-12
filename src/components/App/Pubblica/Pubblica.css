@@ -19,9 +19,6 @@
   .Pubblica .container {
     width: 750px;
   }
-  .Pubblica .container .ant-row {
-    width: 50%;
-  }
 }
 
 @media (min-width: 992px) {

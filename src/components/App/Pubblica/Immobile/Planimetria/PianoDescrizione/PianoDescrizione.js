@@ -14,7 +14,7 @@ export default class PianoDescrizione extends Component {
   };
   render() {
     return (
-      <Row className="PianoDescrizione" id="piano-descrizione">
+      <Row className="PianoDescrizione" id={this.props.id}>
         <Col sm={4} className="field">
           <Form.Item label="Piano" className="piano" colon={false}>
             <Select placeholder="Seleziona il piano">
@@ -51,38 +51,8 @@ export default class PianoDescrizione extends Component {
         </Col>
         <Col sm={14} className="field" className="properties">
           <Form.Item label="Cosa c'è in questo spazio" className="property" colon={false}>
-            <Button onClick={this.defineProperty('sa')} title="Sala ristorante">
+            <Button onClick={this.defineProperty('sa')} title="Sala ristorante" icon="plus">
               Sa
-            </Button>
-            <Button onClick={this.defineProperty('cu')} title="Cucina">
-              Cu
-            </Button>
-            <Button onClick={this.defineProperty('uf')} title="Ufficio">
-              Uf
-            </Button>
-            <Button onClick={this.defineProperty('te')} title="Terrazza">
-              Te
-            </Button>
-            <Button onClick={this.defineProperty('ma')} title="Magazzino">
-              Ma
-            </Button>
-            <Button onClick={this.defineProperty('sp')} title="Spogliatoio">
-              Sp
-            </Button>
-            <Button onClick={this.defineProperty('bc')} title="Bagno clienti">
-              Bc
-            </Button>
-            <Button onClick={this.defineProperty('bd')} title="Bagno dipendenti">
-              Bd
-            </Button>
-            <Button onClick={this.defineProperty('lt')} title="Locali tecnici">
-              Lt
-            </Button>
-            <Button onClick={this.defineProperty('ca')} title="Cantina">
-              Ca
-            </Button>
-            <Button onClick={this.defineProperty('al')} title="Altro">
-              Al
             </Button>
           </Form.Item>
         </Col>

@@ -1,2 +1,5 @@
-
-.Anagrafica {}
+@media (min-width: 768px) {
+  .Anagrafica .ant-row {
+    width: 50%;
+  }
+}
