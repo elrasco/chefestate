@@ -12,12 +12,25 @@ export default class PianoDescrizione extends Component {
   defineProperty = tipo => e => {
     this.setState({ showModal: tipo });
   };
+
+  onChangePiano = piano => {
+    this.props.onChange(Object.assign({}, this.props.value, { piano }));
+  };
+
+  onChangeMq = mq => {
+    this.props.onChange(Object.assign({}, this.props.value, { mq }));
+  };
+
+  onChangeCoperti = coperti => {
+    this.props.onChange(Object.assign({}, this.props.value, { coperti }));
+  };
+
   render() {
     return (
       <Row className="PianoDescrizione" id={this.props.id}>
         <Col sm={4} className="field">
           <Form.Item label="Piano" className="piano" colon={false}>
-            <Select placeholder="Seleziona il piano">
+            <Select placeholder="Seleziona il piano" value={this.props.value.piano} onChange={this.onChangePiano}>
               <Select.Option key={0} value="1">
                 Interrato
               </Select.Option>
@@ -41,19 +54,17 @@ export default class PianoDescrizione extends Component {
         </Col>
         <Col sm={2} className="field" style={{ width: '120px' }}>
           <Form.Item label="mq" className="superficie" colon={false}>
-            <InputNumber name="mq" />
+            <InputNumber name="mq" value={this.props.value.mq} onChange={this.onChangeMq} />
           </Form.Item>
         </Col>
         <Col sm={2} className="field" style={{ width: '120px' }}>
           <Form.Item label="coperti" className="coperti" colon={false}>
-            <InputNumber name="coperti" />
+            <InputNumber name="coperti" value={this.props.value.coperti} onChange={this.onChangeCoperti} />
           </Form.Item>
         </Col>
         <Col sm={14} className="field" className="properties">
           <Form.Item label="Cosa c'è in questo spazio" className="property" colon={false}>
-            <Button onClick={this.defineProperty('sa')} title="Sala ristorante" icon="plus">
-              Sa
-            </Button>
+            <Button onClick={this.defineProperty('sa')} title="Sala ristorante" icon="plus" />
           </Form.Item>
         </Col>
         <Modals

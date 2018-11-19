@@ -1,4 +1,15 @@
 .PianiDescrizione {
+  font-size: 18px;
+}
+
+.PianiDescrizione .piani {
+  display: flex;
+  justify-content: flex-sart;
+  align-items: center;
+}
+
+.PianiDescrizione .piani div {
+  margin-right: 10px;
 }
 
 .PianiDescrizione .piano-descrizione-item {
