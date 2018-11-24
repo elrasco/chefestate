@@ -22,7 +22,7 @@ export default class NavigationCard extends Component {
             </Link>
             <Link to={`${match.url}/struttura`} className={`column-center-center item ${selected() === 'struttura' ? 'active' : ''}`}>
               <EssentialIcon type="light" name="16-plus-cricle" />
-              <div>Struttura</div>
+              <div>Cucina</div>
             </Link>
             <Link to={`${match.url}/soldi`} className={`column-center-center item ${selected() === 'soldi' ? 'active' : ''}`}>
               <EssentialIcon type="light" name="90-navigate" />

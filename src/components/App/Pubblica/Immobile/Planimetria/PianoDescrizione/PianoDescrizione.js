@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import { Card, Form, Input, AutoComplete, Checkbox, Divider, InputNumber, Upload, Icon, Row, Col, Button, Select } from 'antd';
+import { Collapse, Form, Input, AutoComplete, Checkbox, Divider, InputNumber, Upload, Icon, Row, Col, Button, Select } from 'antd';
 
 import Modals from './Modals';
 
 import './PianoDescrizione.css';
+
+const Panel = Collapse.Panel;
+
 export default class PianoDescrizione extends Component {
   constructor(props) {
     super(props);
@@ -62,19 +65,11 @@ export default class PianoDescrizione extends Component {
             <InputNumber name="coperti" value={this.props.value.coperti} onChange={this.onChangeCoperti} />
           </Form.Item>
         </Col>
-        <Col sm={14} className="field" className="properties">
+        {/* <Col sm={14} className="field" className="properties">
           <Form.Item label="Cosa c'è in questo spazio" className="property" colon={false}>
             <Button onClick={this.defineProperty('sa')} title="Sala ristorante" icon="plus" />
           </Form.Item>
-        </Col>
-        <Modals
-          showModal={this.state.showModal}
-          index={this.props.index}
-          onCancel={() => this.setState({ showModal: null })}
-          onOk={(name, index, values) => {
-            console.log(name, index, values);
-          }}
-        />
+        </Col> */}
       </Row>
     );
   }

@@ -2,6 +2,11 @@
   font-size: 18px;
 }
 
+.PianiDescrizione .domande {
+  display: flex;
+  align-items: center;
+}
+
 .PianiDescrizione .piani {
   display: flex;
   justify-content: flex-sart;
@@ -16,3 +21,45 @@
   display: flex;
   align-items: center;
 }
+
+.PianiDescrizione .headerPiano {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.PianiDescrizione .headerPiano button {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+}
+
+.PianiDescrizione .piani {
+  font-size: 20px;
+  padding: 0 20px 0 0;
+  height: 70px;
+}
+
+.PianiDescrizione .dehor {
+  flex: auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.PianiDescrizione .piani .more {
+  width: 30px;
+  height: 30px;
+}
+
+/* .PianiDescrizione .ant-collapse {
+  border: 1px solid #d9d9d9;
+  border-bottom: 0;
+}
+
+.PianiDescrizione .ant-collapse.with-border {
+  border-bottom: 1px solid #d9d9d9;
+}
+ */

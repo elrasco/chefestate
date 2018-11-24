@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 
-import { Card, Form, Input, AutoComplete, Checkbox, Divider, InputNumber, Upload, Icon, Row, Col, Button, Select } from 'antd';
+import { Collapse, Form, Input, AutoComplete, Checkbox, Divider, InputNumber, Upload, Icon, Row, Col, Button, Select, Modal } from 'antd';
 
 import PianoDescrizione from '../PianoDescrizione';
+import SelectDehor from './SelectDehor';
 import './PianiDescrizione.css';
+
+const Panel = Collapse.Panel;
 
 export default class PianiDescrizione extends Component {
   constructor(props) {
@@ -35,22 +38,43 @@ export default class PianiDescrizione extends Component {
     this.setState({ Piani });
   };
 
+  headerPanel = piano => {
+    return (
+      <div className="headerPiano">
+        <div>Descrivici il piano</div>
+        <Button icon="delete" onClick={this.eliminaPiano(piano)} />
+      </div>
+    );
+  };
+
+  onChangeDehor = dehor => {
+    this.props.onChangeDehor(dehor);
+  };
+
   render() {
+    const { Piani } = this.state;
     return (
       <div className="PianiDescrizione">
-        <div className="piani">
-          <div>Quanti piani ci sono?</div>
-          <div>{this.state.Piani.length}</div>
-          <Button icon="plus" onClick={this.addPiano} />
+        <div className="domande">
+          <div className="piani">
+            <div>Quanti piani ci sono?</div>
+            <div>{this.state.Piani.length}</div>
+
+            <Button icon="plus" onClick={this.addPiano} className="more" shape="circle" />
+          </div>
+
+          <div className="dehor">
+            <SelectDehor dehor={this.props.dehor} onChange={this.onChangeDehor} />
+          </div>
         </div>
 
-        <h3>Descrivici tutti gli spazi in ogni piano</h3>
-        {this.state.Piani.map((Piano, i) => (
-          <div key={i} className="piano-descrizione-item">
-            <PianoDescrizione id={Piano.id} value={Piano} onChange={this.onChangePiano(Piano)} />
-            <Button icon="close" shape="circle" onClick={this.eliminaPiano(i)} />
-          </div>
-        ))}
+        <Collapse className={`${Piani.length > 1 ? '' : 'with-border'}`}>
+          {Piani.map((piano, i) => (
+            <Panel key={i} header={this.headerPanel(piano)}>
+              <PianoDescrizione id={piano.id} value={piano} onChange={this.onChangePiano(piano)} />
+            </Panel>
+          ))}
+        </Collapse>
       </div>
     );
   }

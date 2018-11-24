@@ -7,7 +7,7 @@ export default class Planimetria extends Component {
     return (
       <div className="Planimetria">
         <Divider orientation="left">Planimetria </Divider>
-        <PianiDescrizione />
+        <PianiDescrizione dehor={this.props.planimetria.dehor} piani={this.props.planimetria.piani} />
       </div>
     );
   }

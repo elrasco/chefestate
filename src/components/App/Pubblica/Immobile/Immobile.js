@@ -7,6 +7,7 @@ import Foto from './Foto';
 import './Immobile.css';
 import Planimetria from './Planimetria';
 import DatiDiBase from './DatiDiBase';
+import VetrineSuStarda from './VetrineSuStarda';
 
 const { TextArea } = Input;
 
@@ -15,9 +16,17 @@ export default class Immobile extends Component {
     super(props),
       (this.state = {
         addresses: [],
-        address: null
+        address: null,
+        planimetria: {
+          dehor: { presente: 0, mq: 0 },
+          piani: []
+        }
       });
   }
+
+  onChangePlanimetria = planimetria => {
+    console.log(planimetria);
+  };
   render() {
     return (
       <Card className="Immobile">
@@ -25,7 +34,8 @@ export default class Immobile extends Component {
           <Anagrafica />
           <DatiDiBase />
           <Foto />
-          <Planimetria />
+          <Planimetria planimetria={this.state.planimetria} onChange={this.onChangePlanimetria} />
+          <VetrineSuStarda />
           <Divider orientation="left" />
           <div className="buttons">
             <Button type="primary">Salva</Button>
