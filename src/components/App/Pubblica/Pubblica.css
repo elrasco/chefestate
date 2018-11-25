@@ -32,3 +32,9 @@
     width: 1190px;
   }
 }
+
+@media (min-width: 1660px) {
+  .Pubblica .container {
+    width: 1600px;
+  }
+}

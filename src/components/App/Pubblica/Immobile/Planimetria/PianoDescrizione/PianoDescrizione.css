@@ -29,3 +29,22 @@
 .PianoDescrizione button:last-child {
   margin-right: 0;
 }
+
+.PianoDescrizione .dettagli {
+  display: flex;
+}
+
+.PianoDescrizione .dettagli > div {
+  flex: 25%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid var(--orange-5);
+  border-radius: 4px;
+}
+
+.PianoDescrizione .dettagli > div:first-child {
+  margin-left: 0;
+}
+.PianoDescrizione .dettagli > div:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,11 @@
+.Sale {
+  display: flex;
+}
+.Sale .mq {
+  display: flex;
+  align-items: center;
+}
+.Sale .coperti {
+  display: flex;
+  align-items: center;
+}

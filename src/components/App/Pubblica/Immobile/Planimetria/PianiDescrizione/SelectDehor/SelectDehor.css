@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   font-size: 20px;
-  margin-bottom: 10px;
   padding: 0 20px 0 0;
 }
 
@@ -18,7 +17,4 @@
   width: 150px;
   display: flex;
   align-items: center;
-}
-
-.SelectDehor > div {
 }

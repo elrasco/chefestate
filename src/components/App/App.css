@@ -5,7 +5,3 @@
 .App .contentPage > * {
   flex: auto;
 }
-
-.App .ant-layout {
-  /* background: white; */
-}

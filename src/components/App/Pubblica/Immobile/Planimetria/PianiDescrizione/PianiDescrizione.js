@@ -5,44 +5,32 @@ import { Collapse, Form, Input, AutoComplete, Checkbox, Divider, InputNumber, Up
 import PianoDescrizione from '../PianoDescrizione';
 import SelectDehor from './SelectDehor';
 import './PianiDescrizione.css';
+import { inject, observer } from 'mobx-react';
 
 const Panel = Collapse.Panel;
 
+@inject('pubblicaStore')
+@observer
 export default class PianiDescrizione extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { Piani: [] };
-  }
-
   componentDidMount() {
-    this.addPiano();
+    /* this.addPiano(); */
   }
 
-  onChangePiano = Piano => value => {
-    let Piani = this.state.Piani;
-    let pianoIndex = Piani.findIndex(piano => piano.id === Piano.id);
-    Piani[pianoIndex] = value;
-    this.setState({ Piani });
+  addPiano = e => {
+    this.props.pubblicaStore.addPiano();
+    e.stopPropagation();
   };
 
-  addPiano = () => {
-    let Piani = this.state.Piani;
-    let id = `piano_${new Date().getTime()}`;
-    Piani.push({ id, value: {} });
-    this.setState({ Piani });
+  eliminaPiano = piano => e => {
+    this.props.pubblicaStore.eliminaPiano(piano);
+    e.stopPropagation();
   };
 
-  eliminaPiano = piano => () => {
-    let Piani = this.state.Piani;
-    Piani.splice(piano, 1);
-    this.setState({ Piani });
-  };
-
-  headerPanel = piano => {
+  headerPanel = i => {
     return (
       <div className="headerPiano">
         <div>Descrivici il piano</div>
-        <Button icon="delete" onClick={this.eliminaPiano(piano)} />
+        <Button icon="delete" onClick={this.eliminaPiano(i)} />
       </div>
     );
   };
@@ -52,26 +40,26 @@ export default class PianiDescrizione extends Component {
   };
 
   render() {
-    const { Piani } = this.state;
+    const { piani } = this.props.pubblicaStore.annuncio.immobile.planimetria;
+    const { pubblicaStore } = this.props;
     return (
       <div className="PianiDescrizione">
         <div className="domande">
           <div className="piani">
             <div>Quanti piani ci sono?</div>
-            <div>{this.state.Piani.length}</div>
-
+            <div>{piani.length}</div>
             <Button icon="plus" onClick={this.addPiano} className="more" shape="circle" />
           </div>
 
           <div className="dehor">
-            <SelectDehor dehor={this.props.dehor} onChange={this.onChangeDehor} />
+            <SelectDehor />
           </div>
         </div>
 
-        <Collapse className={`${Piani.length > 1 ? '' : 'with-border'}`}>
-          {Piani.map((piano, i) => (
-            <Panel key={i} header={this.headerPanel(piano)}>
-              <PianoDescrizione id={piano.id} value={piano} onChange={this.onChangePiano(piano)} />
+        <Collapse className={`${piani.length > 1 ? '' : 'with-border'}`} bordered={false}>
+          {piani.map((piano, i) => (
+            <Panel key={i} header={this.headerPanel(i)} style={{ background: '#f9f9f9', marginBottom: '12px', borderRadius: 4, border: '0' }}>
+              <PianoDescrizione id={piano.id} piano={piano} onChange={this.onChangePiano} />
             </Panel>
           ))}
         </Collapse>

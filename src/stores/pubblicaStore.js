@@ -22,22 +22,26 @@ class PubblicaStore {
     this.annuncio = annuncio;
   }
 
-  @action updateImmobile(immobile) {
-    const annuncio = this.annuncio;
-    annuncio.immobile = immobile;
-    this.updateAnnuncio(cloneDeep(annuncio));
-  }
-
   @action updateDehor(dehor) {
-    const planimetria = this.annuncio.immobile.planimetria;
-    planimetria.dehor = dehor;
-    this.updatePlanimetria(planimetria);
+    this.annuncio.immobile.planimetria.dehor = dehor;
+    this.updateAnnuncio(cloneDeep(this.annuncio));
   }
 
-  @action updatePlanimetria(planimetria) {
-    const immobile = this.annuncio.immobile;
-    immobile.planimetria = planimetria;
-    this.updateImmobile(immobile);
+  @action addPiano() {
+    let id = `piano_${new Date().getTime()}`;
+    this.annuncio.immobile.planimetria.piani.push({ id, sale: { presente: true } });
+    this.updateAnnuncio(cloneDeep(this.annuncio));
+  }
+
+  @action eliminaPiano(i) {
+    this.annuncio.immobile.planimetria.piani.splice(i, 1);
+    this.updateAnnuncio(cloneDeep(this.annuncio));
+  }
+
+  @action updatePiano(pianoupdated) {
+    const i = this.annuncio.immobile.planimetria.piani.findIndex(piano => piano.id === pianoupdated.id);
+    this.annuncio.immobile.planimetria.piani.splice(i, 1, pianoupdated);
+    this.updateAnnuncio(cloneDeep(this.annuncio));
   }
 }
 
