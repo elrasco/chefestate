@@ -48,3 +48,10 @@
 .PianoDescrizione .dettagli > div:last-child {
   margin-right: 0;
 }
+
+.PianoDescrizione .dettagli .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}

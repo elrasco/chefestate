@@ -1,0 +1,34 @@
+.locale label {
+  text-transform: capitalize;
+}
+
+.locale > div:nth-child(2) {
+  display: flex;
+}
+
+.locale .dettaglioLocale,
+.locale .tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.locale .dettaglioLocale {
+  margin: 5px 0;
+}
+
+.locale .tools {
+  height: 40px;
+}
+.locale .dettaglio {
+  width: 100%;
+}
+
+#root .locale .dettaglioLocaleAttrib .ant-input-number {
+  width: 70px;
+}
+.locale .dettaglioLocaleAttrib {
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}

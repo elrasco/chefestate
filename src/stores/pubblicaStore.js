@@ -29,7 +29,19 @@ class PubblicaStore {
 
   @action addPiano() {
     let id = `piano_${new Date().getTime()}`;
-    this.annuncio.immobile.planimetria.piani.push({ id, sala: { presente: false, dettaglioLocali: [] } });
+    this.annuncio.immobile.planimetria.piani.push({
+      id,
+      sala: { presente: false, dettaglioLocali: [] },
+      toilette: { presente: false, dettaglioLocali: [] },
+      terrazza: { presente: false, dettaglioLocali: [] },
+      toiletteDip: { presente: false, dettaglioLocali: [] },
+      magazzino: { presente: false, dettaglioLocali: [] },
+      spogliatoio: { presente: false, dettaglioLocali: [] },
+      localetecnico: { presente: false, dettaglioLocali: [] },
+      cucina: { presente: false, dettaglioLocali: [] },
+      cantina: { presente: false, dettaglioLocali: [] },
+      ufficio: { presente: false, dettaglioLocali: [] }
+    });
     this.updateAnnuncio(cloneDeep(this.annuncio));
   }
 
