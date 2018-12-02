@@ -26,12 +26,15 @@ export default class Sale extends Component {
   };
 
   onChangeMq = i => mq => {
-    this.props.piano['sala'].dettaglioLocali[i].mq = mq;
-    this.props.pubblicaStore.updateDettaglioLocale(this.props.piano.id, 'sala', this.props.piano['sala'].dettaglioLocali);
+    this.updateDettaglioLocale(i, 'mq', mq);
   };
 
   onChangeCoperti = i => coperti => {
-    this.props.piano['sala'].dettaglioLocali[i].coperti = coperti;
+    this.updateDettaglioLocale(i, 'coperti', coperti);
+  };
+
+  updateDettaglioLocale = (i, attr, value) => {
+    this.props.piano['sala'].dettaglioLocali[i][attr] = value;
     this.props.pubblicaStore.updateDettaglioLocale(this.props.piano.id, 'sala', this.props.piano['sala'].dettaglioLocali);
   };
 
