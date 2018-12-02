@@ -29,7 +29,13 @@ class PubblicaStore {
 
   @action addPiano() {
     let id = `piano_${new Date().getTime()}`;
-    this.annuncio.immobile.planimetria.piani.push({ id, sale: { presente: true } });
+    this.annuncio.immobile.planimetria.piani.push({ id, sala: { presente: false, dettaglioLocali: [] } });
+    this.updateAnnuncio(cloneDeep(this.annuncio));
+  }
+
+  @action updatePiano(pianoupdated) {
+    const i = this.annuncio.immobile.planimetria.piani.findIndex(piano => piano.id === pianoupdated.id);
+    this.annuncio.immobile.planimetria.piani.splice(i, 1, pianoupdated);
     this.updateAnnuncio(cloneDeep(this.annuncio));
   }
 
@@ -38,9 +44,22 @@ class PubblicaStore {
     this.updateAnnuncio(cloneDeep(this.annuncio));
   }
 
-  @action updatePiano(pianoupdated) {
-    const i = this.annuncio.immobile.planimetria.piani.findIndex(piano => piano.id === pianoupdated.id);
-    this.annuncio.immobile.planimetria.piani.splice(i, 1, pianoupdated);
+  @action addDettaglioLocale(idpiano, tipo, attributes) {
+    const piano = this.annuncio.immobile.planimetria.piani.find(piano => piano.id === idpiano);
+    let id = `dettaglio_${new Date().getTime()}`;
+    piano[tipo].dettaglioLocali.push({ id, ...attributes });
+    this.updateAnnuncio(cloneDeep(this.annuncio));
+  }
+
+  @action eliminaDettaglioLocale(idpiano, tipo, i) {
+    const piano = this.annuncio.immobile.planimetria.piani.find(piano => piano.id === idpiano);
+    piano[tipo].dettaglioLocali.splice(i, 1);
+    this.updateAnnuncio(cloneDeep(this.annuncio));
+  }
+
+  @action updateDettaglioLocale(idpiano, tipo, dettaglioLocali) {
+    const piano = this.annuncio.immobile.planimetria.piani.find(piano => piano.id === idpiano);
+    piano[tipo].dettaglioLocali = dettaglioLocali;
     this.updateAnnuncio(cloneDeep(this.annuncio));
   }
 }

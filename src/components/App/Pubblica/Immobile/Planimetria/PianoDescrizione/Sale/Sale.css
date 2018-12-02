@@ -9,3 +9,28 @@
   display: flex;
   align-items: center;
 }
+
+.sale .dettaglioLocale,
+.sale .tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sale .dettaglioLocale {
+  margin: 5px 0;
+}
+
+.sale .tools {
+  height: 40px;
+}
+.sale .dettaglio {
+  width: 100%;
+}
+
+#root .sale .dettaglioLocaleAttrib .ant-input-number {
+  width: 70px;
+}
+.sale .dettaglioLocaleAttrib {
+  margin-right: 5px;
+}

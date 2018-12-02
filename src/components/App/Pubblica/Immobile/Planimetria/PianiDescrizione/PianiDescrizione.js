@@ -59,7 +59,7 @@ export default class PianiDescrizione extends Component {
         <Collapse className={`${piani.length > 1 ? '' : 'with-border'}`} bordered={false}>
           {piani.map((piano, i) => (
             <Panel key={i} header={this.headerPanel(i)} style={{ background: '#f9f9f9', marginBottom: '12px', borderRadius: 4, border: '0' }}>
-              <PianoDescrizione id={piano.id} piano={piano} onChange={this.onChangePiano} />
+              <PianoDescrizione id={piano.id} piano={piano} />
             </Panel>
           ))}
         </Collapse>

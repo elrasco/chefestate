@@ -25,9 +25,9 @@ export default class PianoDescrizione extends Component {
     this.props.pubblicaStore.updatePiano(Object.assign({}, this.props.piano, { coperti }));
   };
 
-  onChangeSalePresente = e => {
-    const sale = Object.assign({}, this.props.piano.sale, { presente: e.target.checked });
-    this.props.pubblicaStore.updatePiano(Object.assign({}, this.props.piano, { sale }));
+  onChangeSalaPresente = e => {
+    const sala = Object.assign({}, this.props.piano.sala, { presente: e.target.checked });
+    this.props.pubblicaStore.updatePiano(Object.assign({}, this.props.piano, { sala }));
   };
 
   render() {
@@ -70,12 +70,13 @@ export default class PianoDescrizione extends Component {
             </Form.Item>
           </Col>
         </Row>
+        <div>Descrivi i locali</div>
         <div className="dettagli">
           <div className="sale">
-            <Checkbox checked={piano.sale.presente} onChange={this.onChangeSalePresente}>
+            <Checkbox checked={piano.sala.presente} onChange={this.onChangeSalaPresente}>
               Sala
             </Checkbox>
-            {piano.sale.presente && <Sale piano={this.props.piano} />}
+            {piano.sala.presente && <Sale piano={this.props.piano} />}
           </div>
           <div className="wc">
             <Checkbox>WC</Checkbox>

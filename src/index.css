@@ -78,6 +78,12 @@ html {
   right: 1px;
 }
 
+#root .anticon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 button.ant-btn-primary {
   background-color: var(--orange-1);
   box-shadow: none;
