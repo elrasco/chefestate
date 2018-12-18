@@ -4,11 +4,24 @@ import NavigationCard from './NavigationCard';
 import Immobile from './Immobile';
 import Struttura from './Struttura';
 import Soldi from './Soldi';
-import Contatto from './Contatto';
+
 import './Pubblica.css';
+import { inject, observer } from 'mobx-react';
+
+@inject('pubblicaStore')
+@observer
 export default class Pubblica extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  componentDidMount() {
+    const { pubblicaStore, match } = this.props;
+    pubblicaStore.load(match.params.id);
+  }
+
   render() {
-    const { match } = this.props;
+    const { match, location } = this.props;
     return (
       <div className="Pubblica">
         <div className="container">

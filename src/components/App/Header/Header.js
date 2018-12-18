@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
 
-import { Row, Col, Menu, Avatar, Dropdown, Icon, Badge, Modal, Tooltip } from 'antd';
+import { Icon, Button } from 'antd';
 import { Link } from 'react-router-dom';
+
+import { withRouter } from 'react-router';
 
 import { api } from '../../../services';
 
-import StatusIcon from '../../../common/icons/StatusIcon';
-import CarIcon from '../../../common/icons/CarIcon';
-import SupportagentIcon from '../../../common/icons/SupportIcons/SupportagentIcon';
-import TelephoneIcon from '../../../common/icons/SupportIcons/TelephoneIcon';
-import EnvelopeIcon from '../../../common/icons/SupportIcons/EnvelopeIcon';
-
-import logo from '../../../common/images/logoAir.png';
 import './Header.css';
 
 import { observer, inject } from 'mobx-react';
 
+@withRouter
 @inject('translationsStore')
 @observer
 class Header extends Component {
+  createAndGo = () => {
+    api('create ad').then(({ id }) => {
+      this.props.history.push(`/pubblica/${id}`);
+    });
+  };
   render() {
     const { translationsStore } = this.props;
 
@@ -29,10 +30,10 @@ class Header extends Component {
           <div>Logo</div>
         </div>
         <div className="right">
-          <Link className="btn" to="/pubblica">
+          <div className="btn" onClick={this.createAndGo}>
             <Icon type="plus-circle" theme="filled" />
             <span>Pubblica il tuo annuncio</span>
-          </Link>
+          </div>
           <div className="btn">
             <Icon type="heart" theme="filled" />
             <span>I tuoi preferiti</span>

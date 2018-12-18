@@ -7,7 +7,7 @@ import './NavigationCard.css';
 @withRouter
 export default class NavigationCard extends Component {
   componentDidMount() {
-    console.log(this.props.location);
+    console.log(this.props);
   }
   render() {
     const { match, location } = this.props;

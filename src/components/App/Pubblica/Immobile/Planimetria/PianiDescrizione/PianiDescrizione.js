@@ -12,10 +12,6 @@ const Panel = Collapse.Panel;
 @inject('pubblicaStore')
 @observer
 export default class PianiDescrizione extends Component {
-  componentDidMount() {
-    /* this.addPiano(); */
-  }
-
   addPiano = e => {
     this.props.pubblicaStore.addPiano();
     e.stopPropagation();

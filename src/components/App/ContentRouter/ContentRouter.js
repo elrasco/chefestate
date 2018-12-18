@@ -8,7 +8,7 @@ class Page extends Component {
   render() {
     return (
       <Switch>
-        <Route path="/pubblica" component={Pubblica} />
+        <Route path="/pubblica/:id" component={Pubblica} />
         <Route path="/" component={Home} />
       </Switch>
     );

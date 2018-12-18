@@ -1,6 +1,8 @@
 import { cloneDeep } from 'lodash';
 import { observable, action } from 'mobx';
 
+import { api } from '../services';
+
 class PubblicaStore {
   @observable annuncio = {
     immobile: {
@@ -17,6 +19,12 @@ class PubblicaStore {
   };
 
   constructor() {}
+
+  @action load(id) {
+    api('get ad', id).then(annuncio => {
+      console.log(annuncio);
+    });
+  }
 
   @action updateAnnuncio(annuncio) {
     this.annuncio = annuncio;

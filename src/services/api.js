@@ -1,4 +1,4 @@
-import { auth, maps } from '.';
+import { auth, maps, ad } from '.';
 
 //Rollbar is a global variable, lint complains
 //https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#using-global-variables
@@ -11,7 +11,11 @@ const api = (action, ...params) => {
     completeNewPassword: auth.completeNewPassword,
     changePassword: auth.changePassword,
     cities: maps.cities,
-    address: maps.address
+    address: maps.address,
+    'create ad': ad.create,
+    'update ad': ad.update,
+    'get ad': ad.get,
+    'delete ad': ad.delete
   };
 
   try {

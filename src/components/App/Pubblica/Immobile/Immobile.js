@@ -8,20 +8,13 @@ import './Immobile.css';
 import Planimetria from './Planimetria';
 import DatiDiBase from './DatiDiBase';
 import VetrineSuStarda from './VetrineSuStarda';
+import { inject, observer } from 'mobx-react';
 
 const { TextArea } = Input;
 
 export default class Immobile extends Component {
   constructor(props) {
-    super(props),
-      (this.state = {
-        addresses: [],
-        address: null,
-        planimetria: {
-          dehor: { presente: 0, mq: 0 },
-          piani: []
-        }
-      });
+    super(props);
   }
 
   onChangePlanimetria = planimetria => {
@@ -34,7 +27,7 @@ export default class Immobile extends Component {
           <Anagrafica />
           <DatiDiBase />
           <Foto />
-          <Planimetria planimetria={this.state.planimetria} onChange={this.onChangePlanimetria} />
+          <Planimetria />
           <VetrineSuStarda />
           <Divider orientation="left" />
           <div className="buttons">
