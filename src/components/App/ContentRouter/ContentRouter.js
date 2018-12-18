@@ -4,6 +4,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import Home from '../Home';
 import Pubblica from '../Pubblica';
 
+//
 class Page extends Component {
   render() {
     return (
