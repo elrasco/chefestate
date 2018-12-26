@@ -14,7 +14,7 @@ import { api } from '../../services';
 //NOTE: I added @withRouter decorator because --> https://github.com/mobxjs/mobx-react/issues/210
 
 @withRouter
-@inject('translationsStore', 'authStore')
+@inject('translationsStore', 'authStore', 'commonStore')
 @observer
 class App extends Component {
   constructor(props) {
@@ -27,12 +27,14 @@ class App extends Component {
   componentDidMount = () => {};
 
   render() {
-    const { translationsStore } = this.props;
+    const { translationsStore, commonStore } = this.props;
     return (
-      <Layout style={{ minHeight: '100%' }} className="App">
-        <Header />
-        <ContentRouter />
-        <Footer />
+      <Layout style={{ minHeight: '100%' }} className={`App ${commonStore.loading ? 'loading' : ''}`}>
+        <Spin spinning={commonStore.loading} tip={commonStore.loadingMessage}>
+          <Header />
+          <ContentRouter />
+          <Footer />
+        </Spin>
       </Layout>
     );
   }

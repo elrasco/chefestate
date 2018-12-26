@@ -22,17 +22,13 @@ export default class Immobile extends Component {
   };
   render() {
     return (
-      <Card className="Immobile">
+      <Card className="Immobile" bordered={false}>
         <Form>
           <Anagrafica />
           <DatiDiBase />
-          <Foto />
           <Planimetria />
           <VetrineSuStarda />
           <Divider orientation="left" />
-          <div className="buttons">
-            <Button type="primary">Salva</Button>
-          </div>
         </Form>
       </Card>
     );

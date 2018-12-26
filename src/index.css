@@ -101,6 +101,10 @@ button.ant-btn-primary:focus {
   border-color: var(--orange-2);
 }
 
+#root .ant-spin-nested-loading > div > .ant-spin {
+  max-height: 100vh;
+}
+
 .row {
   display: flex;
 }

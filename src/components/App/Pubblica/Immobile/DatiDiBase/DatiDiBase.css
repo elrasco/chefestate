@@ -1,11 +1,13 @@
 .DatiDiBase .cucina,
-.DatiDiBase .canna-fumaria {
+.DatiDiBase .canna-fumaria,
+.DatiDiBase .rate {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
 
 .DatiDiBase .cucina .ant-form-item-label,
+.DatiDiBase .rate .ant-form-item-label,
 .DatiDiBase .canna-fumaria .ant-form-item-label {
   margin-left: 10px;
 }

@@ -2,6 +2,7 @@ import { cloneDeep } from 'lodash';
 import { observable, action } from 'mobx';
 
 import { api } from '../services';
+import commonStore from './commonStore';
 
 class PubblicaStore {
   @observable annuncio = {
@@ -15,14 +16,30 @@ class PubblicaStore {
     },
     cucina: {},
     soldi: {},
-    foto: []
+    foto: [],
+    title: '',
+    status: 'CREATED'
   };
 
-  constructor() {}
+  constructor(commonStore) {
+    this.commonStore = commonStore;
+  }
 
   @action load(id) {
+    this.commonStore.startLoading();
     api('get ad', id).then(annuncio => {
+      this.annuncio = annuncio;
+      this.commonStore.endLoading();
+    });
+  }
+
+  @action
+  save() {
+    this.commonStore.startLoading();
+    return api('update ad', this.annuncio.id, this.annuncio).then(annuncio => {
       console.log(annuncio);
+      this.commonStore.endLoading();
+      //this.annuncio = annuncio;
     });
   }
 
@@ -84,4 +101,4 @@ class PubblicaStore {
   }
 }
 
-export default new PubblicaStore();
+export default new PubblicaStore(commonStore);

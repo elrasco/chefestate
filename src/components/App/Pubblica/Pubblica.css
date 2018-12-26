@@ -38,3 +38,8 @@
     width: 1600px;
   }
 }
+
+.Pubblica .buttons {
+  padding: 24px 32px;
+  background-color: white;
+}

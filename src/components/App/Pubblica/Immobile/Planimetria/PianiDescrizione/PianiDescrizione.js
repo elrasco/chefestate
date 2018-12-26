@@ -37,7 +37,7 @@ export default class PianiDescrizione extends Component {
 
   render() {
     const { piani } = this.props.pubblicaStore.annuncio.immobile.planimetria;
-    const { pubblicaStore } = this.props;
+
     return (
       <div className="PianiDescrizione">
         <div className="domande">

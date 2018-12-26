@@ -4,6 +4,10 @@ import { Card, Form, Input, AutoComplete, Checkbox, Divider, InputNumber, Upload
 import { api } from '../../../../../services';
 
 import './Anagrafica.css';
+import { inject, observer } from 'mobx-react';
+
+@inject('pubblicaStore')
+@observer
 export default class Anagrafica extends Component {
   constructor(props) {
     super(props),
@@ -24,7 +28,14 @@ export default class Anagrafica extends Component {
     this.setState({ address });
     //TODO: search nearby
   };
+
+  changeTitle = e => {
+    const { pubblicaStore } = this.props;
+    pubblicaStore.annuncio.title = e.target.value;
+  };
+
   render() {
+    const { pubblicaStore } = this.props;
     const { addresses } = this.state;
     const addressOptions = addresses.map(address => <AutoComplete.Option key={address.place_id}>{address.description}</AutoComplete.Option>);
     return (
@@ -32,7 +43,7 @@ export default class Anagrafica extends Component {
         <Divider orientation="left">Anagrafica</Divider>
 
         <Form.Item label="Nome" className="nome" colon={false}>
-          <Input />
+          <Input value={pubblicaStore.annuncio.title} onChange={this.changeTitle} />
         </Form.Item>
         <Form.Item label="Indirizzo" colon={false}>
           <AutoComplete name="address" onSearch={this.addressSearch} onSelect={this.addressSelect}>
