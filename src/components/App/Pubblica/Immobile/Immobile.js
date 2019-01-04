@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import { Card, Form, Input, AutoComplete, Checkbox, Divider, InputNumber, Upload, Icon, Row, Col, Button } from 'antd';
-import { api } from '../../../../services';
+import { Card, Form, Divider } from 'antd';
 
 import Anagrafica from './Anagrafica';
-import Foto from './Foto';
+
 import './Immobile.css';
 import Planimetria from './Planimetria';
 import DatiDiBase from './DatiDiBase';
-import VetrineSuStarda from './VetrineSuStarda';
-import { inject, observer } from 'mobx-react';
+import Visibilita from './Visibilita';
 
-const { TextArea } = Input;
+import Plus from './Plus';
+import Impianti from './Impianti';
+import Sicurezza from './Sicurezza';
 
 export default class Immobile extends Component {
   constructor(props) {
@@ -27,7 +27,12 @@ export default class Immobile extends Component {
           <Anagrafica />
           <DatiDiBase />
           <Planimetria />
-          <VetrineSuStarda />
+          <div className="others">
+            <Visibilita />
+            <Plus />
+            <Impianti />
+            <Sicurezza />
+          </div>
           <Divider orientation="left" />
         </Form>
       </Card>

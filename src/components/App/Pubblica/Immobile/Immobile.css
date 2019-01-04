@@ -23,3 +23,29 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+.others .ant-form-item {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.others .ant-form-item.reverse {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.others .ant-form-item > *:last-child {
+  margin-right: 8px;
+}
+
+#root .others .ant-input-number {
+  width: 60px;
+}
+
+.others {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+  row-gap: 20px;
+}

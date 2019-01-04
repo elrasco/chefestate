@@ -14,7 +14,6 @@ export default class SelectDehor extends Component {
   };
 
   onChangeMq = mq => {
-    console.log(mq);
     const { pubblicaStore } = this.props;
     const { dehor } = pubblicaStore.annuncio.immobile.planimetria;
     this.props.pubblicaStore.updateDehor(Object.assign({}, dehor, { mq }));

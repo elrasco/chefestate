@@ -7,15 +7,16 @@ import { observer, inject } from 'mobx-react';
 @observer
 export default class DatiDiBase extends Component {
   rate = value => {
-    this.props.pubblicaStore.annuncio.rate = value;
+    this.props.pubblicaStore.annuncio.immobile.rate = value;
   };
 
-  changeCannaFumaria = value => {
-    this.props.pubblicaStore.annuncio.cannaFumaria = value;
+  changeCannaFumaria = e => {
+    console.log(e, e.target.checked);
+    this.props.pubblicaStore.annuncio.immobile.cannaFumaria = e.target.checked;
   };
 
-  changeCucinaCompleta = value => {
-    this.props.pubblicaStore.annuncio.cucinaCompleta = value;
+  changeCucinaCompleta = e => {
+    this.props.pubblicaStore.annuncio.immobile.cucinaCompleta = e.target.checked;
   };
 
   render() {
@@ -26,19 +27,19 @@ export default class DatiDiBase extends Component {
         <Row>
           <Col sm={8}>
             <Form.Item label="Canna fumaria" className="canna-fumaria" colon={false}>
-              <Checkbox value={pubblicaStore.annuncio.cannaFumaria} onChange={this.changeCannaFumaria} />
+              <Checkbox checked={pubblicaStore.annuncio.immobile.cannaFumaria} onChange={this.changeCannaFumaria} />
             </Form.Item>
           </Col>
 
           <Col sm={8}>
             <Form.Item label="Cucina completa" className="cucina" colon={false}>
-              <Checkbox value={pubblicaStore.annuncio.cucinaCompleta} onChange={this.changeCucinaCompleta} />
+              <Checkbox checked={pubblicaStore.annuncio.immobile.cucinaCompleta} onChange={this.changeCucinaCompleta} />
             </Form.Item>
           </Col>
 
           <Col sm={8}>
             <Form.Item label="Stato" className="rate" colon={false}>
-              <Rate allowHalf={true} count={3} value={pubblicaStore.annuncio.rate} onChange={this.rate} />
+              <Rate allowHalf={true} count={3} value={pubblicaStore.annuncio.immobile.rate} onChange={this.rate} />
             </Form.Item>
           </Col>
         </Row>

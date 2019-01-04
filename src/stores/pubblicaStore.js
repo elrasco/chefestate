@@ -47,6 +47,11 @@ class PubblicaStore {
     this.annuncio = annuncio;
   }
 
+  @action updateImmobile(immobile) {
+    this.annuncio.immobile = immobile;
+    this.updateAnnuncio(cloneDeep(this.annuncio));
+  }
+
   @action updateDehor(dehor) {
     this.annuncio.immobile.planimetria.dehor = dehor;
     this.updateAnnuncio(cloneDeep(this.annuncio));
