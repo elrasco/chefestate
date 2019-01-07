@@ -70,7 +70,7 @@ html {
 }
 
 #root .ant-input-number {
-  width: 100%;
+  /* width: 100%; */
 }
 #root .ant-input-number-handler-wrap {
   height: calc(100% - 1px);

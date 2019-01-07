@@ -3,23 +3,12 @@ import { observable, action } from 'mobx';
 
 import { api } from '../services';
 import commonStore from './commonStore';
+import annuncioDefault from './annuncioDefault';
+
+import { mergeDeepLeft } from 'ramda';
 
 class PubblicaStore {
-  @observable annuncio = {
-    immobile: {
-      planimetria: {
-        dehor: {
-          presente: 0
-        },
-        piani: []
-      }
-    },
-    cucina: {},
-    soldi: {},
-    foto: [],
-    title: '',
-    status: 'CREATED'
-  };
+  @observable annuncio = annuncioDefault;
 
   constructor(commonStore) {
     this.commonStore = commonStore;
@@ -28,6 +17,8 @@ class PubblicaStore {
   @action load(id) {
     this.commonStore.startLoading();
     api('get ad', id).then(annuncio => {
+      annuncio = mergeDeepLeft(annuncioDefault, annuncio);
+
       this.annuncio = annuncio;
       this.commonStore.endLoading();
     });
@@ -49,6 +40,11 @@ class PubblicaStore {
 
   @action updateImmobile(immobile) {
     this.annuncio.immobile = immobile;
+    this.updateAnnuncio(cloneDeep(this.annuncio));
+  }
+
+  @action updateCucina(cucina) {
+    this.annuncio.cucina = cucina;
     this.updateAnnuncio(cloneDeep(this.annuncio));
   }
 

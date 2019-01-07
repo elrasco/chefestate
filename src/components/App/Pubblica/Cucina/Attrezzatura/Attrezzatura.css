@@ -1,0 +1,27 @@
+.Attrezzatura {
+}
+
+.Attrezzatura .table {
+  display: table;
+  width: 100%;
+}
+
+.Attrezzatura .table > div {
+  display: table-row;
+}
+
+.Attrezzatura .table > div:first-child {
+  font-weight: bold;
+}
+
+.Attrezzatura .table > div > * {
+  display: table-cell;
+}
+
+.Attrezzatura .table > div > *:first-child {
+  width: 100px;
+}
+
+.Attrezzatura .table > div > *:nth-child(2) {
+  width: 65px;
+}

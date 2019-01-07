@@ -8,6 +8,7 @@ import Soldi from './Soldi';
 import './Pubblica.css';
 import { inject, observer } from 'mobx-react';
 import { Button } from 'antd';
+import Cucina from './Cucina';
 
 @inject('pubblicaStore')
 @observer
@@ -33,7 +34,7 @@ export default class Pubblica extends Component {
           <NavigationCard />
           <Switch>
             <Route path={`${match.url}/immobile`} component={Immobile} />
-            <Route path={`${match.url}/struttura`} component={Struttura} />
+            <Route path={`${match.url}/cucina`} component={Cucina} />
             <Route path={`${match.url}/soldi`} component={Soldi} />
             <Redirect from={`${match.url}`} to={`${match.url}/immobile`} />
           </Switch>

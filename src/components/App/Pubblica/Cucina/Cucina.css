@@ -1,2 +1,25 @@
+.Cucina > .ant-card-body > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+  row-gap: 20px;
+}
 
-.Cucina {}
+.Cucina .ant-form-item {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.ant-form-item.reverse {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.Cucina .ant-input-number-input {
+  width: 65px;
+}
+
+.Cucina .ant-form-item-label {
+  min-width: 105px;
+}
